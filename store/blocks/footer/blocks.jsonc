@@ -89,11 +89,7 @@
     },
     "flex-layout.row#footer-2": {
         "children": [
-            "flex-layout.col#footer-2-col-1",
-            "flex-layout.col#footer-2-col-2",
-            "flex-layout.col#footer-2-col-3",
-            "flex-layout.col#footer-2-col-4",
-            "flex-layout.col#footer-2-col-5"
+            "flex-layout.col#footer-2-col-1"
         ],
         "props": {
             "blockClass": [
@@ -101,6 +97,15 @@
                 "footer-main-menu",
                 "footer-main-block"
             ]
+        }
+    },
+    "flex-layout.col#footer-2-col-1": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-2-col-1",
+            "vtex.menu@2.x:menu#footer-2-col-2"
+        ],
+        "props": {
+            "blockClass": "footer-menu-first-container"
         }
     },
     "flex-layout.row#footer-2-mobile": {
@@ -113,37 +118,6 @@
                 "footer-main-block"
             ]
         }
-    },
-    "flex-layout.col#footer-2-col-1": {
-        "children": [
-            "vtex.menu@2.x:menu#footer-2-col-1"
-        ],
-        "props": {
-            "blockClass": "footer-menu-first-container"
-        }
-    },
-    "flex-layout.col#footer-2-col-2": {
-        "children": [
-            "vtex.menu@2.x:menu#footer-2-col-2"
-        ],
-        "props": {
-            "blockClass": "footer-menu-column"
-        }
-    },
-    "flex-layout.col#footer-2-col-3": {
-        "children": [
-            "vtex.menu@2.x:menu#footer-2-col-3"
-        ]
-    },
-    "flex-layout.col#footer-2-col-4": {
-        "children": [
-            "vtex.menu@2.x:menu#footer-2-col-4"
-        ]
-    },
-    "flex-layout.col#footer-2-col-5": {
-        "children": [
-            "vtex.menu@2.x:menu#footer-2-col-5"
-        ]
     },
     "flex-layout.row#footer-3": {
         "props": {
