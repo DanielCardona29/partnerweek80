@@ -1,0 +1,38 @@
+{
+    "vtex.menu@2.x:menu#hombre-col2": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": [
+                "subcategory-col",
+                "col-border",
+                "subcategory-image"
+            ]
+        },
+        "children": [
+            "responsive-layout.desktop#category-hombre-image",
+            "responsive-layout.mobile#category-hombre-image"
+        ]
+    },
+    "responsive-layout.desktop#category-hombre-image": {
+        "children": [
+            "rich-text#hombre-category-image-desktop"
+        ]
+    },
+    "responsive-layout.mobile#category-hombre-image": {
+        "children": [
+            "rich-text#hombre-category-image-mobile"
+        ]
+    },
+    "rich-text#hombre-category-image-desktop": {
+        "props": {
+            "text": "[![Categoría Hombre](/arquivos/menu-image.png)](/Hombre)",
+            "blockClass": "sub-department-image"
+        }
+    },
+    "rich-text#hombre-category-image-mobile": {
+        "props": {
+            "text": "[![Categoría Hombre](/arquivos/category-banner-menu.jpg)](/Hombre)",
+            "blockClass": "sub-department-image"
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "flex-layout.row#top-bar": {
+        "children": [
+            "responsive-layout.desktop#top-bar",
+            "responsive-layout.tablet#top-bar",
+            "responsive-layout.phone#top-bar"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "blockClass": "promotion-bar-container",
+            "horizontalAlign": "center"
+        }
+    },
+    "responsive-layout.desktop#top-bar": {
+        "children": [
+            "image#top-bar-desktop"
+        ],
+        "props": {
+            "blockClass": "promotion-bar-layout",
+            "fullWidth": true
+        }
+    },
+    "responsive-layout.tablet#top-bar": {
+        "children": [
+            "image#top-bar-tablet"
+        ],
+        "props": {
+            "blockClass": "promotion-bar-layout",
+            "fullWidth": true
+        }
+    },
+    "responsive-layout.phone#top-bar": {
+        "children": [
+            "image#top-bar-phone"
+        ],
+        "props": {
+            "blockClass": "promotion-bar-layout",
+            "fullWidth": true
+        }
+    },
+    "image#top-bar-desktop": {
+        "props": {
+            "src": "/arquivos/top-banner.jpg",
+            "link": {
+                "url": "/movies/539?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC"
+            },
+            "horizontalAlign": "center",
+            "maxWidth": "100%"
+        }
+    },
+    "image#top-bar-tablet": {
+        "props": {
+            "src": "/arquivos/top-banner.jpg",
+            "link": {
+                "url": "/movies/539?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC"
+            },
+            "maxWidth": "100%"
+        }
+    },
+    "image#top-bar-phone": {
+        "props": {
+            "src": "/arquivos/top-banner.jpg",
+            "link": {
+                "url": "/movies/539?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC"
+            },
+            "maxWidth": "100%"
+        }
+    }
+}

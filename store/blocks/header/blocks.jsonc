@@ -1,0 +1,102 @@
+{
+    "logo#header-logo": {
+        "props": {
+            "title": "Logo",
+            "href": "/",
+            "url": "assets/movies-logo.svg",
+            "width": "113",
+            "blockClass": "header-logo"
+        }
+    },
+    // Buscador
+    "modal-trigger#search-bar": {
+        "children": [
+            "modal-layout#search-bar"
+        ],
+        "props": {
+            "blockClass": [
+                "search-bar",
+                "desktop-search-bar"
+            ]
+        }
+    },
+    "modal-trigger#search-bar-sticky": {
+        "children": [
+            "modal-layout#search-bar"
+        ],
+        "props": {
+            "blockClass": [
+                "search-bar",
+                "sticky-search-bar"
+            ]
+        }
+    },
+    "modal-layout#search-bar": {
+        "children": [
+            "modal-actions.close",
+            "search-bar"
+        ],
+        "props": {
+            "blockClass": "search-modal"
+        }
+    },
+    "modal-actions.close": {
+        "props": {
+            "label": "X",
+            "blockClass": "close-search-modal"
+        }
+    },
+    "search-bar": {
+        "blocks": [
+            "autocomplete-result-list.v2"
+        ],
+        "props": {
+            "minSearchTermLength": 2,
+            "placeholder": "¿Qué estás buscando?",
+            "blockClass": "header-search",
+            "autoFocus": true,
+            "openAutocompleteOnFocus": true
+        }
+    },
+    "autocomplete-result-list.v2": {
+        "blocks": [
+            "product-summary.shelf#search-bar"
+        ],
+        "props": {
+            "__unstableProductOriginVtex": true,
+            // "maxSuggestedProducts": 4,
+            "customBreakpoints": {
+                "md": {
+                    "width": 220,
+                    "maxSuggestedProducts": 3
+                },
+                "lg": {
+                    "width": 640,
+                    "maxSuggestedProducts": 4
+                },
+                "xlg": {
+                    "width": 1050,
+                    "maxSuggestedProducts": 4
+                }
+            },
+            "maxHistory": 4,
+            "maxSuggestedTerms": 4,
+            "maxTopSearches": 4,
+            "historyFirst": true,
+            "isMobile": false
+        }
+    },
+    // Header links
+    "rich-text#mi-cuenta__text": {
+        "props": {
+            "text": "[Mi cuenta](/account#/profile)",
+            "blockClass": "mi-cuenta__text"
+        }
+    },
+    "rich-text#wishlist__text": {
+        "props": {
+            "text": "[Mis Favoritos](/lista-de-deseos)",
+            "blockClass": "wish-list__text"
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "vtex.menu@2.x:menu#mujer-col1": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": [
+                "subcategory-col",
+                "col-border"
+            ]
+        },
+        "children": [
+            "menu-item#departamento-mujer-Camisetas",
+            "menu-item#departamento-mujer-jeans-y-pantalones"
+        ]
+    },
+    "menu-item#departamento-mujer-Camisetas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": [
+                "subcategorias"
+            ],
+            "itemProps": {
+                "type": "internal",
+                "href": "/movies/mujer/camisetas",
+                "noFollow": true,
+                "tagTitle": "Camisetas",
+                "text": "Camisetas"
+            }
+        }
+    },
+    "menu-item#departamento-mujer-jeans-y-pantalones": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": [
+                "subcategorias"
+            ],
+            "itemProps": {
+                "type": "internal",
+                "href": "/movies/mujer/jeans-y-pantalones",
+                "noFollow": true,
+                "tagTitle": "Jeans y pantalones",
+                "text": "Jeans y pantalones"
+            }
+        }
+    }
+}

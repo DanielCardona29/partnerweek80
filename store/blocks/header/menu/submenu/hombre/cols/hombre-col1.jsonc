@@ -1,0 +1,47 @@
+{
+    "vtex.menu@2.x:menu#hombre-col1": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": [
+                "subcategory-col",
+                "col-border"
+            ]
+        },
+        "children": [
+            "menu-item#departamento-hombre-Camisetas",
+            "menu-item#departamento-hombre-joggers-y-pantalones"
+        ]
+    },
+    "menu-item#departamento-hombre-Camisetas": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": [
+                "subcategorias"
+            ],
+            "itemProps": {
+                "type": "internal",
+                "href": "/movies/hombre/camisetas",
+                "noFollow": true,
+                "tagTitle": "Camisetas",
+                "text": "Camisetas"
+            }
+        }
+    },
+    "menu-item#departamento-hombre-joggers-y-pantalones": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": [
+                "subcategorias"
+            ],
+            "itemProps": {
+                "type": "internal",
+                "href": "/movies/hombre/joggers-y-pantalones",
+                "noFollow": true,
+                "tagTitle": "Joggers, pantalones y bermudas",
+                "text": "Joggers, pantalones y bermudas"
+            }
+        }
+    }
+}

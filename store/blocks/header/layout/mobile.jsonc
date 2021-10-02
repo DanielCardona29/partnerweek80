@@ -1,0 +1,72 @@
+{
+    // Contenedor topbar
+    "header-row#header-phone-1": {
+        "children": [
+            "back-to-top-button",
+            "flex-layout.row#top-bar"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "topbar-container"
+        }
+    },
+    // Primera línea para el menú - mobile
+    "header-row#header-phone-2": {
+        "children": [
+            "drawer#mobile-menu",
+            "modal-trigger#search-bar-sticky",
+            "header-spacer",
+            "flex-layout.row#logo-mobile",
+            "header-spacer",
+            "flex-layout.row#login",
+            "flex-layout.row#cart"
+        ],
+        "props": {
+            "sticky": false,
+            "blockClass": "main-header"
+        }
+    },
+    // Menú desplegable para mobile y tablet
+    "drawer#mobile-menu": {
+        "children": [
+            "menu#drawer"
+        ],
+        "props": {
+            "blockClass": "menu-drawer",
+            "slideDirection": "leftToRight",
+            "maxWidth": "320px"
+        }
+    },
+    // ítems del menú desplegable - mobile y tablet
+    "menu#drawer": {
+        "children": [
+            "flex-layout.row#item-menu-category-mobile",
+            "flex-layout.row#submenu-items"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    // Menú pagajoso para mobile
+    "sticky-layout#header-menu-mobile": {
+        "props": {
+            "position": "top",
+            "blockClass": "sticky-header"
+        },
+        "children": [
+            "header-row#mobile-sticky"
+        ]
+    },
+    // ítems del menú pegajoso
+    "header-row#mobile-sticky": {
+        "children": [
+            "drawer#mobile-menu",
+            "modal-trigger#search-bar-sticky",
+            "header-spacer",
+            "logo#desktop",
+            "header-spacer",
+            "flex-layout.row#login",
+            "flex-layout.row#cart"
+        ]
+    }
+}

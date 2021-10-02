@@ -1,0 +1,55 @@
+{
+    "header-row#desktop-1": {
+        "children": [
+            "back-to-top-button",
+            "flex-layout.row#top-bar"
+        ],
+        "props": {
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "blockClass": "topbar-container"
+        }
+    },
+    "header-row#desktop-2": {
+        "children": [
+            "logo#desktop",
+            "vtex.menu@2.x:menu#menu-desktop-3",
+            "header-spacer",
+            "modal-trigger#search-bar",
+            "flex-layout.row#login",
+            "flex-layout.row#cart"
+        ],
+        "props": {
+            "sticky": false,
+            "blockClass": "main-header"
+        }
+    },
+
+    "sticky-layout#desktop-header": {
+        "props": {
+          "position": "top",
+          "blockClass": "sticky-header"
+        },
+        "children": [
+          "header-row#desktop-sticky"
+        ]
+      },
+      "header-row#desktop-sticky": {
+        "children": [
+          "logo#desktop-sticky",
+          "vtex.menu@2.x:menu#menu-desktop-3",
+          "header-spacer",
+          "modal-trigger#search-bar",
+          "flex-layout.row#login",
+          "flex-layout.row#cart"
+        ]
+      },
+      "flex-layout.row#contactar-asesor": {
+        "children": [
+          "rich-text#contactar-asesor__text"
+        ],
+        "props": {
+          "blockClass": "contactar-asesor"
+        }
+      }
+}
