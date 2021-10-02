@@ -13,6 +13,14 @@ bin-release/
 *.ipa
 *.apk
 
+# Files than can apear in local disk
+.history
+.vscode
+
+# Files from npm
+packge-lock.json
+react/packge-lock.json
+
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
