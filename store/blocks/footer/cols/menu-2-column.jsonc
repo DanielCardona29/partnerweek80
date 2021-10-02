@@ -1,0 +1,103 @@
+{
+  // Footer second column
+  "vtex.menu@2.x:menu#footer-2-col-2": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "footer-container-col",
+        "footer-menu-navigation-col"
+      ]
+    },
+    "children": [
+      "rich-text#footer-2-col-2-title",
+      "menu-item#footer-2-col-2-item-1",
+      "menu-item#footer-2-col-2-item-2",
+      "menu-item#footer-2-col-2-item-4"
+    ]
+  },
+  "disclosure-layout#footer-2-col-2": {
+    "children": [
+      "disclosure-trigger#footer-2-col-2",
+      "disclosure-content#footer-2-col-2"
+    ]
+  },
+  "disclosure-trigger#footer-2-col-2": {
+    "children": [
+      "rich-text#footer-2-col-2-title"
+    ]
+  },
+  "disclosure-content#footer-2-col-2": {
+    "children": [
+      "rich-text#footer-2-col-2-title",
+      "menu-item#footer-2-col-2-item-1",
+      "menu-item#footer-2-col-2-item-2",
+      "menu-item#footer-2-col-2-item-4"
+    ]
+  },
+  "rich-text#footer-2-col-2-title": {
+    "props": {
+      "text": "TE AYUDAMOS",
+      "blockClass": "title-footer"
+    }
+  },
+  "menu-item#footer-2-col-2-item-1": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/paginas-corporativas/preguntas-frecuentes",
+        "noFollow": false,
+        "text": "Preguntas frecuentes"
+      },
+      "blockClass": [
+        "text-footer"
+      ]
+    }
+  },
+  "menu-item#footer-2-col-2-item-2": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/paginas-corporativas/garantia-de-productos",
+        "noFollow": false,
+        "text": "Garantía de productos"
+      },
+      "blockClass": [
+        "text-footer"
+      ]
+    }
+  },
+  "menu-item#footer-2-col-2-item-3": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/original",
+        "noFollow": false,
+        "text": "Licencias de productos"
+      },
+      "blockClass": [
+        "text-footer"
+      ]
+    }
+  },
+  "menu-item#footer-2-col-2-item-4": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/paginas-corporativas/cambios-y-devoluciones",
+        "noFollow": false,
+        "text": "Cambios y devoluciones"
+      },
+      "blockClass": [
+        "text-footer"
+      ]
+    }
+  }
+}

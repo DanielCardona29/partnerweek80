@@ -7,23 +7,42 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer-components"
     ]
   },
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer-components-mobile"
     ]
   },
-  "flex-layout.row#footer": {
+  "flex-layout.row#footer-components": {
     "children": [
-      "image"
-    ]
-  },
-  "image": {
+      "flex-layout.row#footer-second-section-container",
+      "flex-layout.row#newsletter",
+      "flex-layout.row#footer-1",
+      "flex-layout.row#footer-2",
+      "flex-layout.row#footer-3"
+    ],
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "blockClass": [
+        "movies-footer-components",
+        "footer-components"
+      ]
+    }
+  },
+  "flex-layout.row#footer-components-mobile": {
+    "children": [
+      "flex-layout.row#footer-second-section-container",
+      "flex-layout.row#newsletter",
+      "flex-layout.row#footer-1",
+      "flex-layout.row#footer-2-mobile",
+      "flex-layout.row#footer-3"
+    ],
+    "props": {
+      "blockClass": [
+        "movies-footer-components",
+        "footer-components"
+      ]
     }
   }
 }

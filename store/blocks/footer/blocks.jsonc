@@ -1,0 +1,168 @@
+{
+    // Promesas de valor
+    "flex-layout.row#footer-second-section-container": {
+        "children": [
+            "flex-layout.row#footer-second-section"
+        ],
+        "props": {
+            "blockClass": "footer-second-section-container"
+        }
+    },
+    "flex-layout.row#footer-second-section": {
+        "children": [
+            "rich-text#second-section-secure-payments",
+            "rich-text#second-section-delivery",
+            "rich-text#second-section-customer-service",
+            "rich-text#second-section-devolutions",
+            "rich-text#second-section-tracking"
+        ],
+        "props": {
+            "blockClass": "footer-second-section"
+        }
+    },
+    "rich-text#second-section-secure-payments": {
+        "props": {
+            "text": "Pagos\n **seguros**",
+            "blockClass": [
+                "icon-section-item",
+                "second-section-secure-payments"
+            ]
+        }
+    },
+    "rich-text#second-section-delivery": {
+        "props": {
+            "text": "Envio a **todo\nel país**",
+            "blockClass": [
+                "icon-section-item",
+                "second-section-delivery"
+            ]
+        }
+    },
+    "rich-text#second-section-customer-service": {
+        "props": {
+            "text": "Atención al\n cliente **24/7**",
+            "blockClass": [
+                "icon-section-item",
+                "second-section-customer-service"
+            ]
+        }
+    },
+    "rich-text#second-section-devolutions": {
+        "props": {
+            "text": "Devoluciones\n **gratuitas**",
+            "blockClass": [
+                "icon-section-item",
+                "second-section-devolutions"
+            ]
+        }
+    },
+    "rich-text#second-section-tracking": {
+        "props": {
+            "text": "**Seguimiento**\n de pedido",
+            "blockClass": [
+                "icon-section-item",
+                "second-section-tracking"
+            ]
+        }
+    },
+    // Columnas del footer
+    "flex-layout.row#footer-1": {
+        "children": [
+            "rich-text#pago-image"
+        ],
+        "props": {
+            "blockClass": [
+                "footer-menu-block",
+                "footer-payments-block"
+            ]
+        }
+    },
+    "rich-text#pago-image": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "payments"
+            ],
+            "text": "![Métodos de Pago](/arquivos/meth-payment.png)"
+        }
+    },
+    "flex-layout.row#footer-2": {
+        "children": [
+            "flex-layout.col#footer-2-col-1",
+            "flex-layout.col#footer-2-col-2",
+            "flex-layout.col#footer-2-col-3",
+            "flex-layout.col#footer-2-col-4",
+            "flex-layout.col#footer-2-col-5"
+        ],
+        "props": {
+            "blockClass": [
+                "footer-row-content-1",
+                "footer-main-menu",
+                "footer-main-block"
+            ]
+        }
+    },
+    "flex-layout.row#footer-2-mobile": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-mobile-1"
+        ],
+        "props": {
+            "blockClass": [
+                "footer-main-menu-mobile",
+                "footer-main-block"
+            ]
+        }
+    },
+    "flex-layout.col#footer-2-col-1": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-2-col-1"
+        ],
+        "props": {
+            "blockClass": "footer-menu-first-container"
+        }
+    },
+    "flex-layout.col#footer-2-col-2": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-2-col-2"
+        ],
+        "props": {
+            "blockClass": "footer-menu-column"
+        }
+    },
+    "flex-layout.col#footer-2-col-3": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-2-col-3"
+        ]
+    },
+    "flex-layout.col#footer-2-col-4": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-2-col-4"
+        ]
+    },
+    "flex-layout.col#footer-2-col-5": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-2-col-5"
+        ]
+    },
+    "flex-layout.row#footer-3": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "copyright"
+            ]
+        },
+        "children": [
+            "rich-text#copyright"
+        ]
+    },
+    "rich-text#copyright": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "c-on-base--inverted",
+            "blockClass": "footer-copyright",
+            "text": "Todos los derechos reservados Movies 2021 | Empowered by ![BlackSip](/arquivos/blacksip-logo-r.svg)  ![vtex](/arquivos/vtex-r.svg) | ![ssl](/arquivos/ssl-secure.svg)"
+        }
+    }
+}

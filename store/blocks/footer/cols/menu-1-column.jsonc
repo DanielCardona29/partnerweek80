@@ -1,0 +1,79 @@
+{
+  // Footer First column
+  "vtex.menu@2.x:menu#footer-2-col-1": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-menu-first-col"
+    },
+    "children": [
+      "rich-text#footer-2-col-1-title",
+      "flex-layout.col#footer-social-logos",
+      "menu-item#footer-contact-mail",
+      "menu-item#footer-contact-phone",
+      "rich-text#store-locator-button"
+    ]
+  },
+  "rich-text#footer-2-col-1-title": {
+    "props": {
+      "text": "CONTÁCTANOS",
+      "blockClass": "title-footer"
+    }
+  },
+  "flex-layout.col#footer-social-logos": {
+    "children": [
+      "social-networks"
+    ]
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/moviesbaby"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/moviesbaby/"
+        }
+      ]
+    }
+  },
+  "menu-item#footer-contact-mail": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "mailto:info@moviesshop.co",
+        "noFollow": false,
+        "text": "info@moviesshop.co"
+      },
+      "blockClass": [
+        "button-footer",
+        "mailto"
+      ]
+    }
+  },
+  "menu-item#footer-contact-phone": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "tel:+573503167200",
+        "noFollow": false,
+        "text": "+57 350 316 7200"
+      },
+      "blockClass": [
+        "button-footer",
+        "telto"
+      ]
+    }
+  },
+  "rich-text#store-locator-button": {
+    "props": {
+      "text": "[Nuestras tiendas](/tiendas)",
+      "blockClass": "store-locator-button"
+    }
+  }
+}
