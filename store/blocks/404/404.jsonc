@@ -1,0 +1,118 @@
+{
+    "flex-layout.row#banner-404-container": {
+        "children": [
+            "flex-layout.row#banner-404"
+        ],
+        "props": {
+            "blockClass": "full-width-banner-container"
+        }
+    },
+    "flex-layout.row#banner-404": {
+        "children": [
+            "responsive-layout.desktop#404-images",
+            "responsive-layout.tablet#404-images",
+            "responsive-layout.phone#404-images"
+        ],
+        "props": {
+            "blockClass": "full-width-banner-container"
+        }
+    },
+    "responsive-layout.desktop#404-images": {
+        "children": [
+            "image#404-desktop"
+        ],
+        "props": {
+            "blockClass": "full-width-image-content"
+        }
+    },
+    "responsive-layout.tablet#404-images": {
+        "children": [
+            "image#404-tablet"
+        ],
+        "props": {
+            "blockClass": "full-width-image-content"
+        }
+    },
+    "responsive-layout.phone#404-images": {
+        "children": [
+            "image#404-phone"
+        ],
+        "props": {
+            "blockClass": "full-width-image-content"
+        }
+    },
+    "image#404-desktop": {
+        "props": {
+            "src": "/arquivos/404-desktop.jpg?v=1",
+            "width": "100%",
+            "title": "partnerweek80",
+            "blockClass": "full-width-image"
+        }
+    },
+    "image#404-tablet": {
+        "props": {
+            "src": "/arquivos/404-tablet.jpg?v=1",
+            "width": "100%",
+            "title": "partnerweek80",
+            "blockClass": "full-width-image"
+        }
+    },
+    "image#404-phone": {
+        "props": {
+            "src": "/arquivos/404-mobile.jpg?v=1",
+            "width": "100%",
+            "title": "partnerweek80",
+            "blockClass": "full-width-image"
+        }
+    },
+    "rich-text#404": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Tips de búsqueda",
+            "blockClass": "tips-title"
+        }
+    },
+    "flex-layout.row#search-tips": {
+        "children": [
+            "rich-text#tip-1",
+            "rich-text#tip-2",
+            "rich-text#tip-3",
+            "rich-text#tip-4"
+        ],
+        "props": {
+            "blockClass": [
+                "two-columns-centered",
+                "tips-column"
+            ]
+        }
+    },
+    "rich-text#tip-1": {
+        "props": {
+            "fullWidth": true,
+            "text": "Mantén el término de búsqueda simple.",
+            "blockClass": "tip-text"
+        }
+    },
+    "rich-text#tip-2": {
+        "props": {
+            "fullWidth": true,
+            "text": "Revisa la ortografía y los espacios.",
+            "blockClass": "tip-text"
+        }
+    },
+    "rich-text#tip-3": {
+        "props": {
+            "fullWidth": true,
+            "text": "Prueba con un término de búsqueda similar.",
+            "blockClass": "tip-text"
+        }
+    },
+    "rich-text#tip-4": {
+        "props": {
+            "fullWidth": true,
+            "text": "Puedes buscar por marca, categoría o producto.",
+            "blockClass": "tip-text"
+        }
+    }
+}

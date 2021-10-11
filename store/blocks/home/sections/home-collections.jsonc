@@ -1,0 +1,77 @@
+{
+  "flex-layout.row#home-colecciones": {
+    "children": [
+      "flex-layout.col#col-1",
+      "flex-layout.col#col-2"
+    ],
+    "props": {
+      "blockClass": "home-new-collections"
+    }
+  },
+  "flex-layout.col#col-1": {
+    "children": [
+      "image#bodies",
+      "rich-text#bodies-title",
+      "rich-text#bodies-text"
+    ]
+  },
+  "image#bodies": {
+    "props": {
+      "src": "/arquivos/men-banner.jpg?v=1",
+      "maxWidth": "100%",
+      "maxHeight": "100%",
+      "title": "Link",
+      "link": {
+        "default": "/",
+        "title": "Link",
+        "url": "/"
+      },
+      "blockClass": "new-collections-image"
+    }
+  },
+  "rich-text#bodies-title": {
+    "props": {
+      "text": "[HOMBRE](/)",
+      "blockClass": "new-collections-title"
+    }
+  },
+  "rich-text#bodies-text": {
+    "props": {
+      "text": "[Comodidad y estilo para cada ocasión of the printing.](/)",
+      "blockClass": "new-collections-text"
+    }
+  },
+  "flex-layout.col#col-2": {
+    "children": [
+      "image#peppa",
+      "rich-text#peppa-title",
+      "rich-text#peppa-text"
+    ]
+  },
+  "image#peppa": {
+    "props": {
+      "src": "/arquivos/women-banner.jpg?v=1",
+      "maxWidth": "100%",
+      "maxHeight": "100%",
+      "title": "Link",
+      "link": {
+        "default": "/",
+        "title": "Link",
+        "url": "/"
+      },
+      "blockClass": "new-collections-image"
+    }
+  },
+  "rich-text#peppa-title": {
+    "props": {
+      "text": "[MUJER](/)",
+      "blockClass": "new-collections-title"
+    }
+  },
+  "rich-text#peppa-text": {
+    "props": {
+      "text": "[Hagamos que el estar en casa se vista divertido.](/)",
+      "blockClass": "new-collections-text"
+    }
+  }
+}

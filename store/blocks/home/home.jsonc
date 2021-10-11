@@ -1,15 +1,10 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-      "rich-text"
+      "flex-layout.row#shelf-banner-special-collection",
+      "flex-layout.row#shelf-lo-nuevo",
+      "flex-layout.row#shelf-images-grid",
+      "flex-layout.row#footer-information-section"
     ]
-  },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
-    }
   }
 }

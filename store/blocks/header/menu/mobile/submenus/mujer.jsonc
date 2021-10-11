@@ -1,0 +1,56 @@
+{
+  "flex-layout.row#mobile-menu-item-mujer": {
+    "children": [
+      "rich-text#item-menu-category-mujer",
+      "drawer#item-menu-category-mujer"
+    ],
+    "props": {
+      "blockClass": "mobile-menu-item"
+    }
+  },
+  "rich-text#item-menu-category-mujer": {
+    "props": {
+      "text": "Mujer",
+      "blockClass": [
+        "item-menu-principal",
+        "item-menu-principal-categorias",
+        "icon"
+      ]
+    }
+  },
+  "drawer#item-menu-category-mujer": {
+    "children": [
+      "menu#menu-mujer"
+    ],
+    "props": {
+      "blockClass": [
+        "item-menu-principal",
+        "item-menu-principal-categorias"
+      ],
+      "slideDirection": "leftToRight",
+      "maxWidth": 320
+    }
+  },
+  "menu#menu-mujer": {
+    "children": [
+      "flex-layout.row#submenu-close",
+      "flex-layout.row#mobile-submenu-elements-mujer",
+      "flex-layout.row#submenu-items"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile-submenu-container"
+    }
+  },
+  "flex-layout.row#mobile-submenu-elements-mujer": {
+    "children": [
+      "vtex.menu@2.x:menu#mujer-col2",
+      "flex-layout.row#submenu-title-mujer",
+      "vtex.menu@2.x:menu#mujer-col1"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile-submenu-elements"
+    }
+  }
+}

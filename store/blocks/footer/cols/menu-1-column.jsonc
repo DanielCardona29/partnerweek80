@@ -29,11 +29,11 @@
       "socialNetworks": [
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/moviesbaby"
+          "url": "https://www.facebook.com/partnerweek80baby"
         },
         {
           "name": "Instagram",
-          "url": "https://www.instagram.com/moviesbaby/"
+          "url": "https://www.instagram.com/partnerweek80baby/"
         }
       ]
     }
@@ -44,9 +44,9 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "mailto:info@moviesshop.co",
+        "href": "mailto:info@partnerweek80shop.co",
         "noFollow": false,
-        "text": "info@moviesshop.co"
+        "text": "info@partnerweek80shop.co"
       },
       "blockClass": [
         "button-footer",

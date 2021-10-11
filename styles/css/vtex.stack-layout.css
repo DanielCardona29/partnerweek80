@@ -1,0 +1,40 @@
+/*
+* Product Detail
+*/
+.stackContainer--product-detail-brand {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 29px;
+}
+.stackItem--product-detail-brand {
+  position: relative;
+}
+.stackItem--product-detail-brand :global(.vtex-flex-layout-0-x-flexRowContent) {
+  margin: 0 !important;
+  margin-right: 15px !important;
+}
+.stackItem--product-detail-brand :global(.vtex-store-components-3-x-productBrandContainer) {
+  text-align: left;
+}
+
+.stackItem--highlight-container {
+  position: absolute;
+  top: 7px;
+  right: 8px;
+  width: auto;
+  text-align: right;
+}
+
+.stackItem--highlight-container :global(.vtex-product-highlights-2-x-productHighlightText) {
+  color: transparent;
+  display: block;
+  width: 55px;
+  height: 31px;
+  background-image: url(/arquivos/0_flag-producto-1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: 0;
+}
+

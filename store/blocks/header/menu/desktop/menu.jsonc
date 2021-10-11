@@ -1,0 +1,65 @@
+{
+  "vtex.menu@2.x:menu#menu-desktop-3": {
+    "children": [
+      "menu-item#Mujer",
+      "menu-item#Hombre",
+      "menu-item#ofertas"
+    ],
+    "props": {
+      "blockClass": "main-menu",
+      "experimentalOptimizeRendering": true
+    }
+  },
+  "menu-item#Mujer": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "/mujer",
+        "noFollow": false,
+        "tagTitle": "Mujer",
+        "text": "Mujer"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Mujer"
+    ]
+  },
+  "menu-item#Hombre": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre",
+        "noFollow": false,
+        "tagTitle": "Hombre",
+        "text": "Hombre"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Hombre"
+    ]
+  },
+  "menu-item#ofertas": {
+    "props": {
+      "type": "custom",
+      "iconId": "arrow-back",
+      "highlight": false,
+      "blockClass": [
+        "menu-title",
+        "ofertas-menu-element"
+      ],
+      "itemProps": {
+        "type": "internal",
+        "href": "/partnerweek80/539?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC",
+        "noFollow": false,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+      }
+    }
+  }
+}

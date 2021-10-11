@@ -1,0 +1,8 @@
+@import url('/arquivos/dicomoon.css');
+
+@import '../base/globals.css';
+@import '../base/account.css';
+
+:global(.vtex-toast) {
+  background-color: #131E29;
+}

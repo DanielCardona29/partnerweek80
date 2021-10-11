@@ -1,0 +1,51 @@
+.headerRowContainer--topbar-container {
+  justify-content: center;
+}
+
+.headerRowContainer {
+  padding-left: 45px;
+  padding-right: 26px;
+}
+@media screen and (min-width:1025px) and (max-width: 1200px) {
+  .headerRowContainer {
+    padding-left: 0 !important;
+    padding-right: 8px !important;
+  }
+}
+@media screen and (max-width:1024px) {
+  .headerRowContainer {
+    padding-left: 27px !important;
+    padding-right: 25px !important;
+  }
+}
+@media screen and (max-width:639px) {
+  .headerRowContainer {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+.headerRowContainer--topbar-container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+@media screen and (max-width:1024px) {
+  .headerRowContainer :global(.vtex-store-drawer-0-x-openIconContainer) {
+    padding-left: 0 !important;
+  }
+}
+
+.headerRowBackground--main-header {
+  padding-top: 8px;
+  background-color: #fff;
+}
+@media screen and (max-width:1024px) {
+  .headerRowBackground--main-header {
+    padding-top: 19px;
+  }
+}
+@media screen and (max-width:639px) {
+  .headerRowBackground--main-header {
+    padding-top: 8px;
+  }
+}

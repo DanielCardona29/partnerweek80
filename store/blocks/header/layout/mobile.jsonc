@@ -16,7 +16,7 @@
             "drawer#mobile-menu",
             "modal-trigger#search-bar-sticky",
             "header-spacer",
-            "flex-layout.row#logo-mobile",
+            "logo",
             "header-spacer",
             "flex-layout.row#login",
             "flex-layout.row#cart"
@@ -63,7 +63,7 @@
             "drawer#mobile-menu",
             "modal-trigger#search-bar-sticky",
             "header-spacer",
-            "logo#desktop",
+            "logo",
             "header-spacer",
             "flex-layout.row#login",
             "flex-layout.row#cart"

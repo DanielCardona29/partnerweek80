@@ -1,0 +1,33 @@
+{
+  "flex-layout.row#item-menu-category-mobile": {
+    "children": [
+      "flex-layout.row#mobile-menu-item-mujer",
+      "flex-layout.row#mobile-menu-item-hombre",
+      "flex-layout.row#mobile-menu-item-ofertas"
+    ],
+    "props": {
+      "blockClass": [
+        "row-item-menu-principal",
+        "row-item-menu-principal-categorias"
+      ]
+    }
+  },
+  "flex-layout.row#submenu-items": {
+    "children": [
+      "rich-text#mi-cuenta__text",
+      "rich-text#wishlist__text"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu-more-links"
+    }
+  },
+  "flex-layout.row#submenu-close": {
+    "children": [
+      "drawer-close-button"
+    ],
+    "props": {
+      "blockClass": "close-submenu"
+    }
+  }
+}

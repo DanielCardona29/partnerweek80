@@ -1,0 +1,124 @@
+{
+  "flex-layout.row#shelf-banner-categories-new": {
+    "children": [
+      "flex-layout.col#shelf-vitrina-banner-categories-new",
+      "flex-layout.col#shelf-texto-banner-categories-new"
+    ],
+    "props": {
+      "blockClass": [
+        "home-collections-min"
+      ],
+      "fullwidth": true
+    }
+  },
+  "flex-layout.col#shelf-texto-banner-categories-new": {
+    "children": [
+      "rich-text#shelf-title-banner-categories-new",
+      "flex-layout.col#shelf-links-banner-categories"
+    ],
+    "props": {
+      "blockClass": "home-collections-min-title",
+      "width": "37%"
+    }
+  },
+  "flex-layout.col#shelf-vitrina-banner-categories-new": {
+    "children": [
+      "image#collections-min-men",
+      "image#collections-min-women",
+      "image#collections-min-mobile"
+    ],
+    "props": {
+      "blockClass": [
+        "home-collections-min-images"
+      ],
+      "width": "63%"
+    }
+  },
+  "flex-layout.col#shelf-links-banner-categories": {
+    "children": [
+      "rich-text#shelf-link-banner-categories-women",
+      "rich-text#shelf-link-banner-categories-men"
+    ],
+    "props": {
+      "blockClass": "home-collections-min-buttons",
+      "width": "37%"
+    }
+  },
+  "rich-text#shelf-title-banner-categories-new": {
+    "props": {
+      "text": "Nuevo  \n **HOMEWEAR** \n *Comfort - Style - Accion*",
+      "blockClass": [
+        "home-min-vitrine-title",
+        "home-min-vitrine-title-bold",
+        "home-min-vitrine-title-categories"
+      ]
+    }
+  },
+  "rich-text#shelf-link-banner-categories-women": {
+    "props": {
+      "text": "[MUJER](/mujer)",
+      "blockClass": [
+        "home-min-vitrine-button"
+      ]
+    }
+  },
+  "rich-text#shelf-link-banner-categories-men": {
+    "props": {
+      "text": "[HOMBRE](/hombre)",
+      "blockClass": [
+        "home-min-vitrine-button"
+      ]
+    }
+  },
+  "image#collections-min-men": {
+    "props": {
+      "src": "/arquivos/men-1.jpg",
+      "maxWidth": "100%",
+      "maxHeight": "100%",
+      "title": "Link",
+      "link": {
+        "default": "/",
+        "title": "Link",
+        "url": "/"
+      },
+      "blockClass": [
+        "collections-min-image",
+        "collections-min-image-desktop"
+      ]
+    }
+  },
+  "image#collections-min-women": {
+    "props": {
+      "src": "/arquivos/women-1.jpg",
+      "maxWidth": "100%",
+      "maxHeight": "100%",
+      "title": "Link",
+      "link": {
+        "default": "/",
+        "title": "Link",
+        "url": "/"
+      },
+      "blockClass": [
+        "collections-min-image",
+        "collections-min-image-desktop"
+      ]
+    }
+  },
+  "image#collections-min-mobile": {
+    "props": {
+      "src": "/arquivos/homewear-2.png",
+      "maxWidth": "100%",
+      "maxHeight": "100%",
+      "title": "Link",
+      "link": {
+        "default": "/",
+        "title": "Link",
+        "url": "/"
+      },
+      "blockClass": [
+        "collections-min-image",
+        "collections-min-image-mobile"
+      ]
+    }
+  }
+}

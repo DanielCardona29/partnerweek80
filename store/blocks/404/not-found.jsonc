@@ -1,0 +1,46 @@
+{
+    //paginas 404
+    // "not-found": {
+    //     "blocks": [
+    //         "flex-layout.row#banner-404-container",
+    //         "rich-text#404",
+    //         "flex-layout.row#search-tips"
+    //     ]
+    // },
+    "store.not-found": {
+        "blocks": [
+            "flex-layout.row#banner-404-container",
+            "rich-text#404",
+            "flex-layout.row#search-tips"
+        ]
+    },
+    "store.not-found#product": {
+        "blocks": [
+            "flex-layout.row#banner-404-container",
+            "rich-text#404",
+            "flex-layout.row#search-tips"
+        ]
+    },
+    "store.not-found#search": {
+        "blocks": [
+            "flex-layout.row#banner-404-container",
+            "rich-text#404",
+            "flex-layout.row#search-tips"
+        ]
+    },
+    //cuando no hay resultados de busqueda
+    "search-not-found-layout": {
+        "children": [
+            "flex-layout.row#spacer",
+            "flex-layout.row#not-found-1",
+            "flex-layout.row#not-found-2",
+            "flex-layout.row#spacer",
+            "responsive-layout.desktop#not-found-images",
+            "responsive-layout.mobile#not-found-images",
+            "flex-layout.row#spacer"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    }
+}

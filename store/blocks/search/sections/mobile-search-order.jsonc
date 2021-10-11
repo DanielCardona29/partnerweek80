@@ -1,0 +1,45 @@
+{
+  "flex-layout.row#content-counts-mobile": {
+    "children": [
+      "flex-layout.col#filter",
+      "flex-layout.col#order-by"
+    ],
+    "props": {
+      "blockClass": [
+        "filterCol",
+        "category-filters"
+      ]
+    }
+  },
+  "flex-layout.row#content-mobile": {
+    "children": [
+      "search-content"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#product-count-mobile": {
+    "children": [
+      "total-products.v2"
+    ]
+  },
+  "flex-layout.col#filterMobile": {
+    "children": [
+      "filter-navigator.v3#filterMobile"
+    ],
+    "props": {
+      "blockClass": "filterMobileCol"
+    }
+  },
+  "filter-navigator.v3#filterMobile": {
+    "props": {
+      "initiallyCollapsed": true
+    }
+  },
+  "flex-layout.col#switcher-view-mobile": {
+    "children": [
+      "search-layout-switcher"
+    ]
+  }
+}

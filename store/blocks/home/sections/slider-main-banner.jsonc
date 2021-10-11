@@ -1,0 +1,173 @@
+{
+  "responsive-layout.desktop#banner-principal": {
+    "children": [
+      "flex-layout.row#banner-principal-desktop"
+    ]
+  },
+  "responsive-layout.tablet#banner-principal": {
+    "children": [
+      "flex-layout.row#banner-principal-tablet"
+    ]
+  },
+  "responsive-layout.phone#banner-principal": {
+    "children": [
+      "flex-layout.row#banner-principal-mobile"
+    ]
+  },
+  "flex-layout.row#banner-principal-desktop": {
+    "children": [
+      "flex-layout.col#banner-principal-desktop"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "home-banner-container"
+    }
+  },
+  "flex-layout.col#banner-principal-desktop": {
+    "children": [
+      "list-context.image-list#banner-principal-desktop"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#banner-principal-tablet": {
+    "children": [
+      "list-context.image-list#banner-principal-tablet"
+    ],
+    "props": {
+      "fullWidth": true,
+      "width": "100%",
+      "blockClass": "home-banner-container"
+    }
+  },
+  "flex-layout.row#banner-principal-mobile": {
+    "children": [
+      "flex-layout.col#banner-principal-mobile"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "home-banner-container"
+    }
+  },
+  "flex-layout.col#banner-principal-mobile": {
+    "children": [
+      "list-context.image-list#banner-principal-mobile"
+    ],
+    "props": {
+      "fullWidth": true,
+      "width": "100%"
+    }
+  },
+  "list-context.image-list#banner-principal-desktop": {
+    "children": [
+      "slider-layout#banner-principal"
+    ],
+    "props": {
+      "blockClass": "home-banner-container",
+      "images": [
+        {
+          "width": "100%",
+          "image": "/arquivos/Group 998.jpg?v=1",
+          "description": "Banner principal",
+          "link": {
+            "default": "502?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC",
+            "title": "Link",
+            "url": "502?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC"
+          }
+        },
+        {
+          "width": "100%",
+          "image": "/arquivos/Group 998.jpg?v=1",
+          "description": "Banner principal",
+          "link": {
+            "default": "502?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC",
+            "title": "Link",
+            "url": "502?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC"
+          }
+        }
+      ]
+    }
+  },
+  "list-context.image-list#banner-principal-tablet": {
+    "children": [
+      "slider-layout#banner-principal"
+    ],
+    "props": {
+      "blockClass": "home-banner-container",
+      "images": [
+        {
+          "width": "100%",
+          "image": "/arquivos/main-banner-tablet.jpg",
+          "description": "Banner principal",
+          "link": {
+            "default": "502?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC",
+            "title": "Link",
+            "url": "502?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC"
+          }
+        },
+        {
+          "width": "100%",
+          "image": "/arquivos/main-banner-tablet.jpg",
+          "description": "Banner principal",
+          "link": {
+            "default": "502?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC",
+            "title": "Link",
+            "url": "502?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC"
+          }
+        }
+      ]
+    }
+  },
+  "list-context.image-list#banner-principal-mobile": {
+    "children": [
+      "slider-layout#banner-principal"
+    ],
+    "props": {
+      "blockClass": "home-banner-container",
+      "images": [
+        {
+          "width": "100%",
+          "fullWidth": true,
+          "image": "/arquivos/main-banner-mobile.jpg",
+          "description": "Banner principal",
+          "link": {
+            "default": "502?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC",
+            "title": "Link",
+            "url": "502?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC"
+          }
+        },
+        {
+          "width": "100%",
+          "fullWidth": true,
+          "image": "/arquivos/main-banner-mobile.jpg",
+          "description": "Banner principal",
+          "link": {
+            "default": "502?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC",
+            "title": "Link",
+            "url": "502?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#banner-principal": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "fullWidth": true,
+      "infinite": true,
+      "autoplay": {
+        "timeout": 10000,
+        "stopOnHover": false
+      },
+      "blockClass": "main-banner",
+      "showNavigationArrows": "never",
+      "arrowSize": 35,
+      "showPaginationDots": "always"
+    }
+  }
+}

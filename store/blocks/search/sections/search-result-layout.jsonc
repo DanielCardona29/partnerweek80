@@ -1,0 +1,274 @@
+{
+  "search-result-layout#general": {
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile#category",
+      "search-not-found-layout"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "blockClass": "search-desktop-category"
+    }
+  },
+  "search-result-layout#general-with-slider": {
+    "blocks": [
+      "search-result-layout.desktop#category-with-slider",
+      "search-result-layout.mobile#category-with-slider",
+      "search-not-found-layout"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "blockClass": "search-desktop-category"
+    }
+  },
+  "search-result-layout#general-simplify": {
+    "blocks": [
+      "search-result-layout.desktop#simplify",
+      "search-result-layout.mobile#simplify",
+      "search-not-found-layout"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "blockClass": "search-desktop-category"
+    }
+  },
+  "search-result-layout.desktop#category": {
+    "children": [
+      "flex-layout.row#bread-crumb",
+      "flex-layout.row#banner-search",
+      "flex-layout.row#search-info",
+      "flex-layout.row#result-simple",
+      "flex-layout.row#spacer",
+      "flex-layout.row#shelf-last-view"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true,
+      "maxItemsPerPage": 36,
+      "hideUnavailableItems": false,
+      "__unstableProductOriginVtex": true,
+      "blockClass": "search-desktop-category",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "name": "Promoción"
+            },
+            {
+              "name": "Departamento"
+            },
+            {
+              "name": "Categoría"
+            },
+            {
+              "name": "Sub-Categoría"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "search-result-layout.mobile#category": {
+    "children": [
+      "flex-layout.row#bread-crumb",
+      "flex-layout.row#banner-search",
+      "flex-layout.row#search-info",
+      "flex-layout.row#product-count-mobile",
+      "flex-layout.row#content-counts-mobile",
+      "flex-layout.row#fetch-previous",
+      "flex-layout.row#content-mobile",
+      "flex-layout.row#products-progress-bar",
+      "flex-layout.row#count-per-page",
+      "flex-layout.row#fetch-more",
+      "flex-layout.row#shelf-last-view"
+    ],
+    "props": {
+      "maxItemsPerPage": 36,
+      "pagination": "show-more",
+      "__unstableProductOriginVtex": true,
+      "blockClass": "search-mobile-category",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "name": "Promoción"
+            },
+            {
+              "name": "Departamento"
+            },
+            {
+              "name": "Categoría"
+            },
+            {
+              "name": "Sub-Categoría"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "search-result-layout.desktop#simplify": {
+    "children": [
+      "flex-layout.row#search-info-simplify",
+      "flex-layout.row#result-simple",
+      "flex-layout.row#spacer",
+      "flex-layout.row#shelf-last-view"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true,
+      "maxItemsPerPage": 36,
+      "hideUnavailableItems": false,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "name": "Promoción"
+            },
+            {
+              "name": "Departamento"
+            },
+            {
+              "name": "Categoría"
+            },
+            {
+              "name": "Sub-Categoría"
+            }
+          ]
+        }
+      },
+      "__unstableProductOriginVtex": true,
+      "blockClass": "search-desktop-category"
+    }
+  },
+  "search-result-layout.mobile#simplify": {
+    "children": [
+      "flex-layout.row#search-info-simplify",
+      "flex-layout.row#product-count-mobile",
+      "flex-layout.row#content-counts-mobile",
+      "flex-layout.row#fetch-previous",
+      "flex-layout.row#content-mobile",
+      "flex-layout.row#products-progress-bar",
+      "flex-layout.row#count-per-page",
+      "flex-layout.row#fetch-more",
+      "flex-layout.row#shelf-last-view"
+    ],
+    "props": {
+      "maxItemsPerPage": 36,
+      "pagination": "show-more",
+      "__unstableProductOriginVtex": true,
+      "blockClass": "search-mobile-category",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "name": "Promoción"
+            },
+            {
+              "name": "Departamento"
+            },
+            {
+              "name": "Categoría"
+            },
+            {
+              "name": "Sub-Categoría"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "search-result-layout.desktop#category-with-slider": {
+    "children": [
+      "flex-layout.row#bread-crumb",
+      "flex-layout.row#banner-search",
+      "flex-layout.row#search-info",
+      "flex-layout.row#shelf-scroll-categories",
+      "flex-layout.row#result",
+      "flex-layout.row#spacer",
+      "flex-layout.row#shelf-last-view"
+    ],
+    "props": {
+      "maxItemsPerPage": 36,
+      "pagination": "show-more",
+      "__unstableProductOriginVtex": true,
+      "blockClass": "search-desktop-category",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "name": "Promoción"
+            },
+            {
+              "name": "Departamento"
+            },
+            {
+              "name": "Sub-Categoría"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "search-result-layout.mobile#category-with-slider": {
+    "children": [
+      "flex-layout.row#bread-crumb",
+      "flex-layout.row#banner-search",
+      "flex-layout.row#search-info",
+      "flex-layout.row#shelf-scroll-categories",
+      "flex-layout.row#product-count-mobile",
+      "flex-layout.row#content-counts-mobile",
+      "flex-layout.row#fetch-previous",
+      "flex-layout.row#content-mobile",
+      "flex-layout.row#products-progress-bar",
+      "flex-layout.row#count-per-page",
+      "flex-layout.row#fetch-more",
+      "flex-layout.row#shelf-last-view"
+    ],
+    "props": {
+      "maxItemsPerPage": 36,
+      "pagination": "show-more",
+      "__unstableProductOriginVtex": true,
+      "blockClass": "search-mobile-category",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "name": "Promoción"
+            },
+            {
+              "name": "Departamento"
+            },
+            {
+              "name": "Sub-Categoría"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

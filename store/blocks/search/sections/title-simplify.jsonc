@@ -1,0 +1,22 @@
+{
+  "flex-layout.row#search-info-simplify": {
+    "children": [
+      "flex-layout.col#search-title-simplify"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#search-title-simplify": {
+    "children": [
+      "search-title.v2"
+    ],
+    "props": {
+      "blockClass": [
+        "footer-first-section",
+        "category-title"
+      ]
+    }
+  }
+}

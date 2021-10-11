@@ -1,0 +1,66 @@
+/*
+* Product detail vitrine
+*/
+.relatedProducts .title {
+  padding: 0;
+  margin: 0;
+}
+
+.arrow::before {
+  font-family: "icomoon";
+  font-size: 16px;
+  color: #333333;
+  transition: 0.2s all ease;
+}
+.arrow:hover::before {
+  transition: 0.2s all ease;
+  text-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+}
+.arrowLeft::before {
+  content: "\eb44";
+}
+.arrowRight::before {
+  content: "\eb43";
+}
+.arrow .caretIcon {
+  display: none;
+}
+.dot {
+  width: 10px !important;
+  height: 10px !important;
+  background-color: #ccc;
+}
+.dot--isActive {
+  background-color: #333333;
+  width: 18px !important;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .sliderContainer--related-products
+  :global(.vtex-slider-0-x-dotsContainer)  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 0 !important;
+  }
+  .dot {
+    width: 100% !important;
+    border-radius: 0;
+    margin: 0;
+  }
+  .dot--isActive {
+    border-radius: 25px;
+    width: calc(100% + 10px) !important;
+    margin: 0 -5px;
+    z-index: 2;
+  }
+  .relatedProducts--related-products {
+    margin-bottom: 94px;
+  }
+  .arrowLeft--related-products,
+  .arrowRight--related-products {
+    display: none;
+  }
+}

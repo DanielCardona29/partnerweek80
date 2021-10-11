@@ -1,0 +1,347 @@
+.arrowUp {
+    background-color: #009ADE;
+}
+
+.contentContainer {
+    width: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.13);
+    border-radius: 4px
+}
+
+.content--accountOptions {
+    padding-bottom: 0 !important;
+}
+
+.termsAndConditions {
+    display: none;
+}
+
+.accountOptionsSectionTitle,
+.formTitle {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #131E29;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.015em;
+}
+
+.button :global(.vtex-button) {
+    background-color: transparent !important;
+    border: 1px solid #131E29;
+    border-radius: 5px;
+}
+
+.button :global(.vtex-button__label),
+.oauthLabel {
+    color: #131E29;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+    line-height: 18px;
+}
+
+.inputContainer :global(.vtex-input-prefix__group) {
+    border: none;
+    border-radius: 0 !important;
+}
+
+.inputContainer :global(.vtex-styleguide-9-x-input) {
+    padding: 9px 0;
+    border: none;
+    border-bottom: 1px solid #606060;
+    border-radius: 0 !important;
+    outline: none;
+    color: #525962;
+    font-size: 10px;
+    line-height: 11px;
+    letter-spacing: 0.025em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.inputContainer :global(.vtex-input-prefix__group) {
+    height: auto;
+}
+
+.inputContainerEmail::before {
+    content: 'Email';
+    display: block;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #131E29;
+    letter-spacing: 0.01em;
+}
+.inputContainerPassword::before {
+    content: 'Contraseña';
+    display: block;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #131E29;
+    letter-spacing: 0.01em;
+}
+.inputContainerPassword :global(.vtex-input__suffix) {
+    padding-right: 0;
+    border-bottom: 1px solid #606060;
+    border-radius: 0;
+}
+
+.formFooter {
+    border: none !important;
+}
+
+.sendButton :global(.vtex-button) {
+    padding: 10px 15px;
+    border: none;
+    background-color: #009ADE;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase !important;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+}
+.sendButton :global(.vtex-button .t-small) {
+    text-transform: uppercase !important;
+}
+.sendButton :global(.vtex-button):focus {
+    background-color: #009ADE !important;
+}
+
+.backButton :global(.vtex-button .t-small) {
+    color: #131E29;
+    font-size: 12px !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    letter-spacing: 0.03em !important;
+    text-transform: uppercase !important;
+}
+
+.arrowBackIcon {
+    display: none;
+}
+
+.profile-link {
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.055em;
+    color: #525962;
+}
+.profile-link:hover {
+    color: #009ADE;
+}
+
+.accountOptions :global(.o-30) {
+    margin-left: -24px;
+    width: calc(100% + 24px * 2);
+}
+
+.logoutButton {
+    width: 100%;
+    letter-spacing: 0.03em;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #131E29;
+    text-transform: uppercase;
+}
+
+.forgotPasswordLink {
+    text-decoration: underline;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+    line-height: 11px;
+    letter-spacing: 0.005em;
+    color: #131E29;
+}
+.dontHaveAccount {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #009ADE;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: center;
+    letter-spacing: 0.005em;
+}
+.dontHaveAccount::before {
+    content: '¿No tienes una cuenta? ';
+    color: #000;
+}
+
+/*
+* MIC STYLE
+*/
+
+.arrowUp {
+  background-color: #F18A00;
+}
+
+.contentContainer {
+  width: 100%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.13);
+  border-radius: 4px
+}
+
+.content--mic-accountOptions {
+  padding-bottom: 0 !important;
+}
+
+.termsAndConditions {
+  display: none;
+}
+
+.accountOptionsSectionTitle,
+.formTitle {
+  font-family: 'Lexend';
+  color: #131E29;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.015em;
+}
+
+.button :global(.vtex-button) {
+  background-color: transparent !important;
+  border: 1px solid #131E29;
+  border-radius: 100px;
+}
+
+.button :global(.vtex-button__label),
+.oauthLabel {
+  color: #131E29;
+  font-family: 'Lexend';
+  font-size: 10px;
+  line-height: 18px;
+}
+
+.inputContainer :global(.vtex-input-prefix__group) {
+  border: none;
+  border-radius: 0 !important;
+}
+
+.inputContainer :global(.vtex-styleguide-9-x-input) {
+  padding: 9px 0;
+  border: none;
+  border-bottom: 1px solid #606060;
+  border-radius: 0 !important;
+  outline: none;
+  color: #525962;
+  font-size: 10px;
+  line-height: 11px;
+  letter-spacing: 0.025em;
+  font-family: 'Lexend';
+}
+
+.inputContainer :global(.vtex-input-prefix__group) {
+  height: auto;
+}
+
+.inputContainerEmail::before {
+  content: 'Email';
+  display: block;
+  width: 100%;
+  font-family: 'Lexend';
+  font-size: 13px;
+  font-weight: 700;
+  color: #131E29;
+  letter-spacing: 0.01em;
+}
+.inputContainerPassword::before {
+  content: 'Contraseña';
+  display: block;
+  width: 100%;
+  font-family: 'Lexend';
+  font-size: 13px;
+  font-weight: 700;
+  color: #131E29;
+  letter-spacing: 0.01em;
+}
+.inputContainerPassword :global(.vtex-input__suffix) {
+  padding-right: 0;
+  border-bottom: 1px solid #606060;
+  border-radius: 0;
+}
+
+.formFooter {
+  border: none !important;
+}
+
+.sendButton :global(.vtex-button) {
+  padding: 10px 15px;
+  border: none;
+  background-color: #F18A00;
+  border-radius: 100px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase !important;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-family: 'Lexend';
+  font-size: 12px;
+}
+.sendButton :global(.vtex-button .t-small) {
+  text-transform: uppercase !important;
+}
+.sendButton :global(.vtex-button):focus {
+  background-color: #F18A00 !important;
+}
+
+.backButton :global(.vtex-button .t-small) {
+  color: #131E29;
+  font-size: 12px !important;
+  font-family: 'Lexend' !important;
+  letter-spacing: 0.03em !important;
+  text-transform: uppercase !important;
+}
+
+.arrowBackIcon {
+  display: none;
+}
+
+.profile-link {
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.055em;
+  color: #525962;
+}
+.profile-link:hover {
+  color: #009ADE;
+}
+
+.accountOptions :global(.o-30) {
+  margin-left: -24px;
+  width: calc(100% + 24px * 2);
+}
+
+.logoutButton {
+  width: 100%;
+  letter-spacing: 0.03em;
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Lexend';
+  color: #131E29;
+  text-transform: uppercase;
+}
+
+.forgotPasswordLink {
+  text-decoration: underline;
+  font-family: 'Lexend';
+  font-size: 10px;
+  line-height: 11px;
+  letter-spacing: 0.005em;
+  color: #131E29;
+}
+.dontHaveAccount {
+  font-family: 'Lexend';
+  color: #F18A00;
+  font-size: 10px;
+  line-height: 11px;
+  text-align: center;
+  letter-spacing: 0.005em;
+}
+.dontHaveAccount::before {
+  content: '¿No tienes una cuenta? ';
+  color: #000;
+}

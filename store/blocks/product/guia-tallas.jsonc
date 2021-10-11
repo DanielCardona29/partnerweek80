@@ -1,0 +1,52 @@
+{
+    "modal-trigger#guia-tallas": {
+        "children": [
+            "rich-text#guia-tallas-trigger",
+            "modal-layout#guia-tallas"
+        ],
+        "props": {
+            "blockClass": "guia-tallas"
+        }
+    },
+    "rich-text#guia-tallas-trigger": {
+        "props": {
+            "text": "Guía de tallas"
+        }
+    },
+    "modal-layout#guia-tallas": {
+        "children": [
+            "modal-header",
+            "responsive-layout.desktop#guia-tallas-content",
+            "responsive-layout.tablet#guia-tallas-content",
+            "responsive-layout.phone#guia-tallas-content"
+        ],
+        "props": {
+            "blockClass": "guia-tallas-modal"
+        }
+    },
+    "responsive-layout.desktop#guia-tallas-content": {
+        "children": [
+            "rich-text#guia-tallas-content-desktop"
+        ]
+    },
+    "responsive-layout.tablet#guia-tallas-content": {
+        "children": [
+            "rich-text#guia-tallas-content-desktop"
+        ]
+    },
+    "responsive-layout.phone#guia-tallas-content": {
+        "children": [
+            "rich-text#guia-tallas-content-mobile"
+        ]
+    },
+    "rich-text#guia-tallas-content-desktop": {
+        "props": {
+            "text": "![Alabio](/arquivos/guia-de-tallas-minify.png)"
+        }
+    },
+    "rich-text#guia-tallas-content-mobile": {
+        "props": {
+            "text": "![Alabio](/arquivos/guia-de-tallas-mobile.png)"
+        }
+    }
+}

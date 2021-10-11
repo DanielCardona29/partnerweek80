@@ -1,0 +1,203 @@
+.wishlistIcon--wishlist-button {
+  display: block;
+  background: transparent !important;
+}
+.fill {
+  background: transparent !important;
+}
+.wishlist__button {
+  display: block !important;
+}
+.wishlistIconContainer .outline {
+  padding: 0 !important;
+  background-image: none !important;
+}
+.iconSize {
+  width: auto !important;
+  height: auto !important;
+}
+.outline {
+  background-image: none !important;
+}
+.wishlistIconContainer .outline::before {
+  content: "\eb58";
+  font-family: "icomoon";
+  font-size: 24px;
+  color: #cccccc;
+  transition: 0.2s all ease;
+}
+.wishlistIconContainer .outline:hover::before {
+  content: "\eb59" !important;
+  color: #ff595e !important;
+  font-size: 24px;
+  font-family: "icomoon" !important;
+}
+.wishlistIconContainer .fill::before {
+  content: "\eb59" !important;
+  font-size: 24px;
+  color: #ff595e !important;
+  font-family: "icomoon" !important;
+}
+
+.wishlistIconContainer :global(.vtex-button) {
+  background: transparent !important;
+  outline: none;
+  border: none;
+}
+@media screen and (max-width: 1024px) {
+  .wishlistIconContainer :global(.vtex-button__label)::before {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .wishlistIconContainer :global(.vtex-button__label)::before {
+    font-size: 18px;
+  }
+}
+
+.wishlistIconContainer {
+  position: relative;
+}
+
+.wishlistIconContainer--wishlist-button-product {
+  text-align: left;
+}
+
+.wishlistIcon--wishlist-button-product::before {
+  font-size: 10px !important;
+  margin-right: 8px;
+  color: #131E29 !important;
+}
+
+.wishlistIcon--wishlist-button-product::after {
+  content: "AGREGAR A FAVORITOS";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #131E29;
+
+}
+
+.wishlistIconContainer--wishlist-mobile-button {
+  display: none;
+}
+@media screen and (max-width: 640px) {
+  .wishlistIconContainer--wishlist-mobile-button {
+    display: block;
+    width: auto !important;
+    margin-left: 26px;
+  }
+  .wishlistIconContainer--wishlist-mobile-button :global(.vtex-button) {
+    width: auto !important;
+  }
+  .wishlistIconContainer--wishlist-mobile-button :global(.vtex-button__label) {
+    padding: 0 !important;
+    display: flex;
+    text-transform: none !important;
+    width: auto !important;
+  }
+  .wishlistIconContainer--wishlist-mobile-button
+    :global(.vtex-button__label)::after {
+    content: "Añadir a favoritos";
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: none !important;
+    letter-spacing: 0.03em;
+    color: #828282;
+    width: 53px;
+    margin-left: 6px;
+  }
+}
+
+.emptyMessage {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #333333;
+}
+
+.wishlistIconContainer--wishlist-button :global(.vtex-button__label) {
+  display: block;
+  padding: 0 !important;
+}
+
+:global(.vtex-product-summary-2-x-containerNormal--main-vitrine-content)
+  .wishlistIconContainer {
+  position: absolute;
+  bottom: 9px;
+  right: 11px;
+  width: auto;
+  z-index: 2;
+}
+
+:global(.vtex-product-summary-2-x-containerNormal--main-vitrine-content)
+  .wishlistIconContainer
+  :global(.vtex-button) {
+  height: auto;
+  min-height: initial;
+}
+:global(.vtex-product-summary-2-x-containerNormal--main-vitrine-content)
+  .wishlistIconContainer
+  :global(.vtex-button__label) {
+  padding: 0 !important;
+}
+
+@media screen and (max-width: 640px) {
+  /* :global(.vtex-product-summary-2-x-containerNormal--main-vitrine-content) .wishlistIconContainer .wishlistIcon {
+        width: 18px;
+    } */
+}
+:global(.vtex-product-summary-2-x-containerNormal--main-vitrine-content)
+  .wishlistIconContainer
+  .outline::before {
+  content: "\eb58";
+  font-family: "icomoon";
+  font-size: 15px;
+  color: #cccccc;
+}
+:global(.vtex-product-summary-2-x-containerNormal--main-vitrine-content)
+  .wishlistIconContainer
+  .fill::before {
+  content: "\eb59";
+  font-family: "icomoon";
+  font-size: 15px;
+  color: #ff595e;
+}
+@media screen and (max-width: 640px) {
+  :global(.vtex-product-summary-2-x-containerNormal--main-vitrine-content)
+    .wishlistIconContainer
+    .outline::before,
+  :global(.vtex-product-summary-2-x-containerNormal--main-vitrine-content)
+    .wishlistIconContainer
+    .fill::before {
+    font-size: 18px;
+  }
+}
+:global(.vtex-product-summary-2-x-containerNormal--main-vitrine-content)
+  .wishlistIconContainer
+  .fill:hover::before {
+  content: "\eb59" !important;
+  font-size: 24px;
+  font-family: "icomoon";
+  color: #ff595e !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--product-detail-images)
+  .wishlistIconContainer {
+  position: absolute;
+  z-index: 2;
+  width: 31px;
+  top: 15px;
+  left: 14px;
+}
+@media screen and (max-width: 640px) {
+  :global(.vtex-flex-layout-0-x-flexCol--product-detail-images)
+    .wishlistIconContainer {
+    display: none;
+  }
+}

@@ -1,0 +1,70 @@
+{
+    "vtex.menu@2.x:submenu#Mujer": {
+        "props": {
+            "blockClass": [
+                "categories"
+            ]
+        },
+        "children": [
+            "flex-layout.row#submenu-mujer"
+        ]
+    },
+    "flex-layout.row#submenu-mujer": {
+        "children": [
+            "flex-layout.col#submenu-mujer"
+        ],
+        "props": {
+            "blockClass": "row-categories",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#submenu-mujer": {
+        "children": [
+            "flex-layout.row#submenu-title-mujer",
+            "flex-layout.row#col-mujer"
+        ],
+        "props": {
+            "blockClass": "row-categories",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#submenu-title-mujer": {
+        "children": [
+            "rich-text#title-departamento-mujer",
+            "rich-text#link-departamento-mujer"
+        ],
+        "props": {
+            "blockClass": [
+                "row-categories",
+                "department-title"
+            ],
+            "orientation": "horizontal"
+        }
+    },
+    "rich-text#title-departamento-mujer": {
+        "props": {
+            "text": "Mujer",
+            "blockClass": "title-categorias"
+        }
+    },
+    "rich-text#link-departamento-mujer": {
+        "props": {
+            "text": "[Ver todo](/partnerweek80/mujer)",
+            "blockClass": "link-categorias"
+        }
+    },
+    "flex-layout.row#col-mujer": {
+        "props": {
+            "blockClass": [
+                "row-categories",
+                "department-menu"
+            ],
+            "fullWidth": true,
+            "orientation": "horizontal"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#mujer-col1",
+            "vtex.menu@2.x:menu#mujer-col2"
+        ]
+    }
+}

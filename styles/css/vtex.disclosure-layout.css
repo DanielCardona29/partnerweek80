@@ -1,0 +1,101 @@
+:global(.vtex-flex-layout-0-x-flexColChild--main-product-detail-specs) .trigger:first-child {
+  border-top: 0.5px solid #BDBDBD;
+  margin-top: 35px;
+}
+
+.trigger {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 0 !important;
+  padding-top: 13px !important;
+}
+.trigger :global(.vtex-rich-text-0-x-container) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 6px;
+}
+.trigger :global(.vtex-rich-text-0-x-paragraph) {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #131E29;
+  margin: 0;
+}
+
+.trigger--hidden {
+  border-bottom: 0.5px solid #BDBDBD;
+  padding-bottom: 11px !important;
+}
+
+.trigger--hidden :global(.vtex-rich-text-0-x-container)::after {
+  content: '\eb42';
+  font-family: 'icomoon';
+  font-weight: 900;
+  font-size: 6px;
+  color: #131E29;
+  margin-right: -3px;
+}
+.trigger--visible :global(.vtex-rich-text-0-x-container)::after {
+  content: '\eb45';
+  font-family: 'icomoon';
+  font-weight: 900;
+  font-size: 6px;
+  color: #131E29;
+  margin-right: -3px;
+}
+
+.trigger--frequently-questions {
+  background-color: #EFEFEF;
+  padding: 12px 19px !important;
+}
+
+.trigger--frequently-questions :global(.vtex-rich-text-0-x-container) {
+  padding: 0 !important;
+}
+
+.trigger--frequently-questions :global(.vtex-rich-text-0-x-link) {
+  color: #131E29;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.trigger--frequently-questions :global(.vtex-rich-text-0-x-paragraph) {
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.trigger--frequently-questions--hidden :global(.vtex-rich-text-0-x-container)::after {
+  content: '\e902';
+  font-family: 'icomoon';
+  font-size: 10px;
+  color: #009ADE;
+}
+
+.trigger--frequently-questions--visible :global(.vtex-rich-text-0-x-container)::after {
+  content: '\e902';
+  font-family: 'icomoon';
+  font-size: 10px;
+  color: #009ADE;
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width:640px) {
+  .content {
+    background-color: #fff;
+    width: 100%;
+  }
+}
+
+.content :global(.vtex-rich-text-0-x-paragraph--static-text) {
+  padding: 16px 19px !important;
+  margin: 0 !important;
+}
+
+.content :global(.vtex-rich-text-0-x-listItem--static-text) :global(.vtex-rich-text-0-x-paragraph--static-text) {
+  padding: 0 !important;
+}

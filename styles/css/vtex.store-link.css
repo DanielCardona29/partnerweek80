@@ -1,0 +1,33 @@
+.buttonLink--scroll-arrow {
+    color: transparent !important;
+    background-color: transparent !important;
+    text-align: center;
+    border: none;
+    position: absolute;
+    width: 77px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 21px;
+    display: none !important;
+}
+/* @media screen and (max-width:1024px){
+    .buttonLink--scroll-arrow {
+        display: none;
+    }
+} */
+.buttonLink--scroll-arrow:hover {
+    color: transparent;
+    background-color: transparent;
+}
+.buttonLink--scroll-arrow::before {
+    content: '';
+    width: 77px;
+    height: 60px;
+    background-image: url('/arquivos/scroll-down.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.buttonLink--scroll-arrow:hover::before {
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, .3));
+}

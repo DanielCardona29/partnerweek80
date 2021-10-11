@@ -1,0 +1,31 @@
+.removeButton {
+  position: relative;
+}
+.removeButton::before {
+  content: "";
+  background-image: url(assets/papelera.svg);
+  width: 17px;
+  height: 17px;
+  display: block;
+  box-sizing: border-box;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.removeButton :global(.vtex-product-list-0-x-deleteIcon) {
+  display: none;
+}
+
+.productPriceContainer {
+  margin-right: 0;
+  width: 100%;
+}
+
+.quantitySelector {
+  min-width: 55px;
+}
+@media screen and (max-width:640px) {
+  .quantitySelector {
+    min-width: 63px;
+  }
+}

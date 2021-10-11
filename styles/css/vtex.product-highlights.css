@@ -1,0 +1,19 @@
+.productHighlightText {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #131E29;
+  background-color: transparent;
+  border-right: 1px solid #131E29;
+  padding-right: 7.5px;
+  margin-right: 7.5px;
+}
+@media screend and (max-width:1050px) {
+  .productHighlightText {
+    font-size: 12px;
+    text-transform: capitalize;
+  }
+}

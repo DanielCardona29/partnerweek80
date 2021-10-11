@@ -1,0 +1,105 @@
+.listPrice {
+  font-weight: bold;
+}
+
+.sellingPrice {
+  font-weight: bold;
+  color: gray;
+  margin-left: 5px;
+}
+
+.containerNormal--main-vitrine-content :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-product-price-1-x-currencyLiteral) {
+  display: none;
+}
+.listPrice .currencyContainer {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #828282;
+  text-decoration-line: line-through;
+  letter-spacing: 0.01em;
+}
+.sellingPriceValue .currencyLiteral {
+  display: none;
+}
+.sellingPriceValue .currencyContainer {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  color: #333333;
+  letter-spacing: 0.01em;
+}
+.savings {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  color: #FF00FF;
+  text-transform: uppercase;
+}
+.savingsPercentage {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--quickview-content) .listPrice .currencyContainer {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #828282;
+  text-decoration-line: line-through;
+  letter-spacing: 0.01em;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--quickview-content) .sellingPriceValue .currencyLiteral {
+  display: none;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--quickview-content) .sellingPriceValue .currencyContainer {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #333333;
+  letter-spacing: 0.01em;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--quickview-content) .savings {
+  margin-left: 11px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #EA0029;
+  text-transform: uppercase;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--quickview-content) .savingsPercentage {
+  font-weight: 700;
+  font-size: 14px;
+}
+@media screen and (max-width:1024px){
+  .savingsPercentage,
+  .listPriceValue .currencyContainer {
+    font-size: 12px;
+  }
+  .sellingPriceValue .currencyContainer {
+    font-size: 14px;
+  }
+  .savings {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+}
+@media screen and (max-width:640px){
+  .savings {
+    display: block;
+    clear: left;
+    text-align: left;
+  }
+}
+@media screen and (max-width:420px){
+  .sellingPriceValue .currencyContainer {
+    font-size: 12px;
+  }
+}

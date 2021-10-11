@@ -1,0 +1,40 @@
+{
+  "flex-layout.row#search-info": {
+    "children": [
+      "flex-layout.col#search-title"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#search-title": {
+    "children": [
+      "search-title.v2",
+      "flex-layout.row#banner-section-description"
+    ],
+    "props": {
+      "blockClass": [
+        "footer-first-section",
+        "category-title"
+      ]
+    }
+  },
+  "flex-layout.row#banner-section-description": {
+    "children": [
+      "search-banner#section-description"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "search-banner#section-description": {
+    "props": {
+      "area": "two",
+      "blockClass": "category-section-description",
+      "horizontalAlignment": "center",
+      "fullWidth": true
+    }
+  }
+}

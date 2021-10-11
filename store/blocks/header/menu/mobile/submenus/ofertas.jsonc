@@ -1,0 +1,20 @@
+{
+    "flex-layout.row#mobile-menu-item-ofertas": {
+        "children": [
+            "rich-text#item-menu-category-ofertas"
+        ],
+        "props": {
+            "blockClass": "mobile-menu-item"
+        }
+    },
+    "rich-text#item-menu-category-ofertas": {
+        "props": {
+            "text": "[Ofertas](/ofertas)",
+            "blockClass": [
+                "item-menu-principal",
+                "item-menu-ofertas",
+                "item-menu-principal-categorias"
+            ]
+        }
+    }
+}

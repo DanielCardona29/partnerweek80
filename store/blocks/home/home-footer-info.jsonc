@@ -1,0 +1,52 @@
+{
+  "flex-layout.row#footer-information-section": {
+    "children": [
+      "flex-layout.col#footer-information-section"
+    ],
+    "props": {
+      "blockClass": "footer-information-section",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#footer-information-section": {
+    "children": [
+      "flex-layout.row#footer-first-section"
+    ],
+    "props": {
+      "blockClass": "footer-information-section"
+    }
+  },
+  "flex-layout.row#footer-first-section": {
+    "children": [
+      "flex-layout.col#footer-first-section"
+    ],
+    "props": {
+      "blockClass": "footer-first-section"
+    }
+  },
+  "flex-layout.col#footer-first-section": {
+    "children": [
+      "rich-text#first-section-title",
+      "rich-text#first-section-description"
+    ],
+    "props": {
+      "blockClass": "footer-first-section"
+    }
+  },
+  "rich-text#first-section-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "STREETWEAR CULTURE  - COMMUNITY MOVEMENT - STORYTELLERS",
+      "blockClass": "first-section-title"
+    }
+  },
+  "rich-text#first-section-description": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "blockClass": "first-section-description"
+    }
+  }
+}

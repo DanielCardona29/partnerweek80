@@ -1,0 +1,77 @@
+{
+  "flex-layout.row#shelf-images-grid": {
+    "children": [
+      "flex-layout.row#images-grid-images"
+    ],
+    "props": {
+      "fullwidth": true,
+      "blockClass": [
+        "home-vitrine-container"
+      ]
+    }
+  },
+  "flex-layout.row#images-grid-images": {
+    "children": [
+      "image#magia-1",
+      "image#magia-2",
+      "image#magia-3"
+    ],
+    "props": {
+      "blockClass": [
+        "home-images-grid",
+        "home-new-collections"
+      ]
+    }
+  },
+  "image#magia-1": {
+    "props": {
+      "src": "/arquivos/camisetas-mujer.jpg",
+      "maxWidth": "100%",
+      "maxHeight": "100%",
+      "title": "Link",
+      "link": {
+        "default": "mujer",
+        "title": "Link",
+        "url": "/mujer"
+      },
+      "blockClass": [
+        "magic-collections-image",
+        "new-collections-image"
+      ]
+    }
+  },
+  "image#magia-2": {
+    "props": {
+      "src": "/arquivos/couple-wear.jpg?v=1",
+      "maxWidth": "100%",
+      "maxHeight": "100%",
+      "title": "Link",
+      "link": {
+        "default": "hombre",
+        "title": "Link",
+        "url": "hombre"
+      },
+      "blockClass": [
+        "magic-collections-image",
+        "new-collections-image"
+      ]
+    }
+  },
+  "image#magia-3": {
+    "props": {
+      "src": "/arquivos/buzos-hombre.jpg?v=1",
+      "maxWidth": "98%",
+      "maxHeight": "97%",
+      "title": "Link",
+      "link": {
+        "default": "nino",
+        "title": "Link",
+        "url": "nino"
+      },
+      "blockClass": [
+        "magic-collections-image",
+        "new-collections-image"
+      ]
+    }
+  }
+}

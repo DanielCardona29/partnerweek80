@@ -15,8 +15,7 @@
     "children": [
       "header-row#desktop-1",
       "header-row#desktop-2",
-      "header-row#desktop-3",
-      "sticky-layout#header-menu"
+      "sticky-layout#desktop-header"
     ]
   },
   "header-layout.mobile": {
@@ -24,7 +23,34 @@
       "header-row#header-phone-1",
       "header-row#header-phone-2",
       "header-row#desktop-3",
-      "sticky-layout#header-menu"
+      "sticky-layout#desktop-header"
     ]
+  },
+  "flex-layout.row#login": {
+    "children": [
+      "login"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "header-account"
+    }
+  },
+  "rich-text#mi-cuenta__text": {
+    "props": {
+      "text": "[Mi cuenta](/account#/profile)",
+      "blockClass": "mi-cuenta__text"
+    }
+  },
+  "rich-text#wishlist__text": {
+    "props": {
+      "text": "[Mis Favoritos](/lista-de-deseos)",
+      "blockClass": "wish-list__text"
+    }
+  },
+  "rich-text#contactar-asesor__text": {
+    "props": {
+      "text": "<a class='vtex-contactar-asesor__text' href='https://micsac.zendesk.com/hc/es' target='_blank'>Te ayudamos</a>",
+      "blockClass": "contactar-asesor__text"
+    }
   }
 }

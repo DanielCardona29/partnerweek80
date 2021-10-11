@@ -1,0 +1,196 @@
+{
+  "flex-layout.row#shelf-background-vitrine": {
+    "children": [
+      "flex-layout.row#shelf-background",
+      "flex-layout.row#shelf-background-vitrine-title",
+      "flex-layout.row#shelf-background-vitrine-content"
+    ],
+    "props": {
+      "fullwidth": true,
+      "preventHorizontalStretch": true,
+      "blockClass": [
+        "home-vitrine-container",
+        "background-vitrine"
+      ]
+    }
+  },
+  "flex-layout.row#shelf-background": {
+    "children": [
+      "image#shelf-background",
+      "image#shelf-background-mobile"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "fullwidth": true,
+      "blockClass": "tabs-background"
+    }
+  },
+  "image#shelf-background": {
+    "props": {
+      "src": "/arquivos/image-17.jpg?v=3",
+      "maxWidth": "100%",
+      "maxHeight": "100%",
+      "title": "tabs background",
+      "blockClass": [
+        "tabs-background",
+        "tabs-background-desktop"
+      ]
+    }
+  },
+  "image#shelf-background-mobile": {
+    "props": {
+      "src": "/arquivos/star-wars-mobile.png",
+      "maxWidth": "100%",
+      "maxHeight": "100%",
+      "title": "tabs background",
+      "blockClass": [
+        "tabs-background",
+        "tabs-background-mobile"
+      ]
+    }
+  },
+  "flex-layout.row#shelf-background-vitrine-title": {
+    "children": [
+      "rich-text#background-vitrine-title"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": [
+        "full-width-title"
+      ]
+    }
+  },
+  "rich-text#background-vitrine-title": {
+    "props": {
+      "text": "Buzos y \n **CAMISETAS**",
+      "blockClass": [
+        "home-min-vitrine-title",
+        "home-min-vitrine-title-white",
+        "home-min-vitrine-title-background"
+      ]
+    }
+  },
+  "flex-layout.row#shelf-background-vitrine-content": {
+    "children": [
+      "tab-layout#background-vitrine-content"
+    ],
+    "props": {
+      "blockClass": "product-tab-container"
+    }
+  },
+  "tab-layout#background-vitrine-content": {
+    "children": [
+      "tab-list#background-vitrine-tabs-title",
+      "tab-content#background-vitrine-tabs-content"
+    ],
+    "props": {
+      "blockClass": "home-main-vitrine"
+    }
+  },
+  "tab-list#background-vitrine-tabs-title": {
+    "children": [
+      "tab-list.item#mujer",
+      "tab-list.item#hombre"
+    ],
+    "props": {
+      "blockClass": "tab-list-title"
+    }
+  },
+  "tab-list.item#mujer": {
+    "props": {
+      "tabId": "mujer",
+      "label": "Mujer",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#hombre": {
+    "props": {
+      "tabId": "hombre",
+      "label": "Hombre"
+    }
+  },
+  "tab-content#background-vitrine-tabs-content": {
+    "children": [
+      "tab-content.item#mujer",
+      "tab-content.item#hombre"
+    ]
+  },
+  "tab-content.item#mujer": {
+    "children": [
+      "list-context.product-list#shelf-tag-mujer"
+    ],
+    "props": {
+      "tabId": "mujer"
+    }
+  },
+  "tab-content.item#hombre": {
+    "children": [
+      "list-context.product-list#shelf-tag-hombre"
+    ],
+    "props": {
+      "tabId": "hombre"
+    }
+  },
+  "list-context.product-list#shelf-tag-mujer": {
+    "blocks": [
+      "product-summary.shelf#vitrine"
+    ],
+    "children": [
+      "slider-layout#home-products",
+      "flex-layout.row#ver-todo-mujer"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "collection": "357",
+      "maxItems": 12
+    }
+  },
+  "flex-layout.row#ver-todo-mujer": {
+    "children": [
+      "rich-text#ver-todo-mujer"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#ver-todo-mujer": {
+    "props": {
+      "text": "[Ver todo](505?O=OrderByReleaseDateDESc&PS=24&map=c,productClusterIds)",
+      "blockClass": [
+        "ver-todo-btn",
+        "ver-todo-btn-mujer"
+      ]
+    }
+  },
+  "list-context.product-list#shelf-tag-hombre": {
+    "blocks": [
+      "product-summary.shelf#vitrine"
+    ],
+    "children": [
+      "slider-layout#home-products",
+      "flex-layout.row#ver-todo-hombre"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "collection": "356",
+      "maxItems": 12
+    }
+  },
+  "flex-layout.row#ver-todo-hombre": {
+    "children": [
+      "rich-text#ver-todo-hombre"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#ver-todo-hombre": {
+    "props": {
+      "text": "[Ver todo](502?O=OrderByReleaseDateDESc&PS=24&map=c,productClusterIds)",
+      "blockClass": [
+        "ver-todo-btn",
+        "ver-todo-btn-hombre"
+      ]
+    }
+  }
+}

@@ -1,0 +1,65 @@
+
+.footerLayout :global(.vtex-store-components-3-x-container) {
+  width: 100%;
+  min-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+:global(.vtex-rich-text-0-x-image--copyright) {
+  font-size: 13px;
+  font-family: 'icoomon';
+}
+
+:global(.vtex-rich-text-0-x-image--copyright)::before {
+  content: '\e902';
+}
+
+:global(.vtex-rich-text-0-x-image--copyright):last-child::before {
+  content: '\e925';
+}
+
+
+/* Social links */
+.socialNetworkImage--facebook,
+.socialNetworkImage--instagram,
+.socialNetworkImage--twitter,
+.socialNetworkImage--youtube {
+  display: none;
+}
+.socialNetworkLink--facebook,
+.socialNetworkLink--instagram,
+.socialNetworkLink--twitter,
+.socialNetworkLink--youtube {
+  text-decoration: none;
+  height: auto !important;
+  margin-top: 0;
+}
+.socialNetworkLink--facebook::before {
+  content: '\e908';
+  font-family: 'icomoon';
+  font-size: 20px;
+  color: #131E29;
+  opacity: .5;
+}
+.socialNetworkLink--instagram::before {
+  content: '\ead4';
+  font-family: 'icomoon';
+  font-size: 20px;
+  color: #131E29;
+  opacity: .5;
+}
+.socialNetworkLink--twitter::before {
+  content: '\ead8';
+  font-family: 'icomoon';
+  font-size: 20px;
+  color: #131E29;
+  opacity: .5;
+}
+.socialNetworkLink--youtube::before {
+  content: '\ead5';
+  font-family: 'icomoon';
+  font-size: 20px;
+  color: #131E29;
+  opacity: .5;
+}

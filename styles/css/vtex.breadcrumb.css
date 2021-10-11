@@ -1,0 +1,37 @@
+:global(.vtex-flex-layout-0-x-flexRow--product-detail-breadcrumb) .caretIcon {
+  display: none;
+}
+.arrow {
+  padding: 0 !important;
+}
+.arrow::before {
+  content: "/ ";
+  font-size: 10px;
+}
+.link {
+  font-size: 11px;
+  line-height: 13px;
+  color: #828282;
+}
+.term {
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  color: #131E29;
+}
+.link:hover,
+.term:hover {
+  color: #131E29;
+}
+
+.homeLink::before {
+  content: 'partnerweek80';
+}
+
+.homeIcon {
+  display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-detail-breadcrumb) .container {
+  text-align: left;
+}

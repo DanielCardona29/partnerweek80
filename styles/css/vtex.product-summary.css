@@ -1,0 +1,122 @@
+.productBrand.brandName {
+  font-weight: bold;
+  color: gray;
+  font-family: "Montserrat";
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.productBrandName {
+  font-weight: bold;
+}
+
+/*
+* Home Vitrine
+*/
+.element--main-vitrine-content :global(.vtex-stack-layout-0-x-stackContainer) {
+  z-index: 0;
+}
+:global(.vtex-product-highlights-2-x-productHighlightWrapper) {
+  display: none;
+}
+
+@media screen and (max-width: 1025px) {
+  .element--main-vitrine-content {
+    padding-left: 8px !important;
+    box-sizing: border-box;
+  }
+  .container--main-vitrine-content {
+    margin: 0 8px !important;
+  }
+}
+@media screen and (max-width: 640px) {
+  .container--main-vitrine-content {
+    margin: 0 !important;
+  }
+}
+
+/*
+* Main Vitrines
+*/
+
+/* Product */
+.containerNormal--main-vitrine-content .element {
+  position: relative;
+  padding: 0 5px;
+}
+
+@media screen and (max-width: 1025px) {
+  .containerNormal--main-vitrine-content .element {
+    padding: 0;
+  }
+}
+
+.containerNormal--main-vitrine-content
+  :global(.vtex-product-summary-2-x-nameContainer) {
+  padding-top: 12px;
+  padding-bottom: 7px;
+}
+@media screen and (max-width: 1025px) {
+  .containerNormal--main-vitrine-content
+    :global(.vtex-product-summary-2-x-nameContainer) {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+.containerNormal--main-vitrine-content
+  :global(.vtex-product-summary-2-x-productNameContainer),
+.containerNormal--main-vitrine-content
+  :global(.vtex-product-summary-2-x-productBrandContainer) {
+  text-align: left;
+  width: 100%;
+}
+.containerNormal--main-vitrine-content
+  :global(.vtex-product-summary-2-x-productBrandName) {
+  color: #7E7E7E;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Montserrat";
+  margin-top: 8px;
+  display: block;
+}
+.containerNormal--main-vitrine-content
+  :global(.vtex-product-summary-2-x-productBrand) {
+  color: #131E29;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  font-family: "Montserrat";
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 219px;
+}
+@media screen and (max-width: 1025px) {
+  .containerNormal--main-vitrine-content
+    :global(.vtex-product-summary-2-x-productBrandName) {
+    font-size: 11px;
+  }
+  .containerNormal--main-vitrine-content
+    :global(.vtex-product-summary-2-x-productBrand) {
+    font-size: 10px;
+    width: 100%;
+  }
+}
+.containerNormal--main-vitrine-content
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto !important;
+  /* margin-right: 8px; */
+}
+@media screen and (max-width: 640px) {
+  .containerNormal--main-vitrine-content
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    margin-right: 3px;
+  }
+}

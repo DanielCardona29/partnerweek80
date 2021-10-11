@@ -1,0 +1,16 @@
+{
+  "store.search#category": {
+    "blocks": [
+      "search-result-layout#general"
+    ],
+    "props": {
+      "context": {
+        "__unstableProductOriginVtex": true,
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 36,
+        "hideUnavailableItems": false
+      }
+    }
+  }
+}

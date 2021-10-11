@@ -1,0 +1,4 @@
+:global(.vtex-button):focus {
+    background-color: transparent;
+    outline: 0;
+}

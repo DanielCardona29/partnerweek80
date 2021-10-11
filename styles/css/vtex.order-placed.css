@@ -1,0 +1,420 @@
+.section--confirmation {
+    margin-bottom: 0;
+    padding-bottom: 32px;
+    position: relative;
+}
+.section--confirmation::after {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    content: '';
+    display: block;
+    width: 80%;
+    height: 0.5px;
+    background-color: #DEDEDE;
+}
+
+.orderOptionsWrapper--mobile {
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.confirmationTitle {
+    position: relative;
+    font-family: 'Lexend' !important;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: transparent;
+}
+.confirmationTitle::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+    content: '¡Gracias por tu compra!';
+    color: #131E29;
+}
+
+.confirmationMessage {
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #474747;
+}
+
+.orderPlacedMainWrapper {
+    margin-top: 38px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--order-placed-actions) {
+    margin-bottom: 26px;
+}
+
+.updateOrderButton {
+    display: none;
+}
+
+.myOrdersButton :global(.vtex-button),
+.myOrdersButton :global(.vtex-button):focus {
+    background-color: #F18A00;
+    border: 1px solid #F18A00;
+    border-radius: 100px;
+    border: none;
+    min-height: initial;
+}
+.myOrdersButton :global(.vtex-button) :global(.vtex-button__label) {
+    padding: 12px 66px 11px !important;
+    color: white;
+    font-family: 'Lexend';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.cancelOrderButton :global(.vtex-button) :global(.vtex-button__label) {
+    font-family: 'Lexend';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #F18A00;
+}
+
+.orderNumber {
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #131E29;
+}
+
+.orderDatetime {
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.01em;
+    color: #AFB3B7;
+}
+
+.customerInfoListContainer {
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.01em;
+    color: #131E29;
+}
+
+.customerInfoListName {
+    font-weight: 700;
+}
+
+.section--paymentMethods {
+    margin-top: 26px;
+}
+
+.paymentGroup {
+    font-family: 'Lexend';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.01em;
+    color: #131E29;
+}
+
+.paymentValue {
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.01em;
+    color: #131E29;
+}
+
+.section--paymentMethods :global(.vtex-button),
+.section--paymentMethods :global(.vtex-button):focus {
+    background-color: #F18A00;
+    border: 1px solid #F18A00;
+    border-radius: 100px;
+    border: none;
+    min-height: initial;
+}
+
+.section--paymentMethods :global(.vtex-button) :global(.vtex-button__label) {
+    padding: 12px 66px 11px !important;
+    color: white;
+    font-family: 'Lexend';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.packageHeader {
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #525962;
+}
+
+.packageDeliveryTitle {
+    font-weight: 700;
+}
+
+.packageShippingEstimate {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.packageSLA {
+    line-height: 21px;
+    margin-top: 6px;
+}
+
+.addressContainer {
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #525962;
+}
+
+.productInfoColumn {
+    justify-content: center;
+}
+
+.productName {
+    margin-bottom: 26px;
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #131E29;
+}
+
+.productQuantity {
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #AFB3B7;
+}
+
+.productPrice {
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #131E29;
+}
+
+.totalListItem .totalListItemLabel,
+.totalListItem .totalListItemLabel,
+.totalListItem .totalListItemLabel,
+.totalListItem .totalListItemValue,
+.totalListItem .totalListItemValue,
+.totalListItem .totalListItemValue {
+    font-family: 'Lexend';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #131E29;
+}
+
+.totalListItem--Items .totalListItemLabel,
+.totalListItem--Discounts .totalListItemLabel,
+.totalListItem--Shipping .totalListItemLabel,
+.totalListItem--Items .totalListItemValue,
+.totalListItem--Discounts .totalListItemValue,
+.totalListItem--Shipping .totalListItemValue {
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #AFB3B7;
+}
+/*
+REVISAR ESTILACHOS
+*/
+
+.updateOrderButton {
+  display: none;
+}
+
+.myOrdersButton :global(.vtex-button),
+.myOrdersButton :global(.vtex-button):focus {
+  background-color: #F18A00;
+  border: 1px solid #F18A00;
+  border-radius: 100px;
+  border: none;
+  min-height: initial;
+}
+.myOrdersButton :global(.vtex-button) :global(.vtex-button__label) {
+  padding: 12px 66px 11px !important;
+  color: white;
+  font-family: 'Lexend';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.cancelOrderButton :global(.vtex-button) :global(.vtex-button__label) {
+  font-family: 'Lexend';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #F18A00;
+}
+
+.orderNumber {
+  font-family: 'Lexend';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: #131E29;
+}
+
+.orderDatetime {
+  font-family: 'Lexend';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.01em;
+  color: #AFB3B7;
+}
+
+.customerInfoListContainer {
+  font-family: 'Lexend';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.01em;
+  color: #131E29;
+}
+
+.customerInfoListName {
+  font-weight: 700;
+}
+
+.paymentGroup {
+  font-family: 'Lexend';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.01em;
+  color: #131E29;
+}
+
+.paymentValue {
+  font-family: 'Lexend';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.01em;
+  color: #131E29;
+}
+
+.packageHeader {
+  font-family: 'Lexend';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  color: #525962;
+}
+
+.packageDeliveryTitle {
+  font-weight: 700;
+}
+
+.packageShippingEstimate {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.packageSLA {
+  line-height: 21px;
+  margin-top: 6px;
+}
+
+.addressContainer {
+  font-family: 'Lexend';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  color: #525962;
+}
+
+.productInfoColumn {
+  justify-content: center;
+}
+
+.productName {
+  margin-bottom: 26px;
+  font-family: 'Lexend';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  color: #131E29;
+}
+
+.productQuantity {
+  font-family: 'Lexend';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  color: #AFB3B7;
+}
+
+.productPrice {
+  font-family: 'Lexend';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #131E29;
+}
+
+.totalListItem .totalListItemLabel,
+.totalListItem .totalListItemLabel,
+.totalListItem .totalListItemLabel,
+.totalListItem .totalListItemValue,
+.totalListItem .totalListItemValue,
+.totalListItem .totalListItemValue {
+  font-family: 'Lexend';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #131E29;
+}

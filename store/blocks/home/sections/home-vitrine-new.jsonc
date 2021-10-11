@@ -1,0 +1,55 @@
+{
+  "flex-layout.row#shelf-lo-nuevo": {
+    "children": [
+      "flex-layout.col#shelf-texto-lo-nuevo",
+      "flex-layout.col#shelf-vitrina-lo-nuevo"
+    ],
+    "props": {
+      "blockClass": "home-vitrine-container-min",
+      "fullwidth": true
+    }
+  },
+  "flex-layout.col#shelf-texto-lo-nuevo": {
+    "children": [
+      "rich-text#shelf-title-lo-nuevo"
+    ],
+    "props": {
+      "blockClass": "home-vitrine-images",
+      "width": "24%"
+    }
+  },
+  "flex-layout.col#shelf-vitrina-lo-nuevo": {
+    "children": [
+      "list-context.product-list#shelf-lo-nuevo"
+    ],
+    "props": {
+      "blockClass": [
+        "home-vitrine-container",
+        "home-vitrine-container-min"
+      ],
+      "width": "76%"
+    }
+  },
+  "rich-text#shelf-title-lo-nuevo": {
+    "props": {
+      "text": "Ya está aquí \n **LO NUEVO** \n [VER TODO](/437?PS=24&map=productClusterIds&O=OrderByReleaseDateDESC)",
+      "blockClass": [
+        "home-min-vitrine-title",
+        "home-min-vitrine-title-nuevo"
+      ]
+    }
+  },
+  "list-context.product-list#shelf-lo-nuevo": {
+    "blocks": [
+      "product-summary.shelf#vitrine"
+    ],
+    "children": [
+      "slider-layout#home-products-min-home"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "collection": "137",
+      "maxItems": 6
+    }
+  }
+}

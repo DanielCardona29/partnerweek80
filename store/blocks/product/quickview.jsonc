@@ -1,0 +1,113 @@
+{
+  "modal-trigger#quickview": {
+    "children": [
+      "rich-text#quickview-open",
+      "modal-layout#quickview"
+    ],
+    "props": {
+      "blockClass": [
+        "quickview",
+        "quickview-opener"
+      ]
+    }
+  },
+  "rich-text#quickview-open": {
+    "props": {
+      "text": "",
+      "blockClass": "quickview-open-button"
+    }
+  },
+  "modal-layout#quickview": {
+    "children": [
+      "modal-header",
+      "flex-layout.row#quickview-main-row"
+    ],
+    "props": {
+      "blockClass": "quickview-container"
+    }
+  },
+  "flex-layout.row#quickview-main-row": {
+    "children": [
+      "flex-layout.col#quickview-images",
+      "flex-layout.col#quickview-product-details"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "quickview-content"
+    }
+  },
+  "flex-layout.col#quickview-images": {
+    "children": [
+      "product-images#quickview"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#quickview-product-details": {
+    "children": [
+      "modal-content#quickview"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "modal-content#quickview": {
+    "children": [
+      "product-rating-summary",
+      "flex-layout.row#product-brand",
+      "flex-layout.row#product-name",
+      "flex-layout.row#vitrine-pricing-quickview",
+      "product-summary-sku-selector#talla",
+      "flex-layout.row#quickview-actions",
+      "modal-actions#quickview"
+    ]
+  },
+  "flex-layout.row#quickview-actions": {
+    "children": [
+      "product-quantity",
+      "flex-layout.row#buy-button"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "quickview-actions"
+    }
+  },
+  "modal-actions#quickview": {
+    "children": [
+      "flex-layout.row#quickview-view-more"
+    ]
+  },
+  "flex-layout.row#quickview-view-more": {
+    "children": [
+      "link.product#view-more"
+    ],
+    "props": {
+      "blockClass": "view-more-button"
+    }
+  },
+  "link.product#view-more": {
+    "props": {
+      "buttonProps": {
+        "variant": "secondary"
+      },
+      "displayMode": "button",
+      "label": "Ver detalle",
+      "href": "/{slug}/p"
+    }
+  },
+  "product-images#quickview": {
+    "props": {
+      "aspectRatio": {
+        "desktop": "auto",
+        "phone": "16:9"
+      },
+      "blockClass": "quickview-images",
+      "placeholder": "Imágenes del producto",
+      "label": "Imágenes del producto",
+      "hoverImageLabel": "Imágenes del producto",
+      "displayThumbnailsArrows": true,
+      "showPaginationDots": false
+    }
+  }
+}

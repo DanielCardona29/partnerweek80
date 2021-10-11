@@ -1,7 +1,17 @@
 {
   "store.search": {
     "blocks": [
-      
-    ]
+      "search-result-layout#general-simplify"
+    ],
+    "props": {
+      "context": {
+        "__unstableProductOriginVtex": true,
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 36,
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    }
   }
 }

@@ -1,0 +1,61 @@
+{
+  "flex-layout.row#shelf-banner-special-collection": {
+    "children": [
+      "image#special-collection-image",
+      "flex-layout.col#shelf-text-special-collection"
+    ],
+    "props": {
+      "blockClass": "home-special-collection-layout",
+      "fullwidth": true
+    }
+  },
+  "flex-layout.col#shelf-text-special-collection": {
+    "children": [
+      "rich-text#shelf-title-banner-special-collection",
+      "rich-text#shelf-text-banner-special-collection"
+    ],
+    "props": {
+      "blockClass": "shelf-text-special-collection",
+      "width": "24%",
+      "fullwidth": true
+    }
+  },
+  "rich-text#shelf-title-banner-special-collection": {
+    "props": {
+      "text": "*Colección especial* \n **DÍA DE LA MUJER**",
+      "blockClass": [
+        "home-min-vitrine-title",
+        "home-min-vitrine-title-2",
+        "home-min-vitrine-title-bold",
+        "home-min-vitrine-title-special-collection"
+      ]
+    }
+  },
+  "rich-text#shelf-text-banner-special-collection": {
+    "props": {
+      "text": "Hemos seleccionado productos que nos representan como **mujeres fuertes, inteligentes y emprendedoras.**\n\n¡Feliz Día! \n [Ver todo](/427)",
+      "blockClass": [
+        "home-min-vitrine-text",
+        "home-min-vitrine-title-2",
+        "home-min-vitrine-title-special-collection"
+      ]
+    }
+  },
+  "image#special-collection-image": {
+    "props": {
+      "src": "/arquivos/special-collection.jpg",
+      "maxWidth": "100%",
+      "maxHeight": "100%",
+      "title": "Link",
+      "link": {
+        "default": "/",
+        "title": "Link",
+        "url": "/"
+      },
+      "blockClass": [
+        "collections-min-image",
+        "collections-min-image-desktop"
+      ]
+    }
+  }
+}

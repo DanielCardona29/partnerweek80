@@ -1,0 +1,31 @@
+{
+  "flex-layout.row#shelf-scroll-categories": {
+    "children": [
+      "flex-layout.row#banner-scroll-categories"
+    ],
+    "props": {
+      "fullwidth": true,
+      "blockClass": [
+        "department-categories-carousel",
+        "home-vitrine-container"
+      ]
+    }
+  },
+  "flex-layout.row#banner-scroll-categories": {
+    "children": [
+      "search-banner#section-scroll-categories"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "blockClass": "slider-scroll-categories"
+    }
+  },
+  "search-banner#section-scroll-categories": {
+    "props": {
+      "area": "three",
+      "horizontalAlignment": "center",
+      "fullWidth": true
+    }
+  }
+}

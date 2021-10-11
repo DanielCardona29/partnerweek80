@@ -1,0 +1,17 @@
+/* Minicart */
+.summaryItemContainer  {
+    padding-bottom: 0;
+}
+.summaryItemLabel {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #333333;
+}
+.summaryItemPrice {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #333333;
+}

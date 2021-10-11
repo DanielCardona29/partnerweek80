@@ -1,0 +1,102 @@
+{
+  "flex-layout.row#shelf-favoritos-container": {
+    "children": [
+      "flex-layout.row#shelf-title-favoritos-col-1",
+      "flex-layout.row#shelf-favoritos"
+    ],
+    "props": {
+      "fullwidth": true,
+      "blockClass": "home-vitrine-container"
+    }
+  },
+  "flex-layout.row#shelf-title-favoritos-col-1": {
+    "children": [
+      "rich-text#shelf-title-favoritos"
+    ],
+    "props": {
+      "fullwidth": true
+    }
+  },
+  "rich-text#shelf-title-favoritos": {
+    "props": {
+      "text": "Licencias **DESTACADAS**",
+      "blockClass": [
+        "home-licenses-title",
+        "home-main-vitrine-title"
+      ]
+    }
+  },
+  "flex-layout.row#shelf-favoritos": {
+    "children": [
+      "slider-layout#home-favoritos"
+    ],
+    "props": {
+      "fullwidth": true
+    }
+  },
+  "slider-layout#home-favoritos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 8,
+        "phone": 3
+      },
+      "blockClass": [
+        "home-main-vitrine",
+        "licenses-vitrine"
+      ],
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always"
+    },
+    "children": [
+      "image#home-favoritos-1",
+      "image#home-favoritos-2",
+      "image#home-favoritos-3",
+      "image#home-favoritos-4",
+      "image#home-favoritos-5",
+      "image#home-favoritos-6",
+      "image#home-favoritos-1",
+      "image#home-favoritos-2",
+      "image#home-favoritos-3",
+      "image#home-favoritos-4",
+      "image#home-favoritos-5",
+      "image#home-favoritos-6"
+    ]
+  },
+  "image#home-favoritos-1": {
+    "props": {
+      "src": "/arquivos/licences/nick.svg",
+      "link": "/categoria1"
+    }
+  },
+  "image#home-favoritos-2": {
+    "props": {
+      "src": "/arquivos/licences/disney.svg",
+      "link": "/categoria1"
+    }
+  },
+  "image#home-favoritos-3": {
+    "props": {
+      "src": "/arquivos/licences/fox.svg",
+      "link": "/categoria1"
+    }
+  },
+  "image#home-favoritos-4": {
+    "props": {
+      "src": "/arquivos/licences/DC.svg",
+      "link": "/categoria1"
+    }
+  },
+  "image#home-favoritos-5": {
+    "props": {
+      "src": "/arquivos/licences/marvel.svg",
+      "link": "/categoria1"
+    }
+  },
+  "image#home-favoritos-6": {
+    "props": {
+      "src": "/arquivos/licences/warner.svg",
+      "link": "/categoria1"
+    }
+  }
+}

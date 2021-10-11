@@ -44,7 +44,7 @@
         "props": {
             "src": "/arquivos/top-banner.jpg",
             "link": {
-                "url": "/movies/539?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC"
+                "url": "/partnerweek80/539?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC"
             },
             "horizontalAlign": "center",
             "maxWidth": "100%"
@@ -54,7 +54,7 @@
         "props": {
             "src": "/arquivos/top-banner.jpg",
             "link": {
-                "url": "/movies/539?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC"
+                "url": "/partnerweek80/539?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC"
             },
             "maxWidth": "100%"
         }
@@ -63,7 +63,7 @@
         "props": {
             "src": "/arquivos/top-banner.jpg",
             "link": {
-                "url": "/movies/539?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC"
+                "url": "/partnerweek80/539?PS=24&map=c,productClusterIds&O=OrderByReleaseDateDESC"
             },
             "maxWidth": "100%"
         }

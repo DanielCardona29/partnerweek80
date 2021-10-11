@@ -1,0 +1,76 @@
+.minicartSideBarContentWrapper {
+  height: calc(100vh - 66px) !important;
+}
+
+.minicartProductListContainer--store-minicart {
+  height: calc(100vh - 344px);
+  overflow-y: scroll;
+}
+
+@media screen and (max-width:640px) {
+  .drawer.opened {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+.minicartTitle {
+  display: none;
+}
+.closeIconContainer {
+  min-height: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0 14px;
+  margin: 0 12px 14px;
+  border-bottom: 0.5px solid #BDBDBD;
+}
+.closeIconContainer::before {
+  content: 'MI BOLSA DE COMPRAS';
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.closeIconButton {
+  position: relative;
+  display: block;
+  width: 21px;
+  height: 21px;
+  padding: 0;
+  background-color: transparent;
+}
+.closeIconButton::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  content: 'X';
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.closeIcon {
+  display: none;
+}
+
+/* .minicartSummary {
+  background: rgba(19, 30, 41,.1)
+} */
+@media screen and (max-width:640px) {
+  .minicartSummary {
+    padding-top: 6px;
+  }
+}
+
+.minicartSummary :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+  display: none;
+}

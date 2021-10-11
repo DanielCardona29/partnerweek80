@@ -1,0 +1,57 @@
+{
+  "flex-layout.row#shelf-discount": {
+    "children": [
+      "flex-layout.col#shelf-texto-discount",
+      "flex-layout.col#shelf-vitrina-discount"
+    ],
+    "props": {
+      "blockClass": [
+        "home-vitrine-container-min",
+        "home-vitrine-container-background"
+      ],
+      "fullwidth": true
+    }
+  },
+  "flex-layout.col#shelf-texto-discount": {
+    "children": [
+      "rich-text#shelf-title-discount"
+    ],
+    "props": {
+      "blockClass": "home-vitrine-images",
+      "width": "24%"
+    }
+  },
+  "flex-layout.col#shelf-vitrina-discount": {
+    "children": [
+      "list-context.product-list#shelf-discount"
+    ],
+    "props": {
+      "blockClass": [
+        "home-vitrine-container",
+        "home-vitrine-container-min"
+      ],
+      "width": "76%"
+    }
+  },
+  "rich-text#shelf-title-discount": {
+    "props": {
+      "text": "*MARZO 24 - 31*  \n **HASTA\n40% OFF** \n [VER TODO](/437?PS=24&map=productClusterIds&O=OrderByReleaseDateDESC)",
+      "blockClass": [
+        "home-min-vitrine-title",
+        "home-min-vitrine-title-2"
+      ]
+    }
+  },
+  "list-context.product-list#shelf-discount": {
+    "blocks": [
+      "product-summary.shelf#vitrine"
+    ],
+    "children": [
+      "slider-layout#home-products-min-home"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "maxItems": 12
+    }
+  }
+}

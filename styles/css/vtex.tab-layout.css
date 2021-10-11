@@ -1,0 +1,42 @@
+.listContainer {
+  justify-content: space-evenly;
+}
+
+.container .listContainer :global(.vtex-rich-text-0-x-paragraph) {
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Home tabs */
+.listContainer--tab-list-title {
+  display: flex;
+  justify-content: initial;
+  overflow-x: auto;
+  overflow-y: hidden;
+  flex-wrap: nowrap;
+}
+.listContainer--tab-list-title .listItem {
+  flex: 0 0 auto;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+@media screen and (max-width:1024px){
+  .listContainer--tab-list-title::-webkit-scrollbar {
+    display: none;
+  }
+  .listContainer--tab-list-title {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    margin: 0 auto 21px;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width:640px){
+  .listContainer--tab-list-title {
+    justify-content: flex-start !important;
+  }
+}

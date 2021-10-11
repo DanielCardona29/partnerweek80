@@ -1,0 +1,139 @@
+{
+    "flex-layout.row#not-found-1": {
+        "children": [
+            "rich-text#not-found-1"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "rich-text#not-found-1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Búsqueda Vacía",
+            "blockClass": "empty-search-title"
+        }
+    },
+    "flex-layout.row#not-found-2": {
+        "children": [
+            "rich-text#not-found-2"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "rich-text#not-found-2": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Tu búsqueda no arrojo resultados o no coincide con ningún producto.\n Busca nuevamente o navega en nuestras categorías",
+            "blockClass": "empty-search-description"
+        }
+    },
+    "responsive-layout.desktop#not-found-images": {
+        "children": [
+            "flex-layout.row#not-found-3"
+        ]
+    },
+    "responsive-layout.mobile#not-found-images": {
+        "children": [
+            "flex-layout.row#not-found-3-mobile"
+        ]
+    },
+    "flex-layout.row#not-found-3": {
+        "children": [
+            "flex-layout.col#not-found-col-1",
+            "flex-layout.col#not-found-col-2"
+        ],
+        "props": {
+            "blockClass": "home-new-collections"
+        }
+    },
+    "flex-layout.col#not-found-col-1": {
+        "children": [
+            "image#partnerweek80"
+        ]
+    },
+    "image#partnerweek80": {
+        "props": {
+            "src": "/arquivos/partnerweek80-EMPTY.jpg",
+            "maxWidth": "98%",
+            "maxHeight": "97%",
+            "title": "partnerweek80",
+            "link": {
+                "default": "/",
+                "title": "partnerweek80",
+                "url": "/"
+            },
+            "blockClass": "new-collections-image"
+        }
+    },
+    "flex-layout.col#not-found-col-2": {
+        "children": [
+            "image#mic"
+        ]
+    },
+    "image#mic": {
+        "props": {
+            "src": "/arquivos/MIC-EMPTY.jpg",
+            "maxWidth": "98%",
+            "maxHeight": "97%",
+            "title": "MIC",
+            "link": {
+                "default": "/",
+                "title": "MIC",
+                "url": "/"
+            },
+            "blockClass": "new-collections-image"
+        }
+    },
+    // mobile images"
+    "flex-layout.row#not-found-3-mobile": {
+        "children": [
+            "flex-layout.col#not-found-col-1-mobile",
+            "flex-layout.col#not-found-col-2-mobile"
+        ],
+        "props": {
+            "blockClass": "home-new-collections"
+        }
+    },
+    "flex-layout.col#not-found-col-1-mobile": {
+        "children": [
+            "image#partnerweek80-mobile"
+        ]
+    },
+    "image#partnerweek80-mobile": {
+        "props": {
+            "src": "/arquivos/partnerweek80-EMPTY-MIC.jpg",
+            "maxWidth": "98%",
+            "maxHeight": "97%",
+            "title": "partnerweek80",
+            "link": {
+                "default": "/",
+                "title": "partnerweek80",
+                "url": "/"
+            },
+            "blockClass": "new-collections-image"
+        }
+    },
+    "flex-layout.col#not-found-col-2-mobile": {
+        "children": [
+            "image#mic-mobile"
+        ]
+    },
+    "image#mic-mobile": {
+        "props": {
+            "src": "/arquivos/MIC-EMPTY-MIN.jpg",
+            "maxWidth": "98%",
+            "maxHeight": "97%",
+            "title": "MIC",
+            "link": {
+                "default": "/",
+                "title": "MIC",
+                "url": "/"
+            },
+            "blockClass": "new-collections-image"
+        }
+    }
+}

@@ -1,0 +1,218 @@
+.triggerContainer--search-bar :global(.vtex-store-icons-0-x-searchIcon) {
+  display: none;
+}
+.triggerContainer--search-bar {
+  cursor: pointer;
+}
+.triggerContainer--search-bar::after {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-image: url(assets/search.svg);
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: .4s all ease;
+  cursor: pointer;
+}
+.triggerContainer--search-bar:hover::after,
+.searchBarIcon--header-search:hover::after {
+  color: #131e29;
+  transition: .4s all ease;
+}
+
+.triggerContainer--desktop-search-bar {
+  width: 143px;
+}
+
+.triggerContainer--desktop-search-bar::before {
+  content: 'Encuentra tu estilo';
+  vertical-align: text-top;
+  border-bottom: 1px solid #6F5A28;
+  padding: 8px 42px;
+  padding-left: 4px;
+  margin-right: -24px;
+  font-family: 'Source Sans Pro', sans-serif, sans-serif;
+  color: #6F5A28;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+}
+
+/* Search popUp */
+.paperScrollContent  {
+  border-radius: 0 !important;
+}
+.paperNotFullScreen {
+  overflow-x: hidden;
+}
+
+.container--search-modal {
+  align-items: flex-start;
+}
+@media screen and (max-width: 640px) {
+  .container--search-modal {
+    display: block;
+  }
+}
+
+.paper--search-modal {
+  margin-top: 114px;
+}
+
+.closeButton--close-search-modal {
+  position: absolute;
+  background-color: transparent;
+  width: 15px;
+  height: 15px;
+  min-height: initial;
+  top: 11px;
+  right: 14px;
+  z-index: 1;
+  border: 0;
+}
+.closeButtonLabel--close-search-modal {
+  position: relative;
+  background-color: transparent;
+  color: transparent;
+  width: 15px;
+  height: 15px;
+  display: block;
+}
+.closeButtonLabel--close-search-modal::after {
+  content: 'X';
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*
+* Home
+*/
+/* Vitrinas del home */
+:global(.vtex-product-summary-2-x-element--main-vitrine-content):hover .triggerContainer--quickview-opener {
+  opacity: 1;
+}
+.triggerContainer--quickview-opener {
+  position: absolute;
+  top: auto;
+  bottom: 45px;
+  right: 11px;
+  width: 15px !important;
+  height: 15px;
+  padding: 0;
+  z-index: 2;
+  opacity: 0;
+  transition: .4s all ease;
+}
+@media screen and (max-width:1024px){
+  .triggerContainer--quickview-opener :global(.vtex-rich-text-0-x-paragraph) {
+    color: transparent;
+  }
+  .triggerContainer--quickview-opener {
+    overflow: hidden;
+    margin: 0 !important;
+    opacity: 1;
+  }
+}
+.triggerContainer--quickview-opener :global(.vtex-rich-text-0-x-paragraph)::before {
+  content: '\eb2d';
+  font-family: 'icomoon';
+  font-size: 16px;
+  line-height:18px;
+  color: #333333;
+  margin-right: 6px;
+}
+
+/*
+* Quickview product
+*/
+.paper--quickview-container .headerContainer {
+  border: none !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+}
+.paper--quickview-container .closeButton {
+  padding: 0 !important;
+  position: absolute;
+  right: 18px;
+  top: 18px;
+}
+.paper--quickview-container .closeButton::before {
+  content: 'X';
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+.paper--quickview-container .closeIcon {
+  display: none;
+}
+
+/*
+* Guia de tallas
+*/
+.triggerContainer--guia-tallas  {
+  position: relative;
+  width: 100%;
+  height: 0;
+  display: block;
+  padding-top: 0 !important;
+}
+.triggerContainer--guia-tallas :global(.vtex-rich-text-0-x-container) {
+  position: absolute;
+  cursor: pointer;
+  top: 43px;
+  right: 0;
+}
+@media screen  and  (max-width:640px) {
+  .triggerContainer--guia-tallas :global(.vtex-rich-text-0-x-container) {
+    top: 36px;
+  }
+}
+.triggerContainer--guia-tallas :global(.vtex-rich-text-0-x-paragraph) {
+  margin: 0;
+  position: relative;
+  color: #4F4F4F;
+  letter-spacing: 0.005em;
+  text-decoration-line: underline;
+  font-size: 12px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-left: 17px;
+  white-space: nowrap;
+}
+.triggerContainer--guia-tallas :global(.vtex-rich-text-0-x-paragraph)::before {
+  content: '';
+  width: 14px;
+  height: 14px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(/arquivos/ruler.svg?v=1);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.paper--guia-tallas-modal .headerContainer {
+  position: absolute;
+  right: 0;
+  border-bottom: 0;
+}
+.paper--guia-tallas-modal .headerContainer .closeIcon {
+  color: #009ADE;
+}
+.paper--guia-tallas-modal :global(.vtex-rich-text-0-x-wrapper) {
+  margin: 0 auto;
+}
+
+@media screen and (max-width:1024px) {
+  .triggerContainer--quickview-opener :global(.vtex-rich-text-0-x-paragraph) {
+    display: block;
+    white-space: nowrap;
+    color: transparent !important;
+  }
+}

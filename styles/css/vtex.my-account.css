@@ -1,0 +1,160 @@
+.userImage {
+    display: none;
+}
+.boxContainerBody {
+    padding-bottom: 16px;
+}
+.passwordBoxContainer .boxContainerFooter {
+    justify-content: flex-end;
+    padding-bottom: 19px;
+    padding-right: 19px;
+}
+.boxContainerFooter {
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.boxContainerFooter :global(.vtex-button) {
+    min-height: initial !important;
+}
+.boxContainerFooter :global(.vtex-button__label) {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    padding: 12px 23px !important;
+    background: #009ADE;
+    border-radius: 5px;
+}
+.passwordBoxContainer .dataEntryLabel {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #131E29;
+}
+.passwordBoxContainer .dataEntryChildren {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #131E29;
+}
+.passwordBoxContainer :global(.t-heading-6) {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.025em;
+    color: #131E29;
+}
+.passwordBoxContainer .boxContainerBody :global(.vtex-button),
+.boxContainerBody :global(.vtex-button) {
+    border: none;
+}
+.passwordBoxContainer .boxContainerBody :global(.vtex-button__label),
+.boxContainerBody :global(.vtex-button__label) {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    padding: 12px 23px !important;
+    background: #009ADE;
+    border-radius: 5px;
+}
+.newsletterContainerTitle {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.025em;
+    color: #131E29;
+}
+.newsletterContainerMessage {
+    padding-top: 8px;
+    padding-bottom: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #131E29;
+}
+.passwordBox :global(.vtex-checkbox__line-container) {
+    align-items: center;
+}
+.passwordBox :global(.vtex-checkbox__label) {
+    font-size: 10px;
+    line-height: 11px;
+    letter-spacing: 0.01em;
+    color: #131E29;
+}
+.passwordBox :global(.vtex-checkbox__box) {
+    font-size: 10px;
+    line-height: 11px;
+    letter-spacing: 0.01em;
+    color: #131E29;
+}
+.userGreeting {
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 118.5%;
+    letter-spacing: 0.01em;
+    color: #131E29;
+}
+.userGreeting::before {
+    content: '¡'
+}
+.userName {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 118.5%;
+    letter-spacing: 0.01em;
+    color: #131E29;
+    text-transform: capitalize;
+}
+@media screen and (max-width: 640px) {
+  .userGreeting,
+  .userName {
+    display: inline-block;
+    padding-right: 5px;
+  }
+  .menu {
+    padding-left: 40px !important;
+    padding-top: 53px !important;
+  }
+}
+
+.firstNameSubContainer,
+.lastNameSubContainer,
+.emailContainer,
+.documentsSubContainer,
+.genderSubContainer,
+.dateOfBirthSubContainer,
+.phoneNumberSubContainer {
+    margin-bottom: 34px;
+}
+.dataEntryLabel {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #525962;
+    margin: 0 !important;
+}
+
+.dataEntryLabel::after {
+    content: ':';
+}
+
+.dataEntryChildren {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #131e29;
+}
+
+.addressBox .boxContainerBody {
+    padding: 19px 25px !important;
+}

@@ -1,0 +1,28 @@
+{
+  "flex-layout.row#bread-crumb": {
+    "children": [
+      "breadcrumb.search"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#banner-search": {
+    "children": [
+      "search-banner#search"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "main-category-banner-container",
+      "fullWidth": true
+    }
+  },
+  "search-banner#search": {
+    "props": {
+      "area": "one",
+      "blockClass": "main-category-banner",
+      "horizontalAlignment": "center"
+    }
+  }
+}

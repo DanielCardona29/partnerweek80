@@ -18,14 +18,13 @@
   "flex-layout.row#footer-components": {
     "children": [
       "flex-layout.row#footer-second-section-container",
-      "flex-layout.row#newsletter",
       "flex-layout.row#footer-1",
       "flex-layout.row#footer-2",
       "flex-layout.row#footer-3"
     ],
     "props": {
       "blockClass": [
-        "movies-footer-components",
+        "partnerweek80-footer-components",
         "footer-components"
       ]
     }
@@ -33,14 +32,13 @@
   "flex-layout.row#footer-components-mobile": {
     "children": [
       "flex-layout.row#footer-second-section-container",
-      "flex-layout.row#newsletter",
       "flex-layout.row#footer-1",
       "flex-layout.row#footer-2-mobile",
       "flex-layout.row#footer-3"
     ],
     "props": {
       "blockClass": [
-        "movies-footer-components",
+        "partnerweek80-footer-components",
         "footer-components"
       ]
     }

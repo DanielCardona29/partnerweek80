@@ -1,0 +1,80 @@
+{
+    "tab-layout#product-tab": {
+        "children": ["flex-layout.row#product-tab", "tab-content#product-tab"],
+        "props": {
+            "defaultActiveTabId": "product-tab-description"
+        }
+    },
+    "flex-layout.row#product-tab": {
+        "children": ["tab-list#product-tab"]
+    },
+    "tab-list#product-tab": {
+        "children": [
+            "tab-list.item.children#product-tab-description",
+            "tab-list.item.children#product-tab-specification",
+            "tab-list.item.children#product-tab-comment"
+        ]
+    },
+    "tab-list.item.children#product-tab-description": {
+        "props": {
+            "tabId": "product-tab-description",
+            "defaultActiveTab": true
+        },
+        "children": ["rich-text#product-tab-description"]
+    },
+    "rich-text#product-tab-description": {
+        "props": {
+            "text": "Descripción",
+            "blockClass": "product-tab-description"
+        }
+    },
+    "tab-list.item.children#product-tab-specification": {
+        "props": {
+            "tabId": "product-tab-specification"
+        },
+        "children": ["rich-text#product-tab-specification"]
+    },
+    "rich-text#product-tab-specification": {
+        "props": {
+            "text": "Especificaciones",
+            "blockClass": "product-tab-specification"
+        }
+    },
+    "tab-list.item.children#product-tab-comment": {
+        "props": {
+            "tabId": "product-tab-comment"
+        },
+        "children": ["rich-text#product-tab-comment"]
+    },
+    "rich-text#product-tab-comment": {
+        "props": {
+            "text": "Comentarios",
+            "blockClass": "product-tab-comment"
+        }
+    },
+    "tab-content#product-tab": {
+        "children": [
+            "tab-content.item#product-tab-description",
+            "tab-content.item#product-tab-specification",
+            "tab-content.item#product-tab-comment"
+        ]
+    },
+    "tab-content.item#product-tab-description": {
+        "children": ["product-description"],
+        "props": {
+            "tabId": "product-tab-description"
+        }
+    },
+    "tab-content.item#product-tab-specification": {
+        "children": ["product-specification-group#table"],
+        "props": {
+            "tabId": "product-tab-specification"
+        }
+    },
+    "tab-content.item#product-tab-comment": {
+        "children": ["product-reviews"],
+        "props": {
+            "tabId": "product-tab-comment"
+        }
+    }
+}
