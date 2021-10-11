@@ -3,8 +3,8 @@
     "blocks": [
       "flex-layout.row#shelf-banner-special-collection",
       "flex-layout.row#shelf-lo-nuevo",
-      "flex-layout.row#shelf-images-grid",
-      "flex-layout.row#footer-information-section"
+      "flex-layout.row#shelf-images-grid"
+      
     ]
   }
 }

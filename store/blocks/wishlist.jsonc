@@ -41,7 +41,6 @@
   },
   "list-context.wishlist": {
     "blocks": [
-      "wishlist-empty-list",
       "product-summary.shelf#wishlist"
     ],
     "children": [

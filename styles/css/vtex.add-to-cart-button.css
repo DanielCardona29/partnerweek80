@@ -19,7 +19,7 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--prodsum-buy) :global(.vtex-button):focus,
 :global(.vtex-flex-layout-0-x-flexRowContent--prodsum-buy) :global(.vtex-button) {
     border: 0 !important;
-    background-color: #009ADE;
+    background-color: #6F5A28;
     border-radius: 5px;
     padding: 5px 9px 7px;
     width: auto;

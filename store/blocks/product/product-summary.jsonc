@@ -18,7 +18,19 @@
       "product-summary-brand",
       "product-summary-name",
       "flex-layout.row#vitrine-pricing",
-      "flex-layout.row#vitrine-pricing-discount",
+      "flex-layout.row#prodsum-buy"
+    ],
+    "props": {
+      "blockClass": "main-vitrine-content"
+    }
+  },
+  // Product vitrines for home
+  "product-summary.shelf#vitrine": {
+    "children": [
+      "flex-layout.row#prodsum-vitrine",
+      "product-summary-brand",
+      "product-summary-name",
+      "flex-layout.row#vitrine-pricing",
       "flex-layout.row#prodsum-buy"
     ],
     "props": {
@@ -68,23 +80,11 @@
       "visibility": "always"
     }
   },
-  // Product vitrines for home
-  "product-summary.shelf#vitrine": {
-    "children": [
-      "flex-layout.row#prodsum-vitrine",
-      "product-summary-brand",
-      "product-summary-name",
-      "flex-layout.row#vitrine-pricing",
-      "flex-layout.row#vitrine-pricing-discount"
-    ],
-    "props": {
-      "blockClass": "main-vitrine-content"
-    }
-  },
   "flex-layout.row#vitrine-pricing": {
     "children": [
       "product-list-price",
-      "product-selling-price#summary"
+      "product-selling-price#summary",
+      "product-price-savings#summary"
     ],
     "props": {
       "blockClass": "main-vitrine-pricing"
@@ -98,15 +98,6 @@
     ],
     "props": {
       "blockClass": "main-vitrine-pricing"
-    }
-  },
-  "flex-layout.row#vitrine-pricing-discount": {
-    "children": [
-      "vtex.product-highlights@2.x:product-highlights",
-      "product-price-savings#summary"
-    ],
-    "props": {
-      "blockClass": "main-vitrine-discount"
     }
   },
   // Product general vitrine

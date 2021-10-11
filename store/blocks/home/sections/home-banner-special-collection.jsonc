@@ -22,7 +22,7 @@
   },
   "rich-text#shelf-title-banner-special-collection": {
     "props": {
-      "text": "*Colección especial* \n **DÍA DE LA MUJER**",
+      "text": "*Ahorra al máximo* \n **Cyberdays**",
       "blockClass": [
         "home-min-vitrine-title",
         "home-min-vitrine-title-2",
@@ -33,7 +33,7 @@
   },
   "rich-text#shelf-text-banner-special-collection": {
     "props": {
-      "text": "Hemos seleccionado productos que nos representan como **mujeres fuertes, inteligentes y emprendedoras.**\n\n¡Feliz Día! \n [Ver todo](/427)",
+      "text": "Te traemos nuestros productos con los **mejores descuentos del año**\n\n¡Ahorra a la moda! \n [Ver todo](/427)",
       "blockClass": [
         "home-min-vitrine-text",
         "home-min-vitrine-title-2",

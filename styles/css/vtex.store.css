@@ -1,8 +1,8 @@
-@import url('/arquivos/dicomoon.css');
+@import url('/arquivos/micomoon.css');
 
 @import '../base/globals.css';
 @import '../base/account.css';
 
 :global(.vtex-toast) {
-  background-color: #131E29;
+  background-color: #6F5A28;
 }

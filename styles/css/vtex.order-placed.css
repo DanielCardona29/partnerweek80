@@ -23,7 +23,7 @@
 
 .confirmationTitle {
     position: relative;
-    font-family: 'Lexend' !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
     font-weight: bold;
     font-size: 20px;
     line-height: 19px;
@@ -41,7 +41,7 @@
 }
 
 .confirmationMessage {
-    font-family: 'Lexend';
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -72,7 +72,7 @@
 .myOrdersButton :global(.vtex-button) :global(.vtex-button__label) {
     padding: 12px 66px 11px !important;
     color: white;
-    font-family: 'Lexend';
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
@@ -82,7 +82,7 @@
 }
 
 .cancelOrderButton :global(.vtex-button) :global(.vtex-button__label) {
-    font-family: 'Lexend';
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
@@ -92,7 +92,7 @@
 }
 
 .orderNumber {
-    font-family: 'Lexend';
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -101,7 +101,7 @@
 }
 
 .orderDatetime {
-    font-family: 'Lexend';
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
@@ -110,7 +110,7 @@
 }
 
 .customerInfoListContainer {
-    font-family: 'Lexend';
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
@@ -127,7 +127,7 @@
 }
 
 .paymentGroup {
-    font-family: 'Lexend';
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
@@ -136,7 +136,7 @@
 }
 
 .paymentValue {
-    font-family: 'Lexend';
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
@@ -156,7 +156,7 @@
 .section--paymentMethods :global(.vtex-button) :global(.vtex-button__label) {
     padding: 12px 66px 11px !important;
     color: white;
-    font-family: 'Lexend';
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
@@ -166,7 +166,7 @@
 }
 
 .packageHeader {
-    font-family: 'Lexend';
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -189,7 +189,7 @@
 }
 
 .addressContainer {
-    font-family: 'Lexend';
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -203,7 +203,7 @@
 
 .productName {
     margin-bottom: 26px;
-    font-family: 'Lexend';
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
@@ -212,7 +212,7 @@
 }
 
 .productQuantity {
-    font-family: 'Lexend';
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
@@ -221,7 +221,7 @@
 }
 
 .productPrice {
-    font-family: 'Lexend';
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
@@ -234,7 +234,7 @@
 .totalListItem .totalListItemValue,
 .totalListItem .totalListItemValue,
 .totalListItem .totalListItemValue {
-    font-family: 'Lexend';
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -248,7 +248,7 @@
 .totalListItem--Items .totalListItemValue,
 .totalListItem--Discounts .totalListItemValue,
 .totalListItem--Shipping .totalListItemValue {
-    font-family: 'Lexend';
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -274,7 +274,7 @@ REVISAR ESTILACHOS
 .myOrdersButton :global(.vtex-button) :global(.vtex-button__label) {
   padding: 12px 66px 11px !important;
   color: white;
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
@@ -284,7 +284,7 @@ REVISAR ESTILACHOS
 }
 
 .cancelOrderButton :global(.vtex-button) :global(.vtex-button__label) {
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
@@ -294,7 +294,7 @@ REVISAR ESTILACHOS
 }
 
 .orderNumber {
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -303,7 +303,7 @@ REVISAR ESTILACHOS
 }
 
 .orderDatetime {
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
@@ -312,7 +312,7 @@ REVISAR ESTILACHOS
 }
 
 .customerInfoListContainer {
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
@@ -325,7 +325,7 @@ REVISAR ESTILACHOS
 }
 
 .paymentGroup {
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
@@ -334,7 +334,7 @@ REVISAR ESTILACHOS
 }
 
 .paymentValue {
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
@@ -343,7 +343,7 @@ REVISAR ESTILACHOS
 }
 
 .packageHeader {
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
@@ -366,7 +366,7 @@ REVISAR ESTILACHOS
 }
 
 .addressContainer {
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
@@ -380,7 +380,7 @@ REVISAR ESTILACHOS
 
 .productName {
   margin-bottom: 26px;
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
@@ -389,7 +389,7 @@ REVISAR ESTILACHOS
 }
 
 .productQuantity {
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
@@ -398,7 +398,7 @@ REVISAR ESTILACHOS
 }
 
 .productPrice {
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
@@ -411,7 +411,7 @@ REVISAR ESTILACHOS
 .totalListItem .totalListItemValue,
 .totalListItem .totalListItemValue,
 .totalListItem .totalListItemValue {
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;

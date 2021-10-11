@@ -194,7 +194,7 @@
 
 .accountOptionsSectionTitle,
 .formTitle {
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   color: #131E29;
   text-align: center;
   font-weight: 700;
@@ -211,7 +211,7 @@
 .button :global(.vtex-button__label),
 .oauthLabel {
   color: #131E29;
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 10px;
   line-height: 18px;
 }
@@ -231,7 +231,7 @@
   font-size: 10px;
   line-height: 11px;
   letter-spacing: 0.025em;
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .inputContainer :global(.vtex-input-prefix__group) {
@@ -242,7 +242,7 @@
   content: 'Email';
   display: block;
   width: 100%;
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 13px;
   font-weight: 700;
   color: #131E29;
@@ -252,7 +252,7 @@
   content: 'Contraseña';
   display: block;
   width: 100%;
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 13px;
   font-weight: 700;
   color: #131E29;
@@ -278,7 +278,7 @@
   text-transform: uppercase !important;
   letter-spacing: 0.03em;
   font-weight: 700;
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 12px;
 }
 .sendButton :global(.vtex-button .t-small) {
@@ -291,7 +291,7 @@
 .backButton :global(.vtex-button .t-small) {
   color: #131E29;
   font-size: 12px !important;
-  font-family: 'Lexend' !important;
+  font-family: 'Source Sans Pro', sans-serif !important;
   letter-spacing: 0.03em !important;
   text-transform: uppercase !important;
 }
@@ -320,21 +320,21 @@
   letter-spacing: 0.03em;
   font-size: 12px;
   text-align: center;
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   color: #131E29;
   text-transform: uppercase;
 }
 
 .forgotPasswordLink {
   text-decoration: underline;
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 10px;
   line-height: 11px;
   letter-spacing: 0.005em;
   color: #131E29;
 }
 .dontHaveAccount {
-  font-family: 'Lexend';
+  font-family: 'Source Sans Pro', sans-serif;
   color: #F18A00;
   font-size: 10px;
   line-height: 11px;

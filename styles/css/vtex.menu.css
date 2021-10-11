@@ -180,7 +180,7 @@
   height: 1px;
   width: 0;
   border-radius: 0.5px;
-  background-color: #EA0029;
+  background-color: #59B27D;
   transition: .6s all ease;
 }
 .styledLinkContent--subcategorias:hover::after {
@@ -248,11 +248,11 @@
   position: relative;
 }
 .styledLinkContent--ofertas-menu-element {
-  color: #59B27D !important;
+  color: ##59B27D !important;
   padding-right: 14px !important;
 }
 :global(.vtex-sticky-layout-0-x-container--sticky-header) .styledLinkContent--ofertas-menu-element {
-  color: #59B27D !important;
+  color: ##59B27D !important;
 }
 .styledLinkContent--personajes-menu-element::after {
   content: 'originales';
