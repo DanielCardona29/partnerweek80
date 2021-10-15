@@ -375,17 +375,6 @@
   position: relative;
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--prodsum-buy .vtex-store-components-3-x-skuSelectorContainer .vtex-store-components-3-x-skuSelectorTextContainer) {
-  /* position: absolute;
-  z-index: 2;
-  overflow: hidden;
-  width: 54px;
-  height: 16px;
-  left: 21px;
-  top: 5px;
-  background-color: #fff;
-  font-size: 12px;
-  line-height: 14px;
-  color: #333333; */
   display: none;
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--prodsum-buy .vtex-store-components-3-x-skuSelectorSelectContainer .vtex-store-components-3-x-skuSelectorOptionsList) {
@@ -522,8 +511,8 @@
 
 /* Filters */
 :global(.vtex-search-result-3-x-filterIcon svg *) {
-  fill: #009ADE;
-  color: #009ADE;
+  fill: #6F5A28;
+  color: #6F5A28;
 }
 :global(.vtex-search-result-3-x-filter__container--priceRange .vtex-search-result-3-x-filterTitle) {
   position: relative;

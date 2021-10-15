@@ -49,7 +49,7 @@
     },
     "rich-text#link-departamento-mujer": {
         "props": {
-            "text": "[Ver todo](/partnerweek80/mujer)",
+            "text": "[Ver todo](/ropa/mujer)",
             "blockClass": "link-categorias"
         }
     },

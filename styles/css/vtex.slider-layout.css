@@ -53,6 +53,18 @@
   }
 }
 
+.paginationDotsContainer--carousel {
+  justify-content: flex-end;
+  padding: 20px;
+}
+.paginationDot--carousel {
+  background-color: transparent;
+  border: 2px solid #59B27D;
+}
+.paginationDot--carousel--isActive {
+  background-color: #59B27D;
+}
+
 .paginationDotsContainer--main-banner {
   justify-content: flex-end;
   padding-right: 41px;

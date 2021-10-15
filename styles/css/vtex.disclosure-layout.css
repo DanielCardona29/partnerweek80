@@ -73,14 +73,14 @@
   content: '\e902';
   font-family: 'icomoon';
   font-size: 10px;
-  color: #009ADE;
+  color: #6F5A28;
 }
 
 .trigger--frequently-questions--visible :global(.vtex-rich-text-0-x-container)::after {
   content: '\e902';
   font-family: 'icomoon';
   font-size: 10px;
-  color: #009ADE;
+  color: #6F5A28;
   transform: rotate(180deg);
 }
 

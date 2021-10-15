@@ -17,7 +17,7 @@
       "blockClass": "menu-title",
       "itemProps": {
         "type": "internal",
-        "href": "/mujer",
+        "href": "/ropa/mujer",
         "noFollow": false,
         "tagTitle": "Mujer",
         "text": "Mujer"
@@ -34,7 +34,7 @@
       "blockClass": "menu-title",
       "itemProps": {
         "type": "internal",
-        "href": "/hombre",
+        "href": "/ropa/hombre",
         "noFollow": false,
         "tagTitle": "Hombre",
         "text": "Hombre"

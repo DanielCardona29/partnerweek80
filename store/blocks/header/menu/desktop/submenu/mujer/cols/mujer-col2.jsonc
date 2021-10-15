@@ -25,13 +25,13 @@
     },
     "rich-text#mujer-category-image-desktop": {
         "props": {
-            "text": "[![Categoría Mujer](/arquivos/menu-image.png)](/partnerweek80/mujer)",
+            "text": "[![Categoría Mujer](/arquivos/desk4.jpg)](/ropa/mujer)",
             "blockClass": "sub-department-image"
         }
     },
     "rich-text#mujer-category-image-mobile": {
         "props": {
-            "text": "[![Categoría Mujer](/arquivos/category-banner-menu.jpg)](/partnerweek80/mujer)",
+            "text": "[![Categoría Mujer](/arquivos/desk6.jpg)](/ropa/mujer)",
             "blockClass": "sub-department-image"
         }
     }

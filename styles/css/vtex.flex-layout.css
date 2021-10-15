@@ -1476,7 +1476,7 @@ Footer
 }
 /* Little */
 .flexRowContent--store-selector__little::after {
-  background-color: #009ADE;
+  background-color: #6F5A28;
   border-radius: 5px;
   height: 7px;
   bottom: -5px;
@@ -1540,14 +1540,14 @@ Footer
 }
 .flexRowContent--product-cart-button :global(.vtex-button) {
   border: none;
-  background-color: #1C1C24;
+  background-color: #59B27D;
   border-radius: 0;
-  width: 276px;
+  width: auto;
 }
 .flexRowContent--product-cart-button :global(.vtex-button):active,
 .flexRowContent--product-cart-button :global(.vtex-button):focus,
 .flexRowContent--product-cart-button :global(.vtex-button):hover {
-  background-color: #1C1C24;
+  background-color: #59B27D;
 }
 
 @media screen and (max-width:640px){
@@ -1595,7 +1595,7 @@ Footer
 }
 .flexRowContent--quickview-content :global(.vtex-modal-layout-0-x-contentScroll) {
   padding-left: 36px;
-  padding-top: 55px;
+  padding-top: 20px;
 }
 @media screen and (max-width:640px) {
   .flexRowContent--quickview-content :global(.vtex-modal-layout-0-x-contentScroll) {
@@ -1647,7 +1647,7 @@ Footer
   }
 }
 .flexRowContent--product-name {
-  margin-bottom: 29px;
+  margin-bottom: 13px;
 }
 .flexRowContent--quickview-content :global(.vtex-store-components-3-x-productNameContainer) {
   line-height: 14px;
@@ -1828,7 +1828,7 @@ Footer
   height: 70px !important;
 }
 .flexCol--product-detail-images :global(.vtex-store-components-3-x-productImagesThumbActive) :global(.vtex-store-components-3-x-figure) {
-  border: 1px solid #009ADE;
+  border: 1px solid #6F5A28;
 }
 
 /* End Product images section */

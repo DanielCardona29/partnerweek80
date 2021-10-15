@@ -2,7 +2,7 @@
 * Account
 */
 :global(.vtex-account_menu-link.b--action-primary) {
-  border-left: 3px solid #009ade;
+  border-left: 3px solid #6F5A28;
   padding: 9px 6px;
   color: #1C1C24;
 }
@@ -110,7 +110,7 @@
   letter-spacing: 0.01em;
   color: #FFFFFF;
   padding: 12px 23px !important;
-  background: #009ADE;
+  background: #6F5A28;
   border-radius: 5px;
 }
 :global(.vtex-profile-form-3-x-profileContainer .vtex-profile-form-3-x-toggleBusinessButtonWrapper) {
@@ -318,7 +318,7 @@
   font-family: 'Source Sans Pro', sans-serif;
   color: #FFFFFF;
   padding: 11px 5px 9px !important;
-  background: #009ADE;
+  background: #6F5A28;
   border-radius: 5px;
   width: 100%;
   margin: 0 !important;
@@ -343,7 +343,7 @@
   margin-bottom: 12px;
 }
 :global(.vtex-my-orders-app-3-x-orderBody .vtex-my-orders-app-3-x-invoiceBtn svg) {
-  fill: #009ADE;
+  fill: #6F5A28;
 }
 :global(.vtex-my-orders-app-3-x-orderBody .vtex-my-orders-app-3-x-invoiceBtn .vtex-my-orders-app-3-x-font) {
   color: #1C1C24;
@@ -455,11 +455,11 @@
   letter-spacing: 0.01em;
   color: #FFFFFF;
   padding: 12px 23px !important;
-  background: #009ADE;
+  background: #6F5A28;
   border-radius: 5px;
 }
 :global(.vtex-radio__fakeRadioContainer .vtex-radio__fakeRadio.b--action-primary) {
-  border-color: #009ADE;
+  border-color: #6F5A28;
 }
 :global(div#root form.flex.mw7-m .t-heading-4.pt3.pb5 span) {
   font-weight: 700;
@@ -490,7 +490,7 @@
   letter-spacing: 0.01em;
   color: #FFFFFF;
   padding: 12px 23px !important;
-  background: #009ADE;
+  background: #6F5A28;
   border-radius: 5px;
 }
 :global(div#root form.flex.mw7-m .c-danger .vtex-button__label) {
@@ -547,11 +547,11 @@
   margin-top: 0 !important;
 }
 :global(.vtex-account__order-details section.w-100.fl.mt5.mb2-l.mb2-xl .dt.mv3.pl0.bw0 svg g) {
-  color: #009ADE;
-  fill: #009ADE;
+  color: #6F5A28;
+  fill: #6F5A28;
 }
 :global(.vtex-account__order-details section.w-100.fl.mt5.mb2-l.mb2-xl .vtex-my-orders-app-3-x-font) {
-  color: #009ADE;
+  color: #6F5A28;
 }
 :global(.vtex-account__order-details button.fl.dib.ba.bw1.b--muted-4.br-pill.hh2.w2.lh-solid.bg-base.hover-bg-action-secondary) {
   border: none !important;
@@ -561,7 +561,7 @@
   box-shadow: initial  !important;
 }
 :global(.vtex-account__order-details span.fl.dib.pv2.ml3.c-link) {
-  color: #009ADE;
+  color: #6F5A28;
 }
 :global(.vtex-account__order-details .dib.f6.fw4.c-on-base.w-60) {
   text-transform: uppercase !important;
@@ -590,17 +590,17 @@
   color: #000000;
 }
 :global(.myo-progress-bar .myo-progress-bar__circle) {
-  background-color: #009ADE;
+  background-color: #6F5A28;
 }
 :global(.myo-progress-bar .myo-progress-bar__line) {
-  border-color: #009ADE !important;
+  border-color: #6F5A28 !important;
 }
 :global(.myo-progress-bar .myo-progress-bar__ma-inner-circle) {
   border-color: white !important;
-  background-color: #009ade;
+  background-color: #6F5A28;
 }
 :global(.myo-progress-bar .myo-progress-bar__ma-inner-circle::before) {
-  background-color: #009ade;
+  background-color: #6F5A28;
 }
 :global(.myo-progress-bar .myo-progress-bar__text),
 :global(.myo-progress-bar .myo-progress-bar__mobile-text *),

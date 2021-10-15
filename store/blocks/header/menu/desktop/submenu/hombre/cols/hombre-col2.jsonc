@@ -25,13 +25,13 @@
     },
     "rich-text#hombre-category-image-desktop": {
         "props": {
-            "text": "[![Categoría Hombre](/arquivos/menu-image.png)](/Hombre)",
+            "text": "[![Categoría Hombre](/arquivos/desk5.jpg)](/ropa/hombre)",
             "blockClass": "sub-department-image"
         }
     },
     "rich-text#hombre-category-image-mobile": {
         "props": {
-            "text": "[![Categoría Hombre](/arquivos/category-banner-menu.jpg)](/Hombre)",
+            "text": "[![Categoría Hombre](/arquivos/desk7.jpg)](/ropa/hombre)",
             "blockClass": "sub-department-image"
         }
     }

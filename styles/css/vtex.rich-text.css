@@ -28,7 +28,7 @@
   margin: 57px auto 59px;
   position: relative;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 30px;
   line-height: 37px;
   color: #000000;
@@ -383,7 +383,7 @@
   right: 0;
 }
 .wrapper--new-collections-text:hover::after {
-  color: #009ADE;
+  color: #6F5A28;
 }
 .paragraph--new-collections-text {
   margin: 0;
@@ -664,7 +664,7 @@
 }
 .paragraph--store-locator-title::before {
   content: '\eb38';
-  color: #009ade;
+  color: #6F5A28;
   font-size: 35px;
 }
 .paragraph--store-locator-title:hover::before {
@@ -730,7 +730,7 @@
   color: #333333;
 }
 .link--static-text {
-  color: #009ADE;
+  color: #6F5A28;
   font-weight: 700;
   text-decoration: none;
 }
@@ -809,7 +809,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  color: #009ADE;
+  color: #6F5A28;
   text-decoration: none;
   margin-top: 16px;
   display: block;
@@ -899,7 +899,7 @@
 :global(.vtex-contactar-asesor__text):hover::before,
 .link--mi-cuenta__text:hover::before,
 .link--wish-list__text:hover::before {
-  color: #009ADE;
+  color: #6F5A28;
   transition: .4s all ease;
 }
 @media screen and (max-width:1024px){
@@ -916,7 +916,7 @@
   :global(.vtex-contactar-asesor__text):hover,
   .link--mi-cuenta__text:hover,
   .link--wish-list__text:hover {
-    color: #009ADE;
+    color: #6F5A28;
   }
 }
 .link--mi-cuenta__text::before,
@@ -1180,8 +1180,7 @@
   bottom: 0;
   margin: auto;
   width: 8px;
-  height: 8px;
-  border-radius: 50%;
+  height: 26px;
   display: block;
   background: #59B27D;
 }
@@ -1429,7 +1428,7 @@
 }
 @media screen and (max-width:1024px) {
   .paragraph--tip-text::before {
-    background-color: #009ADE;
+    background-color: #6F5A28;
   }
 }
 

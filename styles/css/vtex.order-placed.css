@@ -63,8 +63,8 @@
 
 .myOrdersButton :global(.vtex-button),
 .myOrdersButton :global(.vtex-button):focus {
-    background-color: #F18A00;
-    border: 1px solid #F18A00;
+    background-color: #6F5A28;
+    border: 1px solid #6F5A28;
     border-radius: 100px;
     border: none;
     min-height: initial;
@@ -88,7 +88,7 @@
     line-height: 15px;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    color: #F18A00;
+    color: #6F5A28;
 }
 
 .orderNumber {
@@ -146,8 +146,8 @@
 
 .section--paymentMethods :global(.vtex-button),
 .section--paymentMethods :global(.vtex-button):focus {
-    background-color: #F18A00;
-    border: 1px solid #F18A00;
+    background-color: #6F5A28;
+    border: 1px solid #6F5A28;
     border-radius: 100px;
     border: none;
     min-height: initial;
@@ -265,8 +265,8 @@ REVISAR ESTILACHOS
 
 .myOrdersButton :global(.vtex-button),
 .myOrdersButton :global(.vtex-button):focus {
-  background-color: #F18A00;
-  border: 1px solid #F18A00;
+  background-color: #6F5A28;
+  border: 1px solid #6F5A28;
   border-radius: 100px;
   border: none;
   min-height: initial;
@@ -290,7 +290,7 @@ REVISAR ESTILACHOS
   line-height: 15px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: #F18A00;
+  color: #6F5A28;
 }
 
 .orderNumber {

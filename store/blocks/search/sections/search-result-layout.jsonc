@@ -37,9 +37,8 @@
       "flex-layout.row#bread-crumb",
       "flex-layout.row#banner-search",
       "flex-layout.row#search-info",
-      "flex-layout.row#result-simple",
-      "flex-layout.row#spacer",
-      "flex-layout.row#shelf-last-view"
+      "flex-layout.row#result-simple"
+      
     ],
     "props": {
       "pagination": "show-more",
@@ -83,8 +82,7 @@
       "flex-layout.row#content-mobile",
       "flex-layout.row#products-progress-bar",
       "flex-layout.row#count-per-page",
-      "flex-layout.row#fetch-more",
-      "flex-layout.row#shelf-last-view"
+      "flex-layout.row#fetch-more"
     ],
     "props": {
       "maxItemsPerPage": 36,
@@ -118,9 +116,8 @@
   "search-result-layout.desktop#simplify": {
     "children": [
       "flex-layout.row#search-info-simplify",
-      "flex-layout.row#result-simple",
-      "flex-layout.row#spacer",
-      "flex-layout.row#shelf-last-view"
+      "flex-layout.row#result-simple"
+      
     ],
     "props": {
       "pagination": "show-more",
@@ -162,8 +159,8 @@
       "flex-layout.row#content-mobile",
       "flex-layout.row#products-progress-bar",
       "flex-layout.row#count-per-page",
-      "flex-layout.row#fetch-more",
-      "flex-layout.row#shelf-last-view"
+      "flex-layout.row#fetch-more"
+      
     ],
     "props": {
       "maxItemsPerPage": 36,
@@ -200,9 +197,7 @@
       "flex-layout.row#banner-search",
       "flex-layout.row#search-info",
       "flex-layout.row#shelf-scroll-categories",
-      "flex-layout.row#result",
-      "flex-layout.row#spacer",
-      "flex-layout.row#shelf-last-view"
+      "flex-layout.row#result"
     ],
     "props": {
       "maxItemsPerPage": 36,
@@ -242,8 +237,7 @@
       "flex-layout.row#content-mobile",
       "flex-layout.row#products-progress-bar",
       "flex-layout.row#count-per-page",
-      "flex-layout.row#fetch-more",
-      "flex-layout.row#shelf-last-view"
+      "flex-layout.row#fetch-more"
     ],
     "props": {
       "maxItemsPerPage": 36,

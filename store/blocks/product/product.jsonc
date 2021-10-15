@@ -2,9 +2,6 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-main",
-      "flex-layout.row#product-buy-promises-mobile",
-      "flex-layout.row#suggested-products",
-      "flex-layout.row#related-products",
       "flex-layout.row#last-viewed-products"
     ]
   },
@@ -152,8 +149,7 @@
   // Imagenes del producto
   "flex-layout.col#product-images": {
     "children": [
-      "stack-layout#product",
-      "flex-layout.row#product-buy-promises"
+      "stack-layout#product"
     ],
     "props": {
       "width": "60%",
@@ -245,24 +241,25 @@
       "blockClass": "main-product-detail-specs"
     },
     "children": [
+      "flex-layout.row#product-bread-crumb",
       "flex-layout.row#product-name",
       "stack-layout#prodsum-detail",
       "flex-layout.row#vitrine-pricing-quickview",
-      "modal-trigger#guia-tallas",
       "sku-selector#talla",
       "flex-layout.row#product-actions",
       "availability-subscriber",
       "disclosure-layout-group#detail-product",
-      "flex-layout.row#share-and-payments",
       "sticky-layout#product-button",
-      "flex-layout.row#product-bread-crumb"
+      "flex-layout.row#product-buy-promises-mobile",
+      "flex-layout.row#product-buy-promises"
     ]
   },
   "sku-selector#talla": {
     "props": {
       "variationsSpacing": 3,
       "visibleVariations": [
-        "Talla"
+        "Talla",
+        "Color"
       ],
       "showVariationsLabels": false,
       "showValueForVariation": "none",

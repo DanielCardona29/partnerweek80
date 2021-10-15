@@ -49,7 +49,7 @@
     },
     "rich-text#link-departamento-hombre": {
       "props": {
-        "text": "[Ver todo](/partnerweek80/hombre)",
+        "text": "[Ver todo](/ropa/hombre)",
         "blockClass": "link-categorias"
       }
     },

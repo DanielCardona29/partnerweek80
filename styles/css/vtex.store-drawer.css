@@ -89,7 +89,7 @@
 .childrenContainer--menu-drawer :global(.vtex-rich-text-0-x-link--mi-cuenta__text)::before,
 .childrenContainer--menu-drawer :global(.vtex-rich-text-0-x-link--wish-list__text)::before,
 .childrenContainer--menu-drawer :global(.vtex-rich-text-0-x-link--contactar-asesor__text)::before {
-  color: #009ADE !important;
+  color: #6F5A28 !important;
   width: 30px;
   text-align: center;
 }

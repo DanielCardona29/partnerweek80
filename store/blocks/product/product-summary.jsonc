@@ -17,8 +17,7 @@
       "flex-layout.row#prodsum-vitrine-wishlist",
       "product-summary-brand",
       "product-summary-name",
-      "flex-layout.row#vitrine-pricing",
-      "flex-layout.row#prodsum-buy"
+      "flex-layout.row#vitrine-pricing"
     ],
     "props": {
       "blockClass": "main-vitrine-content"
@@ -30,8 +29,7 @@
       "flex-layout.row#prodsum-vitrine",
       "product-summary-brand",
       "product-summary-name",
-      "flex-layout.row#vitrine-pricing",
-      "flex-layout.row#prodsum-buy"
+      "flex-layout.row#vitrine-pricing"
     ],
     "props": {
       "blockClass": "main-vitrine-content"
@@ -39,7 +37,6 @@
   },
   "flex-layout.row#prodsum-buy": {
     "children": [
-      "product-summary-sku-selector#wishlist-talla",
       "add-to-cart-button#wishlist"
     ],
     "props": {
@@ -55,29 +52,34 @@
   },
   "product-summary-sku-selector#wishlist-talla": {
     "props": {
+      "variationsSpacing": 3,
       "visibleVariations": [
-        "Talla"
+        "Talla",
+        "Color"
       ],
       "showVariationsLabels": false,
-      "showValueForVariation": "all",
-      "displayMode": "select",
-      "initialSelection": "empty",
+      "showValueForVariation": "none",
+      "displayMode": "displayMode",
+      "initialSelection": "complete",
       "maxItems": 1,
-      "imageLabel": "skuimage",
-      "visibility": "always"
+      "visibility": "always",
+      "disableUnavailableSelectOptions": true
     }
   },
   "product-summary-sku-selector#talla": {
     "props": {
       "variationsSpacing": 3,
       "visibleVariations": [
-        "Talla"
+        "Talla",
+        "Color"
       ],
       "showVariationsLabels": false,
+      "showValueForVariation": "none",
       "displayMode": "displayMode",
       "initialSelection": "complete",
       "maxItems": 1,
-      "visibility": "always"
+      "visibility": "always",
+      "disableUnavailableSelectOptions": true
     }
   },
   "flex-layout.row#vitrine-pricing": {

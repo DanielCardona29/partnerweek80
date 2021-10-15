@@ -56,7 +56,7 @@
   },
   "rich-text#shelf-link-banner-categories-women": {
     "props": {
-      "text": "[MUJER](/mujer)",
+      "text": "[MUJER](/ropa/mujer)",
       "blockClass": [
         "home-min-vitrine-button"
       ]
@@ -64,7 +64,7 @@
   },
   "rich-text#shelf-link-banner-categories-men": {
     "props": {
-      "text": "[HOMBRE](/hombre)",
+      "text": "[HOMBRE](/ropa/hombre)",
       "blockClass": [
         "home-min-vitrine-button"
       ]
