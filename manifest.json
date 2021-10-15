@@ -1,7 +1,7 @@
 {
   "vendor": "partnerweek80",
   "name": "store-theme",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "postreleasy": "vtex publish --verbose"
   },
