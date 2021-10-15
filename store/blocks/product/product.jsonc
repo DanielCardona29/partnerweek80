@@ -246,12 +246,22 @@
       "stack-layout#prodsum-detail",
       "flex-layout.row#vitrine-pricing-quickview",
       "sku-selector#talla",
+      "product-assembly-options",
       "flex-layout.row#product-actions",
       "availability-subscriber",
       "disclosure-layout-group#detail-product",
       "sticky-layout#product-button",
       "flex-layout.row#product-buy-promises-mobile",
       "flex-layout.row#product-buy-promises"
+    ]
+  },
+  "product-assembly-options": {
+    "props": {
+      "initiallyOpened": "always"
+    },
+    "children": [
+      "flex-layout.row#product-assembly-options",
+      "assembly-option-input-values"
     ]
   },
   "sku-selector#talla": {
