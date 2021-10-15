@@ -136,7 +136,7 @@
 }
 .flexRowContent--home-images-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 15px;
   margin: 62px auto;
   max-width: 1279px;
@@ -503,7 +503,7 @@
   white-space: nowrap;
   overflow: hidden !important;
   text-overflow: ellipsis;
-  color: #131E29;
+  color: #1C1C24;
   font-weight: 600;
   font-size: 12px;
   line-height: 18px;
@@ -716,7 +716,7 @@ Footer
   max-width: 1097px;
   margin-top: 20px;
   padding: 23px 15px 52px;
-  border-top: 0.5px solid #131E29;
+  border-top: 0.5px solid #1C1C24;
 }
 .flexRow--footer-row-content-1 :global(.vtex-store-components-3-x-container) {
   padding: 23px 0 53px;
@@ -868,7 +868,7 @@ Footer
   max-width: 1089px;
   padding: 34px 133px;
   margin: 0 auto;
-  background: #131E29;
+  background: #1C1C24;
   position: relative;
 }
 
@@ -1218,7 +1218,7 @@ Footer
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #131E29;
+    background-color: #1C1C24;
   }
   .flexRowContent--category-filters :global(.vtex-search-result-3-x-orderByButton) {
     justify-content: center;
@@ -1327,7 +1327,7 @@ Footer
 }
 
 .flexRowContent--header-account :global(.vtex-button__label):hover::before {
-  color: #131e29;
+  color: #1C1C24;
   transition: .4s all ease;
 }
 
@@ -1383,7 +1383,7 @@ Footer
 }
 
 .flexRowContent--header-shopping :global(.vtex-button__label):hover::before {
-  color: #131e29;
+  color: #1C1C24;
   transition: .4s all ease;
 }
 
@@ -1402,7 +1402,7 @@ Footer
   max-height: 14px;
   display: block;
   padding: 0;
-  color: #131E29;
+  color: #1C1C24;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
   font-size: 11px;
@@ -1540,14 +1540,14 @@ Footer
 }
 .flexRowContent--product-cart-button :global(.vtex-button) {
   border: none;
-  background-color: #131E29;
+  background-color: #1C1C24;
   border-radius: 0;
   width: 276px;
 }
 .flexRowContent--product-cart-button :global(.vtex-button):active,
 .flexRowContent--product-cart-button :global(.vtex-button):focus,
 .flexRowContent--product-cart-button :global(.vtex-button):hover {
-  background-color: #131E29;
+  background-color: #1C1C24;
 }
 
 @media screen and (max-width:640px){
@@ -1616,7 +1616,7 @@ Footer
   font-weight: 700;
   font-size: 18px;
   line-height: 18px;
-  color: #131E29;
+  color: #1C1C24;
 }
 .flexRowContent--quickview-content :global(.vtex-product-price-1-x-savings) {
   font-size: 12px !important;
@@ -1659,7 +1659,7 @@ Footer
   line-height: 20px;
   letter-spacing: 0.01em;
   text-transform: uppercase;
-  color: #131E29;
+  color: #1C1C24;
 }
 @media screen and (max-width: 640px) {
   .flexRowContent--quickview-content :global(.vtex-store-components-3-x-productBrand) {
@@ -1881,7 +1881,7 @@ Footer
   font-weight: 500 !important;
   font-size: 18px !important;
   line-height: 18px !important;
-  color: #131E29 !important;
+  color: #1C1C24 !important;
 }
 .flexCol--main-product-detail-specs :global(.vtex-product-price-1-x-listPriceValue ) :global(.vtex-product-price-1-x-currencyContainer) {
   font-weight: 400 !important;
@@ -1916,7 +1916,7 @@ Footer
   line-height: 24px;
   letter-spacing: 0.01em;
   text-transform: uppercase;
-  color: #131E29;
+  color: #1C1C24;
 }
 .flexCol--main-product-detail-specs :global(.vtex-store-components-3-x-productBrandName) {
   color: #828282;
@@ -1932,7 +1932,7 @@ Footer
   }
   .flexCol--main-product-detail-specs :global(.vtex-store-components-3-x-productBrandName) {
     font-weight: 500;
-    color: #131E29;
+    color: #1C1C24;
   }
 }
 @media screen and (max-width:640px) {

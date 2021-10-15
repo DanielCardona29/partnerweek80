@@ -13,8 +13,7 @@
   "flex-layout.row#images-grid-images": {
     "children": [
       "image#magia-1",
-      "image#magia-2",
-      "image#magia-3"
+      "image#magia-2"
     ],
     "props": {
       "blockClass": [
@@ -25,7 +24,7 @@
   },
   "image#magia-1": {
     "props": {
-      "src": "/arquivos/camisetas-mujer.jpg",
+      "src": "/arquivos/desk3.jpg",
       "maxWidth": "100%",
       "maxHeight": "100%",
       "title": "Link",
@@ -42,7 +41,7 @@
   },
   "image#magia-2": {
     "props": {
-      "src": "/arquivos/couple-wear.jpg?v=1",
+      "src": "/arquivos/des2.jpg",
       "maxWidth": "100%",
       "maxHeight": "100%",
       "title": "Link",

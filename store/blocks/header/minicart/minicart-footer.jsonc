@@ -1,0 +1,64 @@
+{
+    "flex-layout.row#minicart-footer": {
+        "children": [
+            "flex-layout.col#minicart-footer"
+        ]
+    },
+    "flex-layout.col#minicart-footer": {
+        "children": [
+            "minicart-summary",
+            "free-shipping",
+            "minicart-checkout-button"
+        ],
+        "props": {
+            "blockClass": "minicart-cta"
+        }
+    },
+    "free-shipping": {
+        "props": {
+            "valueOfFreeShipping": 150000,
+            "infoLabel": {
+                "labelInitial": "Faltan ",
+                "labelBetween": " para que tu ",
+                "labelFinal": "envío sea gratis!",
+                "labelFreeShippingComplete": "¡Tu envio es totalmente gratis!",
+                "labelAdditional": "totalmente gratis!"
+            },
+            "show": {
+                "freeShippingComponent": true,
+                "informativeFreeShippingText": true,
+                "percentageFreeShipping": true,
+                "rangeFreeShipping": true,
+                "subTotal": false,
+                "labelInitial": true,
+                "labelBetween": true,
+                "labelFinal": true,
+                "missingForFreeShipping": true,
+                "labelFreeShippingComplete": true,
+                "labelAdditional": true
+            }
+        }
+    },
+    "minicart-summary": {
+        "blocks": [
+            "checkout-summary.compact#minicart"
+        ]
+    },
+    "checkout-summary.compact#minicart": {
+        "children": [
+            "summary-totalizers#minicart"
+        ],
+        "props": {
+            "totalizersToShow": [
+                "Items",
+                "Discounts"
+            ]
+        }
+    },
+    "summary-totalizers#minicart": {
+        "props": {
+            "showTotal": true,
+            "showDeliveryTotal": true
+        }
+    }
+}

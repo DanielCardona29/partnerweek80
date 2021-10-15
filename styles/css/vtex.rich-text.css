@@ -92,15 +92,15 @@
   line-height: 15px;
   text-align: center;
   letter-spacing: 0.4em;
-  color: #131E29;
+  color: #1C1C24;
   text-decoration: none;
   text-transform: uppercase;
   background: #FFFFFF;
-  border: 1px solid #131E29;
+  border: 1px solid #1C1C24;
 }
 .link--ver-todo-btn:hover {
   color: #FFFFFF;
-  background: #131E29;
+  background: #1C1C24;
 }
 @media screen and (max-width:1024px) {
   .link--ver-todo-btn {
@@ -181,13 +181,13 @@
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 0.4em;
-  color: #131E29;
+  color: #1C1C24;
   text-decoration: none;
   transition: .2s all ease;
-  border: 1px solid #131E29;
+  border: 1px solid #1C1C24;
 }
 .link--home-min-vitrine-button:hover {
-  background-color: #131E29;
+  background-color: #1C1C24;
   color: #fff;
 }
 @media screen and (max-width: 640px) {
@@ -207,7 +207,7 @@
   margin: 0;
   font-size: 30px;
   line-height: 37px;
-  color: #131E29;
+  color: #1C1C24;
 }
 @media screen and (min-width:1025px){
   .container--home-min-vitrine-title-white {
@@ -234,13 +234,13 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  color: #131E29;
+  color: #1C1C24;
 }
 .strong--home-min-vitrine-title {
   font-weight: 700;
   font-size: 40px;
   line-height: 49px;
-  color: #131E29;
+  color: #1C1C24;
   margin-top: 7px;
 }
 @media screen and (max-width:640px){
@@ -274,14 +274,14 @@
   font-size: 16px;
   font-style: normal;
   line-height: 20px;
-  color: #131E29;
+  color: #1C1C24;
 }
 .italic--home-min-vitrine-title-bold {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   font-style: normal;
-  color: #131E29;
+  color: #1C1C24;
   margin-top: 21px;
 }
 @media screen and (max-width:640px){
@@ -358,7 +358,7 @@
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  color: #131E29;
+  color: #1C1C24;
   margin: 0;
 }
 @media screen and (max-width:640px){
@@ -393,7 +393,7 @@
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   line-height: 20px;
-  color: #131E29;
+  color: #1C1C24;
   width: 100%;
   display: block;
   z-index: 2;
@@ -970,7 +970,7 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
-    color: #131E29;
+    color: #1C1C24;
     text-transform: uppercase;
   }
 }
@@ -1080,7 +1080,7 @@
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.06em;
-  color: #131E29;
+  color: #1C1C24;
   position: relative;
 }
 .paragraph--first-section-title::after {
@@ -1137,7 +1137,7 @@
 }
 
 .paragraph--icon-section-item {
-  color: #131E29;
+  color: #1C1C24;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -1201,7 +1201,7 @@
   content: '';
   height: 17px;
   width: 24px;
-  background-image: url(assets/secure-payments.svg);
+  background-image: url(assets/iconos-02.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1212,7 +1212,7 @@
   content: '';
   height: 17px;
   width: 24px;
-  background-image: url(assets/country-shipping.svg);
+  background-image: url(assets/iconos-01.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1223,7 +1223,7 @@
   content: '';
   height: 17px;
   width: 24px;
-  background-image: url(assets/client-support.svg);
+  background-image: url(assets/iconos-03.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1234,7 +1234,7 @@
   content: '';
   height: 17px;
   width: 24px;
-  background-image: url(assets/product-return.svg);
+  background-image: url(assets/iconos-05.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1245,7 +1245,7 @@
   content: '';
   height: 17px;
   width: 24px;
-  background-image: url(assets/package-following.svg);
+  background-image: url(assets/iconos-06.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1256,7 +1256,7 @@
   content: '';
   height: 17px;
   width: 24px;
-  background-image: url(assets/secure-payments.svg);
+  background-image: url(assets/iconos-02.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1267,7 +1267,7 @@
   content: '';
   height: 17px;
   width: 24px;
-  background-image: url(assets/timer-icon.svg);
+  background-image: url(assets/iconos-03.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1279,7 +1279,7 @@
   content: '';
   height: 17px;
   width: 24px;
-  background-image: url(assets/country-shipping.svg);
+  background-image: url(assets/iconos-01.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1352,7 +1352,7 @@
   display: block;
   padding: 11px 12px;
   padding-left: 40px;
-  background-color: #131E29;
+  background-color: #1C1C24;
   color: #ffffff;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 11px;
@@ -1424,7 +1424,7 @@
   height: 8px;
   border-radius: 50%;
   display: inline-block;
-  background: #131E29;
+  background: #1C1C24;
   margin-right: 4px;
 }
 @media screen and (max-width:1024px) {
@@ -1435,10 +1435,10 @@
 
 
 .paragraph--title-footer {
-  color: #131E29 !important;
+  color: #1C1C24 !important;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 18px;
   text-transform: uppercase;
   cursor: initial;
   margin-bottom: 11px;
@@ -1449,6 +1449,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 800;
     line-height: 19px;
+    font-size: 16px;
   }
 }
 

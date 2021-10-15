@@ -1,29 +1,35 @@
-@media screen and (max-width:640px) {
-  :global(.vtex-flex-layout-0-x-flexRowContent--prodsum-buy) .buttonDataContainer::before {
+@media screen and (max-width: 640px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--prodsum-buy)
+    .buttonDataContainer::before {
     font-size: 16px;
   }
 }
-:global(.vtex-flex-layout-0-x-flexRowContent--prodsum-buy) .buttonDataContainer::before {
-  content: '\eb31';
-  font-family: 'icomoon';
-  font-size: 23px;
-  color: #fff;
+:global(.vtex-flex-layout-0-x-flexRowContent--prodsum-buy)
+  .buttonDataContainer::before {
+  content: "\e97c";
+  font-family: "icomoon";
+  font-size: 18px;
+  color: #1c1c24;
+  transition: 0.2s all ease;
 }
-:global(.vtex-flex-layout-0-x-flexRowContent--prodsum-buy) .buttonDataContainer:hover::before {
-  content: '\eb32';
+:global(.vtex-flex-layout-0-x-flexRowContent--prodsum-buy)
+  .buttonDataContainer:hover::before {
+  transform: rotate(15deg);
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--prodsum-buy) .buttonText {
   display: none;
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--prodsum-buy) :global(.vtex-button):focus,
-:global(.vtex-flex-layout-0-x-flexRowContent--prodsum-buy) :global(.vtex-button) {
-    border: 0 !important;
-    background-color: #6F5A28;
-    border-radius: 5px;
-    padding: 5px 9px 7px;
-    width: auto;
-    min-height: initial;
+:global(.vtex-flex-layout-0-x-flexRowContent--prodsum-buy)
+  :global(.vtex-button):focus,
+:global(.vtex-flex-layout-0-x-flexRowContent--prodsum-buy)
+  :global(.vtex-button) {
+  background-color: transparent;
+  border-radius: 0;
+  border: 1px solid black;
+  padding: 5px 9px 7px;
+  width: auto;
+  min-height: initial;
 }
 
 .buttonDisabledContainer :global(.vtex-button):focus,
@@ -35,8 +41,9 @@
 :global(.vtex-flex-layout-0-x-flexRow--product-cart-button) .buttonText {
   display: none;
 }
-:global(.vtex-flex-layout-0-x-flexRow--product-cart-button) .buttonDataContainer::before {
-  content: 'AGREGAR A MI BOLSA';
+:global(.vtex-flex-layout-0-x-flexRow--product-cart-button)
+  .buttonDataContainer::before {
+  content: "AGREGAR A MI BOLSA";
   color: #fff;
   font-weight: 600;
   font-size: 12px;
@@ -45,11 +52,13 @@
   letter-spacing: 0.4em;
   text-transform: uppercase;
 }
-:global(.vtex-flex-layout-0-x-flexRow--mic-product-cart-button) .buttonDataContainer::before {
-  font-family: 'Source Sans Pro', sans-serif;
+:global(.vtex-flex-layout-0-x-flexRow--mic-product-cart-button)
+  .buttonDataContainer::before {
+  font-family: "Source Sans Pro", sans-serif;
   color: #fff;
 }
-:global(.vtex-flex-layout-0-x-flexRowContent--mic-product-actions) :global(.vtex-flex-layout-0-x-flexRow--product-cart-button) .buttonDataContainer::before {
+:global(.vtex-flex-layout-0-x-flexRowContent--mic-product-actions)
+  :global(.vtex-flex-layout-0-x-flexRow--product-cart-button)
+  .buttonDataContainer::before {
   color: #fff;
 }
-

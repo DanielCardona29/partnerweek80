@@ -7,15 +7,13 @@
     },
     "children": [
       "rich-text#footer-2-col-1-title",
-      "flex-layout.col#footer-social-logos",
       "menu-item#footer-contact-mail",
-      "menu-item#footer-contact-phone",
-      "rich-text#store-locator-button"
+      "menu-item#footer-contact-phone"
     ]
   },
   "rich-text#footer-2-col-1-title": {
     "props": {
-      "text": "CONTÁCTANOS",
+      "text": "![Logo](/arquivos/fashion-logo.png)",
       "blockClass": "title-footer"
     }
   },
@@ -29,11 +27,11 @@
       "socialNetworks": [
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/partnerweek80baby"
+          "url": "https://www.facebook.com/partnerweek80"
         },
         {
           "name": "Instagram",
-          "url": "https://www.instagram.com/partnerweek80baby/"
+          "url": "https://www.instagram.com/partnerweek80/"
         }
       ]
     }
@@ -44,9 +42,9 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "mailto:info@partnerweek80shop.co",
+        "href": "mailto:info@partnerweek80.com",
         "noFollow": false,
-        "text": "info@partnerweek80shop.co"
+        "text": "info@partnerweek80.com"
       },
       "blockClass": [
         "button-footer",
@@ -60,20 +58,14 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "tel:+573503167200",
+        "href": "tel:+570000000000",
         "noFollow": false,
-        "text": "+57 350 316 7200"
+        "text": "+57 321 654 9877"
       },
       "blockClass": [
         "button-footer",
         "telto"
       ]
-    }
-  },
-  "rich-text#store-locator-button": {
-    "props": {
-      "text": "[Nuestras tiendas](/tiendas)",
-      "blockClass": "store-locator-button"
     }
   }
 }

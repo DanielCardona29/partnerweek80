@@ -12,9 +12,11 @@
     "styles": "2.x"
   },
   "dependencies": {
+    "partnerweek80.free-shipping": "0.x",
     "vtex.add-to-cart-button": "0.x",
     "vtex.breadcrumb": "1.x",
     "vtex.carousel": "2.x",
+    "vtex.checkout-summary": "0.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.flex-layout": "0.x",
     "vtex.iframe": "0.x",

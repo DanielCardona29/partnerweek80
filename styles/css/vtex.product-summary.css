@@ -86,7 +86,7 @@
 }
 .containerNormal--main-vitrine-content
   :global(.vtex-product-summary-2-x-productBrand) {
-  color: #131E29;
+  color: #1C1C24;
   letter-spacing: 0.01em;
   font-weight: 500;
   font-size: 12px;

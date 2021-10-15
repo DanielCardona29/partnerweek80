@@ -4,7 +4,7 @@
 :global(.vtex-account_menu-link.b--action-primary) {
   border-left: 3px solid #009ade;
   padding: 9px 6px;
-  color: #131E29;
+  color: #1C1C24;
 }
 :global(.vtex-account_menu-link.b--transparent) {
   padding: 9px 6px;
@@ -22,7 +22,7 @@
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 26px;
   line-height: 31px;
-  color: #131E29;
+  color: #1C1C24;
   position: absolute;
   bottom: 0;
   left: 32px;
@@ -81,7 +81,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 18px;
-  color: #131E29;
+  color: #1C1C24;
 }
 @media screen and (max-width: 640px) {
   :global(.vtex-pageHeader-link__container span.ml3.ttu.t-action--small) {
@@ -126,7 +126,7 @@
   line-height: 95%;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #131E29;
+  color: #1C1C24;
 }
 :global(.vtex-my-account-1-x-boxContainerBody .address-summary .c-link){
   color: #7E7E7E;
@@ -175,7 +175,7 @@
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: #131E29;
+  color: #1C1C24;
 }
 :global(.vtex-my-account-1-x-addressBox .vtex-my-account-1-x-boxContainer .vtex-my-account-1-x-boxContainerFooter) {
   justify-content: flex-end;
@@ -208,7 +208,7 @@
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: #131E29;
+  color: #1C1C24;
 }
 :global(.vtex-my-orders-app-3-x-orderHeaderValue) {
   font-size: 12px;
@@ -223,7 +223,7 @@
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: #131E29;
+  color: #1C1C24;
 }
 @media screen and (max-width: 640px) {
   :global(.vtex-my-orders-app-3-x-orderId) {
@@ -243,7 +243,7 @@
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: #131E29;
+  color: #1C1C24;
   background-color: #FFCA3A;
   border-radius: 4px;
 }
@@ -252,7 +252,7 @@
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: #131E29;
+  color: #1C1C24;
   background-color: #EB5757;
   border-radius: 4px;
 }
@@ -277,7 +277,7 @@
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: #131E29;
+  color: #1C1C24;
 }
 :global(.vtex-my-orders-app-3-x-orderProduct .vtex-my-orders-app-3-x-orderProductShipping) {
   margin-bottom: 3px;
@@ -291,7 +291,7 @@
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: #131E29;
+  color: #1C1C24;
 }
 @media screen and (max-width: 640px) {
   :global(.vtex-my-orders-app-3-x-orderProduct .vtex-my-orders-app-3-x-orderProductQuantity),
@@ -336,7 +336,7 @@
   background-color: #fff;
 }
 :global(.vtex-my-orders-app-3-x-orderBody .vtex-my-orders-app-3-x-invoiceBtn) {
-  border: 1px solid #131E29;
+  border: 1px solid #1C1C24;
   border-radius: 5px;
   padding: 8px 11px;
   width: 100%;
@@ -346,7 +346,7 @@
   fill: #009ADE;
 }
 :global(.vtex-my-orders-app-3-x-orderBody .vtex-my-orders-app-3-x-invoiceBtn .vtex-my-orders-app-3-x-font) {
-  color: #131E29;
+  color: #1C1C24;
   font-size: 10px;
   line-height: 12px;
   letter-spacing: 0.01em;
@@ -359,7 +359,7 @@
   font-size: 10px;
   line-height: 11px;
   letter-spacing: 0.01em;
-  color: #131E29;
+  color: #1C1C24;
   text-transform: uppercase;
   position: absolute;
   top: 0;
@@ -370,21 +370,21 @@
   align-items: center;
   margin-top: 18px;
   width: 100%;
-  border: 1px solid #131E29;
+  border: 1px solid #1C1C24;
   border-radius: 5px;
   padding: 10px 0 9px;
   text-transform: uppercase;
 }
 :global(.vtex-my-orders-app-3-x-orderBody .vtex-my-orders-app-3-x-reorderBtn svg) {
-  color: #131E29;
-  fill: #131E29;
+  color: #1C1C24;
+  fill: #1C1C24;
 }
 :global(.vtex-my-orders-app-3-x-orderBody .vtex-my-orders-app-3-x-reorderBtn .vtex-my-orders-app-3-x-font) {
   font-weight: 700;
   font-size: 10px;
   line-height: 11px;
   letter-spacing: 0.01em;
-  color: #131E29;
+  color: #1C1C24;
   text-transform: uppercase;
 }
 :global(.vtex-my-orders-app-3-x-orderBody .vtex-my-orders-app-3-x-cancelBtn) {
@@ -395,8 +395,8 @@
   width: 100%;
 }
 :global(.vtex-my-orders-app-3-x-orderBody .vtex-my-orders-app-3-x-cancelBtn svg) {
-  color: #131E29;
-  fill: #131E29;
+  color: #1C1C24;
+  fill: #1C1C24;
 }
 :global(.vtex-my-orders-app-3-x-orderBody .vtex-my-orders-app-3-x-cancelBtn path) {
   d: path("M7.09939 6.00973L11.772 1.33703C12.076 1.03309 12.076 0.541661 11.772 0.237721C11.468 -0.0662194 10.9766 -0.0662194 10.6726 0.237721L5.99994 4.91042L1.32737 0.237721C1.02329 -0.0662194 0.532002 -0.0662194 0.228062 0.237721C-0.0760206 0.541661 -0.0760206 1.03309 0.228062 1.33703L4.90063 6.00973L0.228062 10.6824C-0.0760206 10.9864 -0.0760206 11.4778 0.228062 11.7817C0.379534 11.9334 0.578696 12.0095 0.777717 12.0095C0.976737 12.0095 1.17576 11.9334 1.32737 11.7817L5.99994 7.10904L10.6726 11.7817C10.8243 11.9334 11.0233 12.0095 11.2223 12.0095C11.4213 12.0095 11.6203 11.9334 11.772 11.7817C12.076 11.4778 12.076 10.9864 11.772 10.6824L7.09939 6.00973Z")
@@ -406,7 +406,7 @@
   font-size: 10px;
   line-height: 11px;
   letter-spacing: 0.01em;
-  color: #131E29;
+  color: #1C1C24;
 }
 
 :global(.vtex-my-orders-app-3-x-orderBody > .fl.w-100.w-70-ns) {
@@ -474,9 +474,9 @@
   line-height: 11px;
   text-align: center;
   letter-spacing: 0.01em;
-  color: #131E29;
+  color: #1C1C24;
   padding: 10px 13px !important;
-  border: 1px solid #131E29;
+  border: 1px solid #1C1C24;
   border-radius: 5px;
   background-color: transparent !important;
 }
@@ -531,7 +531,7 @@
   line-height: 14px;
   align-items: center;
   letter-spacing: 0.01em;
-  color: #131E29;
+  color: #1C1C24;
   font-weight: 400 !important;
   margin-bottom: 12px;
 }
@@ -540,7 +540,7 @@
   line-height: 14px;
   align-items: center;
   letter-spacing: 0.01em;
-  color: #131E29;
+  color: #1C1C24;
   font-weight: 400 !important;
 }
 :global(.vtex-account__order-details section.w-100.fl.mt5.mb2-l.mb2-xl .mr3.w-29px.h-22px.mt2) {

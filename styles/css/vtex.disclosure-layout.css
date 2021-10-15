@@ -21,7 +21,7 @@
   font-weight: 500;
   font-size: 13px;
   line-height: 18px;
-  color: #131E29;
+  color: #1C1C24;
   margin: 0;
 }
 
@@ -35,7 +35,7 @@
   font-family: 'icomoon';
   font-weight: 900;
   font-size: 6px;
-  color: #131E29;
+  color: #1C1C24;
   margin-right: -3px;
 }
 .trigger--visible :global(.vtex-rich-text-0-x-container)::after {
@@ -43,7 +43,7 @@
   font-family: 'icomoon';
   font-weight: 900;
   font-size: 6px;
-  color: #131E29;
+  color: #1C1C24;
   margin-right: -3px;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .trigger--frequently-questions :global(.vtex-rich-text-0-x-link) {
-  color: #131E29;
+  color: #1C1C24;
   font-weight: 700;
   text-decoration: none;
 }

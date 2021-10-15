@@ -89,7 +89,8 @@
     },
     "flex-layout.row#footer-2": {
         "children": [
-            "flex-layout.col#footer-2-col-1"
+            "vtex.menu@2.x:menu#footer-2-col-1",
+            "vtex.menu@2.x:menu#footer-2-col-2"
         ],
         "props": {
             "blockClass": [
@@ -97,15 +98,6 @@
                 "footer-main-menu",
                 "footer-main-block"
             ]
-        }
-    },
-    "flex-layout.col#footer-2-col-1": {
-        "children": [
-            "vtex.menu@2.x:menu#footer-2-col-1",
-            "vtex.menu@2.x:menu#footer-2-col-2"
-        ],
-        "props": {
-            "blockClass": "footer-menu-first-container"
         }
     },
     "flex-layout.row#footer-2-mobile": {
@@ -137,7 +129,7 @@
             "textPosition": "CENTER",
             "textColor": "c-on-base--inverted",
             "blockClass": "footer-copyright",
-            "text": "Todos los derechos reservados partnerweek80 2021 | Empowered by ![BlackSip](/arquivos/blacksip-logo-r.svg)  ![vtex](/arquivos/vtex-r.svg) | ![ssl](/arquivos/ssl-secure.svg)"
+            "text": "Todos los derechos reservados partnerweek80 2021"
         }
     }
 }

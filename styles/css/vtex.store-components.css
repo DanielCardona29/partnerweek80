@@ -355,7 +355,7 @@
   font-family: "Montserrat";
   font-size: 12px;
   line-height: 18px;
-  color: #131E29;
+  color: #1C1C24;
   max-height: 114px;
   overflow-y: scroll;
 }
@@ -404,7 +404,7 @@
   height: 30px;
 }
 .skuSelectorItemTextValue {
-  color: #131E29;
+  color: #1C1C24;
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 0.005em;
@@ -462,7 +462,7 @@
 .swiperCaret::before {
   font-family: "icomoon";
   font-size: 16px;
-  color: #131E29;
+  color: #1C1C24;
   transition: 0.2s all ease;
 }
 :global(.vtex-stack-layout-0-x-stackItem--product-detail-image-container)

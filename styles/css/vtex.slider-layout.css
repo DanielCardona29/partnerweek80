@@ -69,12 +69,12 @@
   width: 11px !important;
   height: 11px !important;
   box-sizing: border-box;
-  border: 2px solid #131E29;
+  border: 2px solid #1C1C24;
   background-color: transparent;
 }
 
 .paginationDot--main-banner--isActive {
-  background-color: #131E29;
+  background-color: #1C1C24;
 }
 
 .sliderTrackContainer--home-main-vitrine-min {
@@ -159,11 +159,11 @@
   width: 10px !important;
   height: 10px !important;
   background-color: transparent;
-  border: 2px solid #131E29;
+  border: 2px solid #1C1C24;
 }
 
 .paginationDot--home-main-vitrine--isActive {
-  background-color: #131E29;
+  background-color: #1C1C24;
 }
 
 @media screen and (max-width:1024px){
@@ -183,7 +183,7 @@
     margin: 0 !important;
   }
   .paginationDot--home-main-vitrine--isActive {
-    background-color: #131E29 !important;
+    background-color: #1C1C24 !important;
     border: none !important;
     width: 100% !important;
     border-radius: 25px;
@@ -236,10 +236,10 @@
   margin: 0 6px;
   background: transparent;
   border-radius: 50%;
-  border: 2px solid #131E29;
+  border: 2px solid #1C1C24;
 }
 .paginationDot--home-main-vitrine-min--isActive {
-  background-color: #131E29;
+  background-color: #1C1C24;
   z-index: 1;
 }
 @media screen and (max-width:1024px){
@@ -259,7 +259,7 @@
     margin: 0 !important;
   }
   .paginationDot--home-main-vitrine-min--isActive {
-    background-color: #131E29 !important;
+    background-color: #1C1C24 !important;
     border: none !important;
     width: 100% !important;
     border-radius: 25px;

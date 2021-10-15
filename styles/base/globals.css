@@ -232,7 +232,7 @@
 }
 @media screen and (max-width:640px) {
   :global(.vtex-styleguide-9-x-dropdown .vtex-styleguide-9-x-container .h-100.flex.items-center) {
-    color: #131E29;
+    color: #1C1C24;
   }
 }
 
@@ -247,7 +247,7 @@
   line-height: 17px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: #131E29;
+  color: #1C1C24;
 }
 :global(.vtex-checkout-summary-0-x-summaryItemContainer:last-child .vtex-checkout-summary-0-x-summaryItemPrice) {
   font-family: 'Source Sans Pro', sans-serif;
@@ -465,7 +465,7 @@
 }
 
 :global(.vtex-checkbox__inner-container.b--muted-4) {
-  border: 1px solid #131E29;
+  border: 1px solid #1C1C24;
   box-sizing: border-box;
   border-radius: 2px;
 }
@@ -616,7 +616,7 @@
 */
 :global(.vtex-store-components-3-x-caretIcon--quickview-images) {
   width: 12px;
-  color: #131E29;
+  color: #1C1C24;
 }
 
 @media screen and (max-width:640px){
@@ -656,7 +656,7 @@
 :global(.vtex-store-components-3-x-shareSocialButton)::before {
   font-family: 'icomoon';
   font-size: 17px;
-  color: #131E29;
+  color: #1C1C24;
 }
 :global(.vtex-store-components-3-x-shareSocialButton)[aria-label="facebook"]::before {
   content: '\e908';
@@ -725,7 +725,7 @@
   font-size: 12px;
   line-height: 16px;
   letter-spacing: -0.01em;
-  color: #131E29;
+  color: #1C1C24;
 }
 
 :global(.vtex-order-placed-2-x-orderPaymentItem .t-body.lh-solid) {

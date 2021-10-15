@@ -66,7 +66,7 @@
 .wishlistIcon--wishlist-button-product::before {
   font-size: 10px !important;
   margin-right: 8px;
-  color: #131E29 !important;
+  color: #1C1C24 !important;
 }
 
 .wishlistIcon--wishlist-button-product::after {
@@ -74,7 +74,7 @@
   font-weight: 500;
   font-size: 13px;
   line-height: 18px;
-  color: #131E29;
+  color: #1C1C24;
 
 }
 

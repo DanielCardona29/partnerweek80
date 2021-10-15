@@ -37,7 +37,7 @@
     margin: 0 auto;
     top: 0;
     content: '¡Gracias por tu compra!';
-    color: #131E29;
+    color: #1C1C24;
 }
 
 .confirmationMessage {
@@ -97,7 +97,7 @@
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.01em;
-    color: #131E29;
+    color: #1C1C24;
 }
 
 .orderDatetime {
@@ -115,7 +115,7 @@
     font-size: 12px;
     line-height: 15px;
     letter-spacing: -0.01em;
-    color: #131E29;
+    color: #1C1C24;
 }
 
 .customerInfoListName {
@@ -132,7 +132,7 @@
     font-size: 12px;
     line-height: 15px;
     letter-spacing: -0.01em;
-    color: #131E29;
+    color: #1C1C24;
 }
 
 .paymentValue {
@@ -141,7 +141,7 @@
     font-size: 12px;
     line-height: 15px;
     letter-spacing: -0.01em;
-    color: #131E29;
+    color: #1C1C24;
 }
 
 .section--paymentMethods :global(.vtex-button),
@@ -208,7 +208,7 @@
     font-size: 12px;
     line-height: 15px;
     letter-spacing: 0.01em;
-    color: #131E29;
+    color: #1C1C24;
 }
 
 .productQuantity {
@@ -225,7 +225,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
-    color: #131E29;
+    color: #1C1C24;
 }
 
 .totalListItem .totalListItemLabel,
@@ -239,7 +239,7 @@
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.01em;
-    color: #131E29;
+    color: #1C1C24;
 }
 
 .totalListItem--Items .totalListItemLabel,
@@ -299,7 +299,7 @@ REVISAR ESTILACHOS
   font-size: 16px;
   line-height: 20px;
   letter-spacing: -0.01em;
-  color: #131E29;
+  color: #1C1C24;
 }
 
 .orderDatetime {
@@ -317,7 +317,7 @@ REVISAR ESTILACHOS
   font-size: 12px;
   line-height: 15px;
   letter-spacing: -0.01em;
-  color: #131E29;
+  color: #1C1C24;
 }
 
 .customerInfoListName {
@@ -330,7 +330,7 @@ REVISAR ESTILACHOS
   font-size: 12px;
   line-height: 15px;
   letter-spacing: -0.01em;
-  color: #131E29;
+  color: #1C1C24;
 }
 
 .paymentValue {
@@ -339,7 +339,7 @@ REVISAR ESTILACHOS
   font-size: 12px;
   line-height: 15px;
   letter-spacing: -0.01em;
-  color: #131E29;
+  color: #1C1C24;
 }
 
 .packageHeader {
@@ -385,7 +385,7 @@ REVISAR ESTILACHOS
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 0.01em;
-  color: #131E29;
+  color: #1C1C24;
 }
 
 .productQuantity {
@@ -402,7 +402,7 @@ REVISAR ESTILACHOS
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  color: #131E29;
+  color: #1C1C24;
 }
 
 .totalListItem .totalListItemLabel,
@@ -416,5 +416,5 @@ REVISAR ESTILACHOS
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.01em;
-  color: #131E29;
+  color: #1C1C24;
 }

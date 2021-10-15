@@ -43,7 +43,7 @@
   },
   "image#special-collection-image": {
     "props": {
-      "src": "/arquivos/special-collection.jpg",
+      "src": "/arquivos/super.gif",
       "maxWidth": "100%",
       "maxHeight": "100%",
       "title": "Link",

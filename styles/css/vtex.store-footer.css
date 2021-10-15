@@ -39,27 +39,27 @@
   content: '\e908';
   font-family: 'icomoon';
   font-size: 20px;
-  color: #131E29;
+  color: #1C1C24;
   opacity: .5;
 }
 .socialNetworkLink--instagram::before {
   content: '\ead4';
   font-family: 'icomoon';
   font-size: 20px;
-  color: #131E29;
+  color: #1C1C24;
   opacity: .5;
 }
 .socialNetworkLink--twitter::before {
   content: '\ead8';
   font-family: 'icomoon';
   font-size: 20px;
-  color: #131E29;
+  color: #1C1C24;
   opacity: .5;
 }
 .socialNetworkLink--youtube::before {
   content: '\ead5';
   font-family: 'icomoon';
   font-size: 20px;
-  color: #131E29;
+  color: #1C1C24;
   opacity: .5;
 }

@@ -17,7 +17,7 @@
 }
 .triggerContainer--search-bar:hover::after,
 .searchBarIcon--header-search:hover::after {
-  color: #131e29;
+  color: #1C1C24;
   transition: .4s all ease;
 }
 
