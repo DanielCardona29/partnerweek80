@@ -1167,7 +1167,6 @@
 @media screen and (max-width:640px) {
   .container--icon-section-item {
     width: auto !important;
-    padding-right: 70px;
   }
 }
 

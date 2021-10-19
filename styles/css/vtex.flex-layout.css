@@ -1553,7 +1553,6 @@ Footer
 @media screen and (max-width:640px){
   .flexRowContent--product-cart-button {
     justify-content: flex-start;
-    margin-top: 24px;
   }
 }
 .flexRowContent--product-cart-button :global(.vtex-button__label) {
@@ -1741,18 +1740,15 @@ Footer
 
 @media screen and (max-width:640px) {
   .flexRowContent--product-detail-main {
-    flex-direction: column;
+    flex-direction: column-reverse;
     display: flex;
-  }
-  .flexRowContent--product-detail-main .stretchChildrenWidth {
-    width: 100% !important;
   }
 }
 
 @media screen and (max-width: 640px) {
   .flexRow--product-detail-breadcrumb {
     background-color: #fff;
-    width: calc(100% + 17px);
+    width: 100%;
     margin-left: 0;
     padding: 0 10px;
     border-bottom: 0.5px solid #BDBDBD;
@@ -1975,8 +1971,10 @@ Footer
   .flexRowContent--product-buy-promises {
     padding: 0;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
     background-color: transparent;
   }
   .flexRowContent--product-buy-promises .stretchChildrenWidth:last-child {
@@ -2080,7 +2078,6 @@ Footer
 @media screen and (max-width:640px){
   .flexRowContent--product-cart-button {
     justify-content: flex-start;
-    margin-top: 24px;
   }
 }
 .flexRowContent--product-cart-button :global(.vtex-button__label) {

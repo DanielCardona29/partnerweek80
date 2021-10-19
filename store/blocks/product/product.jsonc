@@ -139,8 +139,8 @@
   },
   "flex-layout.row#product-main": {
     "children": [
-      "flex-layout.col#product-images",
-      "flex-layout.col#product-details"
+      "flex-layout.col#product-details",
+      "flex-layout.col#product-images"
     ],
     "props": {
       "blockClass": "product-detail-main"
@@ -255,15 +255,7 @@
       "flex-layout.row#product-buy-promises"
     ]
   },
-  "product-assembly-options": {
-    "props": {
-      "initiallyOpened": "always"
-    },
-    "children": [
-      "flex-layout.row#product-assembly-options",
-      "assembly-option-input-values"
-    ]
-  },
+
   "sku-selector#talla": {
     "props": {
       "variationsSpacing": 3,
@@ -300,7 +292,6 @@
   "flex-layout.row#product-actions": {
     "children": [
       "product-quantity",
-      "add-to-list-btn#mobile",
       "flex-layout.row#buy-button"
     ],
     "props": {

@@ -1,10 +1,23 @@
 {
+<<<<<<< HEAD
+    "product-assembly-options": {
+      "props": {
+        "initiallyOpened": "required"
+      },
+      "children": [
+        "flex-layout.row#product-assembly-options",
+        "assembly-option-input-values"
+      ]
+    },
+
+=======
     "sticky-layout#buy-button": {
         "props": {
             "position": "bottom"
         },
         "children": ["flex-layout.row#buy-button"]
     },
+>>>>>>> a1523296ff4efd11e0b4744a9a62187772ff480f
     "assembly-option-input-values": {
         "props": {
             "optionsDisplay": "box"

@@ -29,7 +29,7 @@
     "vtex.my-account": "1.x",
     "vtex.order-placed": "2.x",
     "vtex.product-details": "1.x",
-    "vtex.product-customizer": "2.x",
+    "vtex.product-customizer": "2.11.2",
     "vtex.product-gifts": "0.x",
     "vtex.product-highlights": "2.x",
     "vtex.product-identifier": "0.x",

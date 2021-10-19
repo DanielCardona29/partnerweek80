@@ -42,8 +42,11 @@
 /*
 * Product-detail buy button
 */
-.container--sticky-button {
+.wrapper--sticky-button--stuck .container--sticky-button {
   display: none;
+}
+.wrapper--sticky-button--stuck .container--sticky-button {
+  display: block;
 }
 @media screen and (max-width:640px) {
   .container--sticky-button {
