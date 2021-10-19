@@ -610,7 +610,7 @@
 
 @media screen and (max-width:640px){
   :global(.vtex-flex-layout-0-x-flexRowContent--product-actions) {
-    display: block;
+    display: flex;
   }
   :global(.vtex-flex-layout-0-x-flexRowContent--product-actions .vtex-flex-layout-0-x-stretchChildrenWidth) {
     position: relative;

@@ -13,6 +13,11 @@
   line-height: 13px;
   color: #828282;
 }
+@media screen and(max-width:640px) {
+  .link {
+    line-height: 25px;
+  }
+}
 .term {
   font-weight: 700;
   font-size: 11px;

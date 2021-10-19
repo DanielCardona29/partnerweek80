@@ -34,7 +34,6 @@
   },
   "search-result-layout.desktop#category": {
     "children": [
-      "flex-layout.row#bread-crumb",
       "flex-layout.row#banner-search",
       "flex-layout.row#search-info",
       "flex-layout.row#result-simple"
@@ -73,7 +72,6 @@
   },
   "search-result-layout.mobile#category": {
     "children": [
-      "flex-layout.row#bread-crumb",
       "flex-layout.row#banner-search",
       "flex-layout.row#search-info",
       "flex-layout.row#product-count-mobile",
@@ -193,7 +191,6 @@
   },
   "search-result-layout.desktop#category-with-slider": {
     "children": [
-      "flex-layout.row#bread-crumb",
       "flex-layout.row#banner-search",
       "flex-layout.row#search-info",
       "flex-layout.row#shelf-scroll-categories",
@@ -227,7 +224,6 @@
   },
   "search-result-layout.mobile#category-with-slider": {
     "children": [
-      "flex-layout.row#bread-crumb",
       "flex-layout.row#banner-search",
       "flex-layout.row#search-info",
       "flex-layout.row#shelf-scroll-categories",
