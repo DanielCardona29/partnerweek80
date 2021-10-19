@@ -13,18 +13,18 @@
             "height": 720,
             "images": [
                 {
-                    "image": "/arquivos/data.png",
-                    "mobileImage": "/arquivos/data.png",
+                    "image": "/arquivos/Regalar%20desde%20lejos.gif",
+                    "mobileImage": "/arquivos/regalos.png",
                     "link": "/"
                 },
                 {
                     "image": "/arquivos/data.png",
-                    "mobileImage": "/arquivos/data.png",
+                    "mobileImage": "/arquivos/coleccion.png",
                     "link": "/"
                 },
                 {
-                    "image": "/arquivos/data.png",
-                    "mobileImage": "/arquivos/data.png",
+                    "image": "/arquivos/super.gif",
+                    "mobileImage": "/arquivos/hallowen.png",
                     "link": "/"
                 }
             ]
