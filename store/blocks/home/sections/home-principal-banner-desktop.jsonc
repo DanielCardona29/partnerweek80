@@ -1,0 +1,49 @@
+{
+    "responsive-layout.desktop#home-demo-desktop": {
+        "title": "home-principal-banner-desktop",
+        "children": [
+            "list-context.image-list#home-demo-desktop"
+        ]
+    },
+    "list-context.image-list#home-demo-desktop": {
+        "children": [
+            "slider-layout#home-demo-images-desktop"
+        ],
+        "props": {
+            "height": 720,
+            "images": [
+                {
+                    "image": "/arquivos/data.png",
+                    "mobileImage": "/arquivos/data.png",
+                    "link": "/"
+                },
+                {
+                    "image": "/arquivos/data.png",
+                    "mobileImage": "/arquivos/data.png",
+                    "link": "/"
+                },
+                {
+                    "image": "/arquivos/data.png",
+                    "mobileImage": "/arquivos/data.png",
+                    "link": "/"
+                }
+            ]
+        }
+    },
+    "slider-layout#home-demo-images-desktop": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 8000,
+                "stopOnHover": false
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "carousel"
+        }
+    }
+}

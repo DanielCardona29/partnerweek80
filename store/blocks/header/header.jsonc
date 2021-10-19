@@ -25,6 +25,11 @@
       "sticky-layout#header-menu-mobile"
     ]
   },
+<<<<<<< HEAD
+=======
+
+  
+>>>>>>> a1523296ff4efd11e0b4744a9a62187772ff480f
   "flex-layout.row#login": {
     "children": [
       "login"
