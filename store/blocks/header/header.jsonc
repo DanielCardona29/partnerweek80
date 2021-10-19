@@ -25,28 +25,8 @@
       "sticky-layout#header-menu-mobile"
     ]
   },
-  // Menú pagajoso para mobile
-  "sticky-layout#header-menu-mobile": {
-    "props": {
-      "position": "top",
-      "blockClass": "sticky-header"
-    },
-    "children": [
-      "header-row#mobile-sticky"
-    ]
-  },
-  // ítems del menú pegajoso
-  "header-row#mobile-sticky": {
-    "children": [
-      "drawer#mobile-menu",
-      "modal-trigger#search-bar-sticky",
-      "header-spacer",
-      "logo#desktop",
-      "header-spacer",
-      "flex-layout.row#login",
-      "flex-layout.row#cart"
-    ]
-  },
+
+  
   "flex-layout.row#login": {
     "children": [
       "login"

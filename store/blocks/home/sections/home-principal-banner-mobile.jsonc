@@ -1,0 +1,46 @@
+{
+    "responsive-layout.mobile#home-demo-mobile": {
+        "title": "home-principal-banner-mobile",
+        "children": [
+            "list-context.image-list#home-demo-mobile"
+        ]
+    },
+    "list-context.image-list#home-demo-mobile": {
+        "children": [
+            "slider-layout#home-demo-images-mobile"
+        ],
+        "props": {
+            "height": 720,
+            "images": [
+                {
+                    "image": "/arquivos/hallowen.png",
+                    "mobileImage": "/arquivos/hallowen.png"
+                },
+                {
+                    "image": "/arquivos/coleccion.png",
+                    "mobileImage": "/arquivos/coleccion.png"
+                },
+                {
+                    "image": "/arquivos/regalos.png",
+                    "mobileImage": "/arquivos/regalos.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#home-demo-images-mobile": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 8000,
+                "stopOnHover": false
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "blockClass": "carousel"
+        }
+    }
+}
